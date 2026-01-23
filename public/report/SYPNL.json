@@ -1,29 +1,9 @@
 {
-  "updAt": "2026-01-23T16:28:23.084Z",
+  "updAt": "2026-01-23T16:54:03.385Z",
   "id": 9303,
   "sym": "SYPNL",
   "rpt": {
-    "sts": 200,
-    "d": [
-      {
-        "id": 6164,
-        "rptTyp": {
-          "id": 1,
-          "rptNm": "Annual Report"
-        },
-        "fy": {
-          "id": 40,
-          "fyNm": "2024-2025",
-          "fromYr": "2024-07-16",
-          "toYr": "2025-07-16",
-          "fyNmNp": "2081-2082"
-        },
-        "pe": 11.75,
-        "eps": 8.51,
-        "paidUp": 784882300,
-        "profit": 66794052,
-        "nwps": 115.07
-      }
-    ]
+    "sts": 401,
+    "d": "<html><head><title>Error</title></head><body>WARNING: UNAUTHORIZED ACCESS</body></html>"
   }
 }

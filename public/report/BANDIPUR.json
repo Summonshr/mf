@@ -1,29 +1,9 @@
 {
-  "updAt": "2026-01-23T16:28:23.000Z",
+  "updAt": "2026-01-23T16:54:01.999Z",
   "id": 9297,
   "sym": "BANDIPUR",
   "rpt": {
-    "sts": 200,
-    "d": [
-      {
-        "id": 6104,
-        "rptTyp": {
-          "id": 1,
-          "rptNm": "Annual Report"
-        },
-        "fy": {
-          "id": 40,
-          "fyNm": "2024-2025",
-          "fromYr": "2024-07-16",
-          "toYr": "2025-07-16",
-          "fyNmNp": "2081-2082"
-        },
-        "pe": 0,
-        "eps": -3.6,
-        "paidUp": 2244000000,
-        "profit": -80876663,
-        "nwps": 91.64
-      }
-    ]
+    "sts": 401,
+    "d": "<html><head><title>Error</title></head><body>WARNING: UNAUTHORIZED ACCESS</body></html>"
   }
 }

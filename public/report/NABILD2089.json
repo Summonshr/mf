@@ -1,9 +1,9 @@
 {
-  "updAt": "2026-01-23T16:28:23.011Z",
+  "updAt": "2026-01-23T16:54:02.276Z",
   "id": 9299,
   "sym": "NABILD2089",
   "rpt": {
-    "sts": 200,
-    "d": []
+    "sts": 401,
+    "d": "<html><head><title>Error</title></head><body>WARNING: UNAUTHORIZED ACCESS</body></html>"
   }
 }

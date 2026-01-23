@@ -1,5 +1,5 @@
 {
-  "updAt": "2026-01-23T15:01:25.964Z",
+  "updAt": "2026-01-23T16:51:51.489Z",
   "npsIdx": {
     "sts": 200,
     "d": [
@@ -68,10 +68,8 @@
         "sector": {
           "id": 37,
           "secDesc": "Commercial Banks",
-          "actSts": "A",
           "regBody": "Nepal Rastra Bank"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 77351.6874
       },
@@ -83,10 +81,8 @@
         "sector": {
           "id": 39,
           "secDesc": "Hotels And Tourism",
-          "actSts": "A",
           "regBody": "Ministry of Tourism"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 1967.8732
       },
@@ -98,10 +94,8 @@
         "sector": {
           "id": 40,
           "secDesc": "Others",
-          "actSts": "A",
           "regBody": "N/A"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 19544.8826
       },
@@ -113,10 +107,8 @@
         "sector": {
           "id": 41,
           "secDesc": "Hydro Power",
-          "actSts": "A",
           "regBody": "Nepal Hydropower Board"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 19974.1361
       },
@@ -128,10 +120,8 @@
         "sector": {
           "id": 44,
           "secDesc": "Development Banks",
-          "actSts": "A",
           "regBody": "Nepal Rastra Bank"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 3682.9442
       },
@@ -143,10 +133,8 @@
         "sector": {
           "id": 38,
           "secDesc": "Manufacturing And Processing",
-          "actSts": "A",
           "regBody": "Department of Industry"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 3452.7301
       },
@@ -158,10 +146,8 @@
         "sector": {
           "id": 51,
           "secDesc": "ALL",
-          "actSts": "A",
           "regBody": "N/A"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 447790.5245
       },
@@ -173,10 +159,8 @@
         "sector": {
           "id": 51,
           "secDesc": "ALL",
-          "actSts": "A",
           "regBody": "N/A"
         },
-        "actSts": "A",
         "keyIdx": "Y",
         "baseYrMktCap": 167902.2967
       },
@@ -188,10 +172,8 @@
         "sector": {
           "id": 43,
           "secDesc": "Non Life Insurance",
-          "actSts": "A",
           "regBody": "Nepal Insurance Board"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 1921.0217
       },
@@ -203,10 +185,8 @@
         "sector": {
           "id": 45,
           "secDesc": "Finance",
-          "actSts": "A",
           "regBody": "Nepal Rastra Bank"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 3235.9835
       },
@@ -218,10 +198,8 @@
         "sector": {
           "id": 42,
           "secDesc": "Tradings",
-          "actSts": "A",
           "regBody": "Department of Industry"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 5613.7011
       },
@@ -233,10 +211,8 @@
         "sector": {
           "id": 51,
           "secDesc": "ALL",
-          "actSts": "A",
           "regBody": "N/A"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 831083.123
       },
@@ -248,10 +224,8 @@
         "sector": {
           "id": 51,
           "secDesc": "ALL",
-          "actSts": "A",
           "regBody": "N/A"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 527069.3417
       },
@@ -263,10 +237,8 @@
         "sector": {
           "id": 49,
           "secDesc": "Microfinance",
-          "actSts": "A",
           "regBody": "Nepal Rastra Bank"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 7586.8092
       },
@@ -278,10 +250,8 @@
         "sector": {
           "id": 50,
           "secDesc": "Life Insurance",
-          "actSts": "A",
           "regBody": "Nepal Insurance Board"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 3069.8782
       },
@@ -293,10 +263,8 @@
         "sector": {
           "id": 46,
           "secDesc": "Mutual Fund",
-          "actSts": "A",
           "regBody": "Nepal Rastra Bank"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 20262.1983
       },
@@ -308,10 +276,8 @@
         "sector": {
           "id": 52,
           "secDesc": "Investment",
-          "actSts": "A",
           "regBody": "Nepal Rastra Bank"
         },
-        "actSts": "A",
         "keyIdx": "N",
         "baseYrMktCap": 315640.8816
       }

@@ -1,9 +1,9 @@
 {
-  "updAt": "2026-01-23T16:28:15.844Z",
+  "updAt": "2026-01-23T16:53:07.081Z",
   "id": 2933,
   "sym": "KEF",
   "rpt": {
-    "sts": 200,
-    "d": []
+    "sts": 401,
+    "d": "<html><head><title>Error</title></head><body>WARNING: UNAUTHORIZED ACCESS</body></html>"
   }
 }

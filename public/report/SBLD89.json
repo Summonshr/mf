@@ -1,9 +1,9 @@
 {
-  "updAt": "2026-01-23T16:28:18.168Z",
+  "updAt": "2026-01-23T16:53:25.833Z",
   "id": 8098,
   "sym": "SBLD89",
   "rpt": {
-    "sts": 200,
-    "d": []
+    "sts": 401,
+    "d": "<html><head><title>Error</title></head><body>WARNING: UNAUTHORIZED ACCESS</body></html>"
   }
 }
