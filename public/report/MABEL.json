@@ -1,0 +1,33 @@
+{
+  "updAt": "2026-01-23T15:09:36.096Z",
+  "id": 9287,
+  "sym": "MABEL",
+  "rpt": {
+    "sts": 200,
+    "d": [
+      {
+        "id": 5984,
+        "qtr": {
+          "id": 1,
+          "qtrNm": "First Quarter"
+        },
+        "rptTyp": {
+          "id": 2,
+          "rptNm": "Quarterly Report"
+        },
+        "fy": {
+          "id": 41,
+          "fyNm": "2025-2026",
+          "fromYr": "2025-07-17",
+          "toYr": "2026-07-16",
+          "fyNmNp": "2082-2083"
+        },
+        "pe": 0,
+        "eps": -5.11,
+        "paidUp": 385824000,
+        "profit": -1643190,
+        "nwps": 103.05
+      }
+    ]
+  }
+}
