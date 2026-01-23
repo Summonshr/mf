@@ -1,6 +1,4 @@
 {
   "framework": null,
-  "buildCommand": "bun run generate-mf-navs.js",
-  "outputDirectory": "public",
-  "installCommand": "bun install || true"
+  "outputDirectory": "public"
 }
