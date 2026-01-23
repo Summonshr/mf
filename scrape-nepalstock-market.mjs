@@ -110,10 +110,10 @@ const output = {
 	mktSum: cleanData(results.marketSummary),
 	comp: companiesData,
 	mktSts: cleanData(results.marketStatus),
-	gainers: cleanData(results.topGainers),
-	losers: cleanData(results.topLosers),
-	turnover: cleanData(results.topTurnover),
-	volume: cleanData(results.topVolume),
+	gainers: limitToTen(cleanData(results.topGainers)),
+	losers: limitToTen(cleanData(results.topLosers)),
+	turnover: limitToTen(cleanData(results.topTurnover)),
+	volume: limitToTen(cleanData(results.topVolume)),
 	txns: cleanData(results.topTransactions),
 };
 
@@ -162,6 +162,22 @@ function cleanData(data) {
 		}
 	}
 	return cleaned;
+}
+
+function limitToTen(data) {
+	if (!data) {
+		return data;
+	}
+
+	if (Array.isArray(data)) {
+		return data.slice(0, 10);
+	}
+
+	if (Array.isArray(data.d)) {
+		return { ...data, d: data.d.slice(0, 10) };
+	}
+
+	return data;
 }
 
 function fetchBuffer(url) {
@@ -217,4 +233,3 @@ function cleanToken(token, salts, exports) {
 		token.slice(mdx + 1)
 	);
 }
-
