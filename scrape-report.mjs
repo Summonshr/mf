@@ -102,7 +102,7 @@ for (const company of companies) {
 	}
 
 	const reportData = cleanData(results.report);
-	if (reportData?.d) {
+	if (reportData?.d && reportData?.d?.map) {
 		reportData.d = reportData.d.map((item) => item.fiscal).filter(Boolean);
 	}
 
