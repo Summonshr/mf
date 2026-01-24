@@ -261,11 +261,11 @@ function normalizeFinancialYear(value) {
     if (typeof value !== "object") {
         return undefined;
     }
-    if (value.fyNm) {
-        return value.fyNm;
-    }
     if (value.fyNmNp) {
         return value.fyNmNp;
+    }
+    if (value.fyNm) {
+        return value.fyNm;
     }
     if (value.nm) {
         return value.nm;
