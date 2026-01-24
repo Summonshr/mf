@@ -3,7 +3,7 @@ name: Update Market Data
 on:
   schedule:
     # 11:02 AM–4:02 PM Nepal time (UTC+5:45) -> 05:17–10:17 UTC
-    - cron: '17 5-10 * * *'
+    - cron: '17 5-10 * * 0-4'
   workflow_dispatch:       # Allow manual trigger
 
 jobs:
