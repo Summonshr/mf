@@ -107,7 +107,7 @@ for (const company of companies) {
     }
 
     const output = {
-        updAt: new Date().toISOString(),
+        updAt: dateOnly(new Date().toISOString()),
         id: companyId,
         sym: symbol,
     };
