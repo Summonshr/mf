@@ -3,5 +3,8 @@
   "type": "module",
   "scripts": {
     "build": "bun run generate-mf-navs.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.36.0"
   }
 }

@@ -81,17 +81,34 @@ for (const company of companies) {
     const symbol = company.sym;
 
     const endpoints = {
-        report: `/nots/application/reports/${companyId}`,
-        dividend: `/nots/application/dividend/${companyId}`,
+        report: { path: `/nots/application/reports/${companyId}`, method: "GET" },
+        dividend: { path: `/nots/application/dividend/${companyId}`, method: "GET" },
+        security: {
+            path: `/nots/security/${companyId}`,
+            method: "POST",
+            body: { id: companyId },
+            headers: {
+                Origin: BASE_URL,
+                Referer: `${BASE_URL}/company/detail/${companyId}`,
+            },
+        },
     };
 
     const results = {};
-    for (const [key, path] of Object.entries(endpoints)) {
-        results[key] = await fetchJsonWithRetry(`${API_BASE}${path}`);
+    for (const [key, endpoint] of Object.entries(endpoints)) {
+        results[key] = await fetchJsonWithRetry(
+            `${API_BASE}${endpoint.path}`,
+            {
+                method: endpoint.method,
+                body: endpoint.body,
+                headers: endpoint.headers,
+            },
+        );
     }
 
     const reportData = cleanData(results.report);
     const dividendData = cleanData(results.dividend);
+    const securityData = cleanData(results.security);
     const dividendItems = extractDividendItems(dividendData);
 
     let reportItems = reportData?.d;
@@ -116,6 +133,9 @@ for (const company of companies) {
     }
     if (hasDividend) {
         output.div = dividendItems;
+    }
+    if (securityData?.d || securityData) {
+        output.sec = securityData?.d ?? securityData;
     }
 
     const safeSymbol = symbol.replace(/\//g, "-");
@@ -178,15 +198,16 @@ function extractDividendItems(dividendData) {
             const news = item?.news ?? {};
             const notice = news?.dividendsNotice ?? item?.dividendsNotice ?? {};
             const record = {
-                divCash: notice?.divCash,
-                bonus: notice?.bonus,
-                rtShare: notice?.rtShare,
+                divCash: roundToTwoDecimals(notice?.divCash),
+                bonus: roundToTwoDecimals(notice?.bonus),
+                rtShare: roundToTwoDecimals(notice?.rtShare),
                 bkClsDt: notice?.bkClsDt ?? notice?.bkClsNtc,
                 expDt: news?.expDt ?? item?.expDt,
                 addDt: dateOnly(news?.addDt ?? item?.addDt),
                 announcementDate: dateOnly(
                     news?.modDt ?? item?.modDt ?? news?.modifiedDate ?? item?.modifiedDate,
                 ),
+                fy: resolveFinancialYear(item, notice, news),
             };
 
             const hasValue = Object.values(record).some((value) => value !== undefined);
@@ -202,6 +223,61 @@ function dateOnly(value) {
     return value.split("T")[0];
 }
 
+function roundToTwoDecimals(value) {
+    if (typeof value !== "number") {
+        return value;
+    }
+    return Number(value.toFixed(2));
+}
+
+function resolveFinancialYear(item, notice, news) {
+    const sources = [notice, item, news];
+    for (const source of sources) {
+        if (!source || typeof source !== "object") {
+            continue;
+        }
+        const direct = source.fy ?? source.fiscal;
+        if (direct !== undefined) {
+            const normalized = normalizeFinancialYear(direct);
+            if (normalized !== undefined) {
+                return normalized;
+            }
+        }
+        const normalized = normalizeFinancialYear(source);
+        if (normalized !== undefined) {
+            return normalized;
+        }
+    }
+    return undefined;
+}
+
+function normalizeFinancialYear(value) {
+    if (!value) {
+        return undefined;
+    }
+    if (typeof value === "string" || typeof value === "number") {
+        return value;
+    }
+    if (typeof value !== "object") {
+        return undefined;
+    }
+    if (value.fyNm) {
+        return value.fyNm;
+    }
+    if (value.fyNmNp) {
+        return value.fyNmNp;
+    }
+    if (value.nm) {
+        return value.nm;
+    }
+    const from = value.fromYr ?? value.fromYear;
+    const to = value.toYr ?? value.toYear;
+    if (from || to) {
+        return [from, to].filter(Boolean).join("/");
+    }
+    return undefined;
+}
+
 function fetchBuffer(url) {
     return new Promise((resolve, reject) => {
         const req = https.request(url, { rejectUnauthorized: false }, (res) => {
@@ -214,11 +290,27 @@ function fetchBuffer(url) {
     });
 }
 
-function fetchJson(url, headers = {}) {
+function fetchJson(url, headers = {}, options = {}) {
     return new Promise((resolve, reject) => {
+        const method = options.method ?? "GET";
+        let body;
+        if (options.body !== undefined) {
+            if (typeof options.body === "string" || Buffer.isBuffer(options.body)) {
+                body = options.body;
+            } else {
+                body = JSON.stringify(options.body);
+            }
+        }
+        const reqHeaders = { ...headers, ...(options.headers || {}) };
+        if (body !== undefined) {
+            if (!reqHeaders["Content-Type"] && !reqHeaders["content-type"]) {
+                reqHeaders["Content-Type"] = "application/json";
+            }
+            reqHeaders["Content-Length"] = Buffer.byteLength(body);
+        }
         const req = https.request(
             url,
-            { headers, rejectUnauthorized: false },
+            { headers: reqHeaders, method, rejectUnauthorized: false },
             (res) => {
                 let data = "";
                 res.on("data", (chunk) => {
@@ -234,6 +326,9 @@ function fetchJson(url, headers = {}) {
             },
         );
         req.on("error", reject);
+        if (body !== undefined) {
+            req.write(body);
+        }
         req.end();
     });
 }
@@ -277,11 +372,11 @@ function shouldRetry(response) {
     );
 }
 
-async function fetchJsonWithRetry(url) {
+async function fetchJsonWithRetry(url, options = {}) {
     let lastError;
     for (let attempt = 1; attempt <= MAX_RETRIES; attempt += 1) {
         try {
-            const response = await fetchJson(url, headers);
+            const response = await fetchJson(url, headers, options);
             if (response?.status === 401 || response?.status === 403) {
                 headers = await buildAuthHeaders();
                 lastError = new Error(`auth_failed status=${response.status}`);

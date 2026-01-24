@@ -1,0 +1,52 @@
+{
+  "verified_open_ended_mutual_funds": [
+    {
+      "symbol": "KSLY",
+      "scheme_name": "Kumari Sunaulo Lagani Yojana",
+      "fund_manager": "Kumari Capital",
+      "application_url": "https://mutualfund.kumaricapital.com/dashboard"
+    },
+    {
+      "symbol": "NFCF",
+      "scheme_name": "Nabil Flexi Cap Fund",
+      "fund_manager": "Nabil Investment Banking",
+      "application_url": "https://mutualfund.nabilinvest.com.np/auth"
+    },
+    {
+      "symbol": "NI31",
+      "scheme_name": "NI 31 Fund",
+      "fund_manager": "Nabil Investment Banking",
+      "application_url": "https://mutualfund.nabilinvest.com.np/"
+    },
+    {
+      "symbol": "NMBSBFE",
+      "scheme_name": "NMB Saral Bachat - E Fund",
+      "fund_manager": "NMB Capital",
+      "application_url": "https://mutualfund.nmbcl.com.np:8445/Modules/MainPage/Login.aspx"
+    },
+    {
+      "symbol": "PSIS",
+      "scheme_name": "Prabhu Systematic Investment Scheme",
+      "fund_manager": "Prabhu Capital",
+      "application_url": "https://mutualfund.prabhucapital.com/"
+    },
+    {
+      "symbol": "SLK",
+      "scheme_name": "Subha Laxmi Kosh",
+      "fund_manager": "Laxmi Sunrise Capital",
+      "application_url": "https://slkcp.lscapital.com.np/Modules/MainPage/Login.aspx"
+    },
+    {
+      "symbol": "SSIS",
+      "scheme_name": "Siddhartha Systematic Investment Scheme",
+      "fund_manager": "Siddhartha Capital",
+      "application_url": "https://mutualfund.siddharthacapital.com/Modules/MainPage/Login.aspx"
+    },
+    {
+      "symbol": "ELIS",
+      "scheme_name": "NIC ASIA Equity Linked Investment Scheme",
+      "fund_manager": "NIC ASIA Capital",
+      "application_url": "https://elis.nicasiacapital.com/"
+    }
+  ]
+}
