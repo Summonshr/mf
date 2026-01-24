@@ -1,477 +1,510 @@
 {
-  "updAt": "2026-01-24T02:50:59.489Z",
+  "updAt": "2026-01-24T03:04:46.182Z",
   "id": 2771,
   "sym": "SMB",
-  "rpt": {
-    "sts": 200,
-    "d": [
-      {
-        "id": 6160,
-        "rptTyp": {
-          "id": 1,
-          "rptNm": "Annual Report"
-        },
-        "fy": {
-          "id": 40,
-          "fyNm": "2024-2025",
-          "fromYr": "2024-07-16",
-          "toYr": "2025-07-16",
-          "fyNmNp": "2081-2082"
-        },
-        "pe": 104.76,
-        "eps": 22.04,
-        "paidUp": 122443448.99,
-        "profit": 26986895,
-        "nwps": 163
+  "rpt": [
+    {
+      "id": 6160,
+      "rptTyp": {
+        "id": 1,
+        "rptNm": "Annual Report"
       },
-      {
-        "id": 5907,
-        "qtr": {
-          "id": 1,
-          "qtrNm": "First Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 41,
-          "fyNm": "2025-2026",
-          "fromYr": "2025-07-17",
-          "toYr": "2026-07-16",
-          "fyNmNp": "2082-2083"
-        },
-        "pe": 39.55,
-        "eps": 52.92,
-        "paidUp": 122443448.99,
-        "profit": 16200337,
-        "nwps": 190.55
+      "fy": {
+        "id": 40,
+        "fyNm": "2024-2025",
+        "fromYr": "2024-07-16",
+        "toYr": "2025-07-16",
+        "fyNmNp": "2081-2082"
       },
-      {
-        "id": 5532,
-        "qtr": {
-          "id": 4,
-          "qtrNm": "Fourth Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 40,
-          "fyNm": "2024-2025",
-          "fromYr": "2024-07-16",
-          "toYr": "2025-07-16",
-          "fyNmNp": "2081-2082"
-        },
-        "pe": 55.22,
-        "eps": 41.81,
-        "paidUp": 122443448.99,
-        "profit": 51198602.24,
-        "nwps": 169.62
+      "pe": 104.76,
+      "eps": 22.04,
+      "paidUp": 122443448.99,
+      "profit": 26986895,
+      "nwps": 163
+    },
+    {
+      "id": 5907,
+      "qtr": {
+        "id": 1,
+        "qtrNm": "First Quarter"
       },
-      {
-        "id": 5201,
-        "qtr": {
-          "id": 3,
-          "qtrNm": "Third Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 40,
-          "fyNm": "2024-2025",
-          "fromYr": "2024-07-16",
-          "toYr": "2025-07-16",
-          "fyNmNp": "2081-2082"
-        },
-        "pe": 71.8,
-        "eps": 33.37,
-        "paidUp": 122443448.99,
-        "profit": 30649056.795,
-        "nwps": 152.79
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
       },
-      {
-        "id": 5145,
-        "rptTyp": {
-          "id": 1,
-          "rptNm": "Annual Report"
-        },
-        "fy": {
-          "id": 39,
-          "fyNm": "2023-2024",
-          "fromYr": "2023-07-17",
-          "toYr": "2024-07-15",
-          "fyNmNp": "2080-2081"
-        },
-        "pe": 94.08,
-        "eps": 19.77,
-        "paidUp": 107618940,
-        "profit": 21277043.76,
-        "nwps": 136.42
+      "fy": {
+        "id": 41,
+        "fyNm": "2025-2026",
+        "fromYr": "2025-07-17",
+        "toYr": "2026-07-16",
+        "fyNmNp": "2082-2083"
       },
-      {
-        "id": 5144,
-        "rptTyp": {
-          "id": 1,
-          "rptNm": "Annual Report"
-        },
-        "fy": {
-          "id": 38,
-          "fyNm": "2022-2023",
-          "fromYr": "2022-07-17",
-          "toYr": "2023-07-16",
-          "fyNmNp": "2079-2080"
-        },
-        "pe": 66.82,
-        "eps": 14.3,
-        "paidUp": 95238000,
-        "profit": 13622889.95,
-        "nwps": 134.11
+      "pe": 39.55,
+      "eps": 52.92,
+      "paidUp": 122443448.99,
+      "profit": 16200337,
+      "nwps": 190.55
+    },
+    {
+      "id": 5532,
+      "qtr": {
+        "id": 4,
+        "qtrNm": "Fourth Quarter"
       },
-      {
-        "id": 5143,
-        "rptTyp": {
-          "id": 1,
-          "rptNm": "Annual Report"
-        },
-        "fy": {
-          "id": 34,
-          "fyNm": "2021-2022",
-          "fromYr": "2021-07-16",
-          "toYr": "2022-07-16",
-          "fyNmNp": "2078-2079"
-        },
-        "pe": 110.03,
-        "eps": 11.41,
-        "paidUp": 85800000,
-        "profit": 9786734.58,
-        "nwps": 134
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
       },
-      {
-        "id": 4912,
-        "qtr": {
-          "id": 2,
-          "qtrNm": "Second Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 40,
-          "fyNm": "2024-2025",
-          "fromYr": "2024-07-16",
-          "toYr": "2025-07-16",
-          "fyNmNp": "2081-2082"
-        },
-        "pe": 109.38,
-        "eps": 25.32,
-        "paidUp": 122443448.99,
-        "profit": 15503561.09,
-        "nwps": 141.32
+      "fy": {
+        "id": 40,
+        "fyNm": "2024-2025",
+        "fromYr": "2024-07-16",
+        "toYr": "2025-07-16",
+        "fyNmNp": "2081-2082"
       },
-      {
-        "id": 4550,
-        "qtr": {
-          "id": 1,
-          "qtrNm": "First Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 40,
-          "fyNm": "2024-2025",
-          "fromYr": "2024-07-16",
-          "toYr": "2025-07-16",
-          "fyNmNp": "2081-2082"
-        },
-        "pe": 190.75,
-        "eps": 9.69,
-        "paidUp": 107618940,
-        "profit": 4137328.03,
-        "nwps": 152.05
+      "pe": 55.22,
+      "eps": 41.81,
+      "paidUp": 122443448.99,
+      "profit": 51198602.24,
+      "nwps": 169.62
+    },
+    {
+      "id": 5201,
+      "qtr": {
+        "id": 3,
+        "qtrNm": "Third Quarter"
       },
-      {
-        "id": 4195,
-        "qtr": {
-          "id": 4,
-          "qtrNm": "Fourth Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 39,
-          "fyNm": "2023-2024",
-          "fromYr": "2023-07-17",
-          "toYr": "2024-07-15",
-          "fyNmNp": "2080-2081"
-        },
-        "pe": 83.95,
-        "eps": 22.16,
-        "paidUp": 107618940,
-        "profit": 23843171.44,
-        "nwps": 149.55
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
       },
-      {
-        "id": 3966,
-        "qtr": {
-          "id": 3,
-          "qtrNm": "Third Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 39,
-          "fyNm": "2023-2024",
-          "fromYr": "2023-07-17",
-          "toYr": "2024-07-15",
-          "fyNmNp": "2080-2081"
-        },
-        "pe": 77.97,
-        "eps": 17.28,
-        "paidUp": 95238000,
-        "profit": 12340445.11,
-        "nwps": 160.8
+      "fy": {
+        "id": 40,
+        "fyNm": "2024-2025",
+        "fromYr": "2024-07-16",
+        "toYr": "2025-07-16",
+        "fyNmNp": "2081-2082"
       },
-      {
-        "id": 3715,
-        "qtr": {
-          "id": 2,
-          "qtrNm": "Second Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 39,
-          "fyNm": "2023-2024",
-          "fromYr": "2023-07-17",
-          "toYr": "2024-07-15",
-          "fyNmNp": "2080-2081"
-        },
-        "pe": 55.49,
-        "eps": 18.15,
-        "paidUp": 95238000,
-        "profit": 8642313.53,
-        "nwps": 156.79
+      "pe": 71.8,
+      "eps": 33.37,
+      "paidUp": 122443448.99,
+      "profit": 30649056.795,
+      "nwps": 152.79
+    },
+    {
+      "id": 5145,
+      "rptTyp": {
+        "id": 1,
+        "rptNm": "Annual Report"
       },
-      {
-        "id": 3324,
-        "qtr": {
-          "id": 1,
-          "qtrNm": "First Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 39,
-          "fyNm": "2023-2024",
-          "fromYr": "2023-07-17",
-          "toYr": "2024-07-15",
-          "fyNmNp": "2080-2081"
-        },
-        "pe": 136.38,
-        "eps": 6.71,
-        "paidUp": 95238000,
-        "profit": 1598177.49,
-        "nwps": 156.54
+      "fy": {
+        "id": 39,
+        "fyNm": "2023-2024",
+        "fromYr": "2023-07-17",
+        "toYr": "2024-07-15",
+        "fyNmNp": "2080-2081"
       },
-      {
-        "id": 3079,
-        "qtr": {
-          "id": 4,
-          "qtrNm": "Fourth Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 38,
-          "fyNm": "2022-2023",
-          "fromYr": "2022-07-17",
-          "toYr": "2023-07-16",
-          "fyNmNp": "2079-2080"
-        },
-        "pe": 40.05,
-        "eps": 23.86,
-        "paidUp": 95238000,
-        "profit": 22726148.72,
-        "nwps": 154.69
+      "pe": 94.08,
+      "eps": 19.77,
+      "paidUp": 107618940,
+      "profit": 21277043.76,
+      "nwps": 136.42
+    },
+    {
+      "id": 5144,
+      "rptTyp": {
+        "id": 1,
+        "rptNm": "Annual Report"
       },
-      {
-        "id": 2883,
-        "qtr": {
-          "id": 3,
-          "qtrNm": "Third Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 38,
-          "fyNm": "2022-2023",
-          "fromYr": "2022-07-17",
-          "toYr": "2023-07-16",
-          "fyNmNp": "2079-2080"
-        },
-        "pe": 104.01,
-        "eps": 8.86,
-        "paidUp": 95238000,
-        "profit": 6331739.74,
-        "nwps": 138.4
+      "fy": {
+        "id": 38,
+        "fyNm": "2022-2023",
+        "fromYr": "2022-07-17",
+        "toYr": "2023-07-16",
+        "fyNmNp": "2079-2080"
       },
-      {
-        "id": 1695,
-        "qtr": {
-          "id": 2,
-          "qtrNm": "Second Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 38,
-          "fyNm": "2022-2023",
-          "fromYr": "2022-07-17",
-          "toYr": "2023-07-16",
-          "fyNmNp": "2079-2080"
-        },
-        "pe": 238.96,
-        "eps": 5.81,
-        "paidUp": 85800000,
-        "profit": 2491845.1,
-        "nwps": 162.83
+      "pe": 66.82,
+      "eps": 14.3,
+      "paidUp": 95238000,
+      "profit": 13622889.95,
+      "nwps": 134.11
+    },
+    {
+      "id": 5143,
+      "rptTyp": {
+        "id": 1,
+        "rptNm": "Annual Report"
       },
-      {
-        "id": 183,
-        "qtr": {
-          "id": 4,
-          "qtrNm": "Fourth Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 34,
-          "fyNm": "2021-2022",
-          "fromYr": "2021-07-16",
-          "toYr": "2022-07-16",
-          "fyNmNp": "2078-2079"
-        },
-        "pe": 51.24,
-        "eps": 25.49,
-        "paidUp": 85800000,
-        "profit": 21013452.87,
-        "nwps": 159.55
+      "fy": {
+        "id": 34,
+        "fyNm": "2021-2022",
+        "fromYr": "2021-07-16",
+        "toYr": "2022-07-16",
+        "fyNmNp": "2078-2079"
       },
-      {
-        "id": 182,
-        "qtr": {
-          "id": 3,
-          "qtrNm": "Third Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 34,
-          "fyNm": "2021-2022",
-          "fromYr": "2021-07-16",
-          "toYr": "2022-07-16",
-          "fyNmNp": "2078-2079"
-        },
-        "pe": 96.89,
-        "eps": 17.23,
-        "paidUp": 85800000,
-        "profit": 11084487.5,
-        "nwps": 148.14
+      "pe": 110.03,
+      "eps": 11.41,
+      "paidUp": 85800000,
+      "profit": 9786734.58,
+      "nwps": 134
+    },
+    {
+      "id": 4912,
+      "qtr": {
+        "id": 2,
+        "qtrNm": "Second Quarter"
       },
-      {
-        "id": 181,
-        "qtr": {
-          "id": 2,
-          "qtrNm": "Second Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 34,
-          "fyNm": "2021-2022",
-          "fromYr": "2021-07-16",
-          "toYr": "2022-07-16",
-          "fyNmNp": "2078-2079"
-        },
-        "pe": 88.12,
-        "eps": 23.09,
-        "paidUp": 85800000,
-        "profit": 9907636.82,
-        "nwps": 147.29
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
       },
-      {
-        "id": 180,
-        "qtr": {
-          "id": 1,
-          "qtrNm": "First Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 34,
-          "fyNm": "2021-2022",
-          "fromYr": "2021-07-16",
-          "toYr": "2022-07-16",
-          "fyNmNp": "2078-2079"
-        },
-        "pe": 323.53,
-        "eps": 8.35,
-        "paidUp": 66000000,
-        "profit": 1376997.886,
-        "nwps": 181.35
+      "fy": {
+        "id": 40,
+        "fyNm": "2024-2025",
+        "fromYr": "2024-07-16",
+        "toYr": "2025-07-16",
+        "fyNmNp": "2081-2082"
       },
-      {
-        "id": 179,
-        "qtr": {
-          "id": 1,
-          "qtrNm": "First Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 38,
-          "fyNm": "2022-2023",
-          "fromYr": "2022-07-17",
-          "toYr": "2023-07-16",
-          "fyNmNp": "2079-2080"
-        },
-        "pe": 579.15,
-        "eps": 2.08,
-        "paidUp": 85800000,
-        "profit": 445372.82,
-        "nwps": 160.24
-      }
-    ]
-  }
+      "pe": 109.38,
+      "eps": 25.32,
+      "paidUp": 122443448.99,
+      "profit": 15503561.09,
+      "nwps": 141.32
+    },
+    {
+      "id": 4550,
+      "qtr": {
+        "id": 1,
+        "qtrNm": "First Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 40,
+        "fyNm": "2024-2025",
+        "fromYr": "2024-07-16",
+        "toYr": "2025-07-16",
+        "fyNmNp": "2081-2082"
+      },
+      "pe": 190.75,
+      "eps": 9.69,
+      "paidUp": 107618940,
+      "profit": 4137328.03,
+      "nwps": 152.05
+    },
+    {
+      "id": 4195,
+      "qtr": {
+        "id": 4,
+        "qtrNm": "Fourth Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 39,
+        "fyNm": "2023-2024",
+        "fromYr": "2023-07-17",
+        "toYr": "2024-07-15",
+        "fyNmNp": "2080-2081"
+      },
+      "pe": 83.95,
+      "eps": 22.16,
+      "paidUp": 107618940,
+      "profit": 23843171.44,
+      "nwps": 149.55
+    },
+    {
+      "id": 3966,
+      "qtr": {
+        "id": 3,
+        "qtrNm": "Third Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 39,
+        "fyNm": "2023-2024",
+        "fromYr": "2023-07-17",
+        "toYr": "2024-07-15",
+        "fyNmNp": "2080-2081"
+      },
+      "pe": 77.97,
+      "eps": 17.28,
+      "paidUp": 95238000,
+      "profit": 12340445.11,
+      "nwps": 160.8
+    },
+    {
+      "id": 3715,
+      "qtr": {
+        "id": 2,
+        "qtrNm": "Second Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 39,
+        "fyNm": "2023-2024",
+        "fromYr": "2023-07-17",
+        "toYr": "2024-07-15",
+        "fyNmNp": "2080-2081"
+      },
+      "pe": 55.49,
+      "eps": 18.15,
+      "paidUp": 95238000,
+      "profit": 8642313.53,
+      "nwps": 156.79
+    },
+    {
+      "id": 3324,
+      "qtr": {
+        "id": 1,
+        "qtrNm": "First Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 39,
+        "fyNm": "2023-2024",
+        "fromYr": "2023-07-17",
+        "toYr": "2024-07-15",
+        "fyNmNp": "2080-2081"
+      },
+      "pe": 136.38,
+      "eps": 6.71,
+      "paidUp": 95238000,
+      "profit": 1598177.49,
+      "nwps": 156.54
+    },
+    {
+      "id": 3079,
+      "qtr": {
+        "id": 4,
+        "qtrNm": "Fourth Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 38,
+        "fyNm": "2022-2023",
+        "fromYr": "2022-07-17",
+        "toYr": "2023-07-16",
+        "fyNmNp": "2079-2080"
+      },
+      "pe": 40.05,
+      "eps": 23.86,
+      "paidUp": 95238000,
+      "profit": 22726148.72,
+      "nwps": 154.69
+    },
+    {
+      "id": 2883,
+      "qtr": {
+        "id": 3,
+        "qtrNm": "Third Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 38,
+        "fyNm": "2022-2023",
+        "fromYr": "2022-07-17",
+        "toYr": "2023-07-16",
+        "fyNmNp": "2079-2080"
+      },
+      "pe": 104.01,
+      "eps": 8.86,
+      "paidUp": 95238000,
+      "profit": 6331739.74,
+      "nwps": 138.4
+    },
+    {
+      "id": 1695,
+      "qtr": {
+        "id": 2,
+        "qtrNm": "Second Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 38,
+        "fyNm": "2022-2023",
+        "fromYr": "2022-07-17",
+        "toYr": "2023-07-16",
+        "fyNmNp": "2079-2080"
+      },
+      "pe": 238.96,
+      "eps": 5.81,
+      "paidUp": 85800000,
+      "profit": 2491845.1,
+      "nwps": 162.83
+    },
+    {
+      "id": 183,
+      "qtr": {
+        "id": 4,
+        "qtrNm": "Fourth Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 34,
+        "fyNm": "2021-2022",
+        "fromYr": "2021-07-16",
+        "toYr": "2022-07-16",
+        "fyNmNp": "2078-2079"
+      },
+      "pe": 51.24,
+      "eps": 25.49,
+      "paidUp": 85800000,
+      "profit": 21013452.87,
+      "nwps": 159.55
+    },
+    {
+      "id": 182,
+      "qtr": {
+        "id": 3,
+        "qtrNm": "Third Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 34,
+        "fyNm": "2021-2022",
+        "fromYr": "2021-07-16",
+        "toYr": "2022-07-16",
+        "fyNmNp": "2078-2079"
+      },
+      "pe": 96.89,
+      "eps": 17.23,
+      "paidUp": 85800000,
+      "profit": 11084487.5,
+      "nwps": 148.14
+    },
+    {
+      "id": 181,
+      "qtr": {
+        "id": 2,
+        "qtrNm": "Second Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 34,
+        "fyNm": "2021-2022",
+        "fromYr": "2021-07-16",
+        "toYr": "2022-07-16",
+        "fyNmNp": "2078-2079"
+      },
+      "pe": 88.12,
+      "eps": 23.09,
+      "paidUp": 85800000,
+      "profit": 9907636.82,
+      "nwps": 147.29
+    },
+    {
+      "id": 180,
+      "qtr": {
+        "id": 1,
+        "qtrNm": "First Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 34,
+        "fyNm": "2021-2022",
+        "fromYr": "2021-07-16",
+        "toYr": "2022-07-16",
+        "fyNmNp": "2078-2079"
+      },
+      "pe": 323.53,
+      "eps": 8.35,
+      "paidUp": 66000000,
+      "profit": 1376997.886,
+      "nwps": 181.35
+    },
+    {
+      "id": 179,
+      "qtr": {
+        "id": 1,
+        "qtrNm": "First Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 38,
+        "fyNm": "2022-2023",
+        "fromYr": "2022-07-17",
+        "toYr": "2023-07-16",
+        "fyNmNp": "2079-2080"
+      },
+      "pe": 579.15,
+      "eps": 2.08,
+      "paidUp": 85800000,
+      "profit": 445372.82,
+      "nwps": 160.24
+    }
+  ],
+  "div": [
+    {
+      "divCash": 0.5,
+      "bonus": 9.5,
+      "rtShare": 0,
+      "expDt": "2025-12-22",
+      "addDt": "2025-12-21"
+    },
+    {
+      "divCash": 0.725,
+      "bonus": 13.775,
+      "rtShare": 0,
+      "expDt": "2024-10-22",
+      "addDt": "2024-10-21"
+    },
+    {
+      "divCash": 0.6842,
+      "bonus": 13,
+      "rtShare": 0,
+      "expDt": "2023-11-09",
+      "addDt": "2023-11-08"
+    },
+    {
+      "divCash": 0.57894737,
+      "bonus": 11,
+      "rtShare": 0,
+      "expDt": "2023-01-18",
+      "addDt": "2023-01-16"
+    },
+    {
+      "divCash": 1.5789473636,
+      "bonus": 30,
+      "rtShare": 0,
+      "expDt": "2021-10-25"
+    }
+  ]
 }

@@ -82,6 +82,7 @@ for (const company of companies) {
 
     const endpoints = {
         report: `/nots/application/reports/${companyId}`,
+        dividend: `/nots/application/dividend/${companyId}`,
     };
 
     const results = {};
@@ -90,16 +91,18 @@ for (const company of companies) {
     }
 
     const reportData = cleanData(results.report);
+    const dividendData = cleanData(results.dividend);
+    const dividendItems = extractDividendItems(dividendData);
 
-    if (reportData?.d && reportData?.d?.map) {
-        reportData.d = reportData.d.map((item) => item.fiscal).filter(Boolean);
+    let reportItems = reportData?.d;
+    if (reportItems?.map) {
+        reportItems = reportItems.map((item) => item.fiscal).filter(Boolean);
     }
 
-    if (!reportData) {
-        continue;
-    }
+    const hasReport = Boolean(reportItems?.length);
+    const hasDividend = Boolean(dividendItems?.length);
 
-    if (reportData?.d?.length === 0) {
+    if (!hasReport && !hasDividend) {
         continue;
     }
 
@@ -107,8 +110,13 @@ for (const company of companies) {
         updAt: new Date().toISOString(),
         id: companyId,
         sym: symbol,
-        rpt: reportData,
     };
+    if (hasReport) {
+        output.rpt = reportItems;
+    }
+    if (hasDividend) {
+        output.div = dividendItems;
+    }
 
     const safeSymbol = symbol.replace(/\//g, "-");
     const filePath = resolve(resolvedOutDir, `${safeSymbol}.json`);
@@ -158,6 +166,40 @@ function cleanData(data) {
         }
     }
     return cleaned;
+}
+
+function extractDividendItems(dividendData) {
+    if (!dividendData?.d || !Array.isArray(dividendData.d)) {
+        return [];
+    }
+
+    return dividendData.d
+        .map((item) => {
+            const news = item?.news ?? {};
+            const notice = news?.dividendsNotice ?? item?.dividendsNotice ?? {};
+            const record = {
+                divCash: notice?.divCash,
+                bonus: notice?.bonus,
+                rtShare: notice?.rtShare,
+                bkClsDt: notice?.bkClsDt ?? notice?.bkClsNtc,
+                expDt: news?.expDt ?? item?.expDt,
+                addDt: dateOnly(news?.addDt ?? item?.addDt),
+                announcementDate: dateOnly(
+                    news?.modDt ?? item?.modDt ?? news?.modifiedDate ?? item?.modifiedDate,
+                ),
+            };
+
+            const hasValue = Object.values(record).some((value) => value !== undefined);
+            return hasValue ? record : undefined;
+        })
+        .filter(Boolean);
+}
+
+function dateOnly(value) {
+    if (!value || typeof value !== "string") {
+        return value;
+    }
+    return value.split("T")[0];
 }
 
 function fetchBuffer(url) {

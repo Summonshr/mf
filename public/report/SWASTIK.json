@@ -1,33 +1,30 @@
 {
-  "updAt": "2026-01-24T02:51:12.437Z",
+  "updAt": "2026-01-24T03:05:03.276Z",
   "id": 9295,
   "sym": "SWASTIK",
-  "rpt": {
-    "sts": 200,
-    "d": [
-      {
-        "id": 5931,
-        "qtr": {
-          "id": 1,
-          "qtrNm": "First Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 41,
-          "fyNm": "2025-2026",
-          "fromYr": "2025-07-17",
-          "toYr": "2026-07-16",
-          "fyNmNp": "2082-2083"
-        },
-        "pe": 3.69,
-        "eps": 27.13,
-        "paidUp": 57750000,
-        "profit": 3991366,
-        "nwps": 150.03
-      }
-    ]
-  }
+  "rpt": [
+    {
+      "id": 5931,
+      "qtr": {
+        "id": 1,
+        "qtrNm": "First Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 41,
+        "fyNm": "2025-2026",
+        "fromYr": "2025-07-17",
+        "toYr": "2026-07-16",
+        "fyNmNp": "2082-2083"
+      },
+      "pe": 3.69,
+      "eps": 27.13,
+      "paidUp": 57750000,
+      "profit": 3991366,
+      "nwps": 150.03
+    }
+  ]
 }

@@ -1,33 +1,30 @@
 {
-  "updAt": "2026-01-24T02:51:12.407Z",
+  "updAt": "2026-01-24T03:05:03.243Z",
   "id": 9294,
   "sym": "SAGAR",
-  "rpt": {
-    "sts": 200,
-    "d": [
-      {
-        "id": 5965,
-        "qtr": {
-          "id": 1,
-          "qtrNm": "First Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 41,
-          "fyNm": "2025-2026",
-          "fromYr": "2025-07-17",
-          "toYr": "2026-07-16",
-          "fyNmNp": "2082-2083"
-        },
-        "pe": 0,
-        "eps": -8.44,
-        "paidUp": 726000000,
-        "profit": -15323920,
-        "nwps": 103.47
-      }
-    ]
-  }
+  "rpt": [
+    {
+      "id": 5965,
+      "qtr": {
+        "id": 1,
+        "qtrNm": "First Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 41,
+        "fyNm": "2025-2026",
+        "fromYr": "2025-07-17",
+        "toYr": "2026-07-16",
+        "fyNmNp": "2082-2083"
+      },
+      "pe": 0,
+      "eps": -8.44,
+      "paidUp": 726000000,
+      "profit": -15323920,
+      "nwps": 103.47
+    }
+  ]
 }

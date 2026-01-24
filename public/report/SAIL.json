@@ -1,52 +1,49 @@
 {
-  "updAt": "2026-01-24T02:51:12.539Z",
+  "updAt": "2026-01-24T03:05:03.471Z",
   "id": 9301,
   "sym": "SAIL",
-  "rpt": {
-    "sts": 200,
-    "d": [
-      {
-        "id": 6133,
-        "rptTyp": {
-          "id": 1,
-          "rptNm": "Annual Report"
-        },
-        "fy": {
-          "id": 40,
-          "fyNm": "2024-2025",
-          "fromYr": "2024-07-16",
-          "toYr": "2025-07-16",
-          "fyNmNp": "2081-2082"
-        },
-        "pe": 78.05,
-        "eps": 1.44,
-        "paidUp": 1305000000,
-        "profit": 17473512,
-        "nwps": 112.09
+  "rpt": [
+    {
+      "id": 6133,
+      "rptTyp": {
+        "id": 1,
+        "rptNm": "Annual Report"
       },
-      {
-        "id": 6061,
-        "qtr": {
-          "id": 1,
-          "qtrNm": "First Quarter"
-        },
-        "rptTyp": {
-          "id": 2,
-          "rptNm": "Quarterly Report"
-        },
-        "fy": {
-          "id": 41,
-          "fyNm": "2025-2026",
-          "fromYr": "2025-07-17",
-          "toYr": "2026-07-16",
-          "fyNmNp": "2082-2083"
-        },
-        "pe": 0,
-        "eps": 0.54,
-        "paidUp": 1305000000,
-        "profit": 9274789,
-        "nwps": 112.84
-      }
-    ]
-  }
+      "fy": {
+        "id": 40,
+        "fyNm": "2024-2025",
+        "fromYr": "2024-07-16",
+        "toYr": "2025-07-16",
+        "fyNmNp": "2081-2082"
+      },
+      "pe": 78.05,
+      "eps": 1.44,
+      "paidUp": 1305000000,
+      "profit": 17473512,
+      "nwps": 112.09
+    },
+    {
+      "id": 6061,
+      "qtr": {
+        "id": 1,
+        "qtrNm": "First Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 41,
+        "fyNm": "2025-2026",
+        "fromYr": "2025-07-17",
+        "toYr": "2026-07-16",
+        "fyNmNp": "2082-2083"
+      },
+      "pe": 0,
+      "eps": 0.54,
+      "paidUp": 1305000000,
+      "profit": 9274789,
+      "nwps": 112.84
+    }
+  ]
 }
