@@ -1,9 +1,33 @@
 {
-  "updAt": "2026-01-23T16:53:59.230Z",
+  "updAt": "2026-01-24T02:51:12.305Z",
   "id": 9270,
   "sym": "HIMSTAR",
   "rpt": {
-    "sts": 401,
-    "d": "<html><head><title>Error</title></head><body>WARNING: UNAUTHORIZED ACCESS</body></html>"
+    "sts": 200,
+    "d": [
+      {
+        "id": 5954,
+        "qtr": {
+          "id": 1,
+          "qtrNm": "First Quarter"
+        },
+        "rptTyp": {
+          "id": 2,
+          "rptNm": "Quarterly Report"
+        },
+        "fy": {
+          "id": 41,
+          "fyNm": "2025-2026",
+          "fromYr": "2025-07-17",
+          "toYr": "2026-07-16",
+          "fyNmNp": "2082-2083"
+        },
+        "pe": 1020.34,
+        "eps": 0.59,
+        "paidUp": 373000000,
+        "profit": 552582,
+        "nwps": 98.38
+      }
+    ]
   }
 }

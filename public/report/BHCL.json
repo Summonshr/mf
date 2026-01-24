@@ -1,9 +1,33 @@
 {
-  "updAt": "2026-01-23T16:53:58.675Z",
+  "updAt": "2026-01-24T02:51:12.266Z",
   "id": 9267,
   "sym": "BHCL",
   "rpt": {
-    "sts": 401,
-    "d": "<html><head><title>Error</title></head><body>WARNING: UNAUTHORIZED ACCESS</body></html>"
+    "sts": 200,
+    "d": [
+      {
+        "id": 5866,
+        "qtr": {
+          "id": 1,
+          "qtrNm": "First Quarter"
+        },
+        "rptTyp": {
+          "id": 2,
+          "rptNm": "Quarterly Report"
+        },
+        "fy": {
+          "id": 41,
+          "fyNm": "2025-2026",
+          "fromYr": "2025-07-17",
+          "toYr": "2026-07-16",
+          "fyNmNp": "2082-2083"
+        },
+        "pe": 204.82,
+        "eps": 1.952,
+        "paidUp": 909101300,
+        "profit": 17754482,
+        "nwps": 103.77
+      }
+    ]
   }
 }
