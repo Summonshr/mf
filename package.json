@@ -1,10 +1,4 @@
 {
   "name": "mf-navs",
-  "type": "module",
-  "scripts": {
-    "build": "bun run generate-mf-navs.js && bun run scrape-nepalstock-market.mjs && bun run scrape-report.mjs"
-  },
-  "dependencies": {
-    "puppeteer": "^24.36.0"
-  }
+  "type": "module"
 }
