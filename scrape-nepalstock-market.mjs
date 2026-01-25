@@ -92,10 +92,13 @@ const headers = {
 	Accept: "application/json, text/plain, */*",
 };
 
-const results = {};
-for (const [key, path] of Object.entries(endpoints)) {
-	results[key] = await fetchJson(`${API_BASE}${path}`, headers);
-}
+const resultsEntries = await Promise.all(
+	Object.entries(endpoints).map(async ([key, path]) => {
+		const response = await fetchJson(`${API_BASE}${path}`, headers);
+		return [key, response];
+	}),
+);
+const results = Object.fromEntries(resultsEntries);
 
 const companiesData = cleanData(results.list);
 if (companiesData?.d) {

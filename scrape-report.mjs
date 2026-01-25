@@ -43,6 +43,7 @@ const API_BASE = `${BASE_URL}/api`;
 const WASM_URL = `${BASE_URL}/assets/prod/css.wasm`;
 const COMPANIES_PATH = "public/nepse-market.json";
 const DEFAULT_OUT_DIR = "public/report";
+const CONCURRENCY = Math.max(1, Number(process.env.SCRAPE_CONCURRENCY ?? "5"));
 
 const args = process.argv.slice(2);
 let outDir = DEFAULT_OUT_DIR;
@@ -76,35 +77,29 @@ console.log(`Found ${companies.length} companies to process`);
 const resolvedOutDir = resolve(outDir);
 await mkdir(resolvedOutDir, { recursive: true });
 
-for (const company of companies) {
+await mapWithConcurrency(companies, CONCURRENCY, async (company) => {
     const companyId = company.id;
     const symbol = company.sym;
 
     const endpoints = {
         report: { path: `/nots/application/reports/${companyId}`, method: "GET" },
         dividend: { path: `/nots/application/dividend/${companyId}`, method: "GET" },
-        security: {
-            path: `/nots/security/${companyId}`,
-            method: "POST",
-            body: { id: companyId },
-            headers: {
-                Origin: BASE_URL,
-                Referer: `${BASE_URL}/company/detail/${companyId}`,
-            },
-        },
     };
 
-    const results = {};
-    for (const [key, endpoint] of Object.entries(endpoints)) {
-        results[key] = await fetchJsonWithRetry(
-            `${API_BASE}${endpoint.path}`,
-            {
-                method: endpoint.method,
-                body: endpoint.body,
-                headers: endpoint.headers,
-            },
-        );
-    }
+    const resultsEntries = await Promise.all(
+        Object.entries(endpoints).map(async ([key, endpoint]) => {
+            const response = await fetchJsonWithRetry(
+                `${API_BASE}${endpoint.path}`,
+                {
+                    method: endpoint.method,
+                    body: endpoint.body,
+                    headers: endpoint.headers,
+                },
+            );
+            return [key, response];
+        }),
+    );
+    const results = Object.fromEntries(resultsEntries);
 
     const reportData = cleanData(results.report);
     const dividendData = cleanData(results.dividend);
@@ -120,7 +115,7 @@ for (const company of companies) {
     const hasDividend = Boolean(dividendItems?.length);
 
     if (!hasReport && !hasDividend) {
-        continue;
+        return;
     }
 
     const output = {
@@ -142,7 +137,7 @@ for (const company of companies) {
     const filePath = resolve(resolvedOutDir, `${safeSymbol}.json`);
     await writeFile(filePath, JSON.stringify(output, null, 2) + "\n", "utf8");
     console.log(`Saved ${filePath}`);
-}
+});
 
 console.log(`Done. Saved ${companies.length} files to ${resolvedOutDir}`);
 
@@ -449,4 +444,26 @@ function formatError(error) {
 
 function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function mapWithConcurrency(items, limit, mapper) {
+    if (limit <= 1) {
+        for (const item of items) {
+            await mapper(item);
+        }
+        return;
+    }
+
+    let index = 0;
+    const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+        while (true) {
+            const current = index;
+            index += 1;
+            if (current >= items.length) {
+                break;
+            }
+            await mapper(items[current]);
+        }
+    });
+    await Promise.all(workers);
 }
