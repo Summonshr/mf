@@ -42,6 +42,8 @@ const BASE_URL = "https://nepalstock.com";
 const API_BASE = `${BASE_URL}/api`;
 const WASM_URL = `${BASE_URL}/assets/prod/css.wasm`;
 const DEFAULT_OUT = "public/nepse-market.json";
+const MF_BASE_URL = "https://www.sharesansar.com/mutual-fund-navs";
+const MF_PAGE_LENGTH = 50;
 
 const args = process.argv.slice(2);
 let outPath = DEFAULT_OUT;
@@ -99,6 +101,7 @@ const resultsEntries = await Promise.all(
 	}),
 );
 const results = Object.fromEntries(resultsEntries);
+const mutualFundNavs = await fetchMutualFundNavs();
 
 const companiesData = cleanData(results.list);
 if (companiesData?.d) {
@@ -118,6 +121,7 @@ const output = {
 	turnover: limitToTen(cleanData(results.topTurnover)),
 	volume: limitToTen(cleanData(results.topVolume)),
 	txns: cleanData(results.topTransactions),
+	mfNavs: mutualFundNavs,
 };
 
 const resolvedOut = resolve(outPath);
@@ -217,6 +221,149 @@ function fetchJson(url, headers = {}) {
 		req.on("error", reject);
 		req.end();
 	});
+}
+
+async function fetchMutualFundNavs({ pageLength = MF_PAGE_LENGTH } = {}) {
+	const typeConfigs = [
+		{ label: "closed", value: -1 },
+		{ label: "opened", value: 2 },
+	];
+	const results = {};
+
+	for (const { label, value } of typeConfigs) {
+		const payload = await fetchAllPages(value, pageLength);
+		results[label] = payload;
+	}
+
+	const output = {
+		updatedAt: new Date().toISOString(),
+		funds: results,
+	};
+
+	return transformMfKeys(removeModifiedBy(output));
+}
+
+async function fetchAllPages(typeValue, length) {
+	let start = 0;
+	let draw = 1;
+	let recordsTotal = Number.POSITIVE_INFINITY;
+	const rows = [];
+
+	while (start < recordsTotal) {
+		const json = await fetchMfPage({ typeValue, start, length, draw });
+		if (!json || !Array.isArray(json.data)) {
+			throw new Error("Unexpected mutual fund response payload.");
+		}
+
+		if (Number.isFinite(json.recordsTotal)) {
+			recordsTotal = json.recordsTotal;
+		} else if (recordsTotal === Number.POSITIVE_INFINITY) {
+			recordsTotal = json.data.length;
+		}
+
+		rows.push(...json.data);
+
+		if (json.data.length === 0) {
+			break;
+		}
+
+		start += length;
+		draw += 1;
+	}
+
+	return {
+		total: recordsTotal,
+		data: rows,
+	};
+}
+
+async function fetchMfPage({ typeValue, start, length, draw }) {
+	const params = new URLSearchParams();
+	params.set("draw", String(draw));
+	params.set("start", String(start));
+	params.set("length", String(length));
+	params.set("search[value]", "");
+	params.set("search[regex]", "false");
+	params.set("type", String(typeValue));
+
+	const url = `${MF_BASE_URL}?${params.toString()}`;
+	const res = await fetch(url, {
+		headers: {
+			"X-Requested-With": "XMLHttpRequest",
+			Accept: "application/json, text/javascript, */*; q=0.01",
+		},
+	});
+
+	if (!res.ok) {
+		throw new Error(`Mutual fund request failed: ${res.status} ${res.statusText}`);
+	}
+
+	return res.json();
+}
+
+function removeModifiedBy(data) {
+	if (data === null || typeof data !== "object") {
+		return data;
+	}
+
+	if (Array.isArray(data)) {
+		return data.map((item) => removeModifiedBy(item));
+	}
+
+	const cleaned = {};
+	for (const [key, value] of Object.entries(data)) {
+		if (key === "modifiedBy") {
+			continue;
+		}
+		cleaned[key] = removeModifiedBy(value);
+	}
+	return cleaned;
+}
+
+function transformMfKeys(data) {
+	const keyMap = {
+		companyid: "id",
+		companyname: "name",
+		fund_size: "fundSize",
+		maturity_date: "maturityDate",
+		maturity_period: "maturityPeriod",
+		daily_nav_price: "dailyNav",
+		daily_date: "dailyNavDate",
+		weekly_nav_price: "weeklyNav",
+		weekly_date: "weeklyNavDate",
+		monthly_nav_price: "monthlyNav",
+		monthly_date: "monthlyNavDate",
+		close: "marketPrice",
+		published_date: "publishedDate",
+		prem_dis: "premiumDiscount",
+		refund_nav: "redemptionNav",
+		fetched_at: "updatedAt",
+		records_total: "total",
+	};
+
+	const removeKeys = new Set(["DT_Row_Index", "type", "modifiedBy"]);
+
+	function transform(obj) {
+		if (obj === null || typeof obj !== "object") {
+			return obj;
+		}
+
+		if (Array.isArray(obj)) {
+			return obj.map(transform);
+		}
+
+		const result = {};
+		for (const [key, value] of Object.entries(obj)) {
+			if (removeKeys.has(key)) {
+				continue;
+			}
+			const newKey = keyMap[key] || key;
+			result[newKey] = transform(value);
+		}
+		return result;
+	}
+
+	return transform(data);
 }
 
 function cleanToken(token, salts, exports) {

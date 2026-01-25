@@ -26,14 +26,11 @@ jobs:
       - name: Install dependencies
         run: bun install
 
-      - name: Run build
-        run: bun run generate-mf-navs.js
+      - name: Run Command
+        run: bun run scrape-nepalstock-market.mjs
 
       - name: Run Command
         run: bun run scrape-report.mjs
-
-      - name: Run Command
-        run: bun run scrape-nepalstock-market.mjs
 
       - name: Commit and push changes
         run: |
