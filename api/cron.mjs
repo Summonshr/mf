@@ -6,7 +6,7 @@ export default async function handler(req, res) {
 
   try {
     // Trigger Vercel deploy hook
-    const deployHookUrl = process.env.DEPLOY_HOK_URL;
+    const deployHookUrl = process.env.DEPLOY_HOOK_URL;
 
     if (!deployHookUrl) {
       return res.status(500).json({ error: 'DEPLOY_HOOK_URL not configured' });
