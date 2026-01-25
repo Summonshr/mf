@@ -1,13 +1,11 @@
-name: Scheduled Build
+name: Sync every hour
 
 on:
   schedule:
-    # Run every 30 minutes
-    - cron: '*/30 * * * *'
-  push:
-    branches:
-      - main
+    - cron: '*/15 * * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
 
 jobs:
   build:
