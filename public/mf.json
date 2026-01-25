@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-25T10:03:59.164Z",
+  "updatedAt": "2026-01-25T13:48:23.683Z",
   "funds": {
     "closed": {
       "total": 41,
@@ -745,7 +745,7 @@
       ]
     },
     "opened": {
-      "total": 12,
+      "total": 13,
       "data": [
         {
           "id": 698,
@@ -826,8 +826,8 @@
           "fundSize": "608097188",
           "maturityDate": "0000-00-00",
           "maturityPeriod": null,
-          "dailyNav": "10.35",
-          "dailyNavDate": "2026-01-17",
+          "dailyNav": "10.45",
+          "dailyNavDate": "2026-01-18",
           "weeklyNav": "10.35",
           "weeklyNavDate": "2026-01-16",
           "monthlyNav": "10.21",
@@ -898,8 +898,8 @@
           "fundSize": "399559900",
           "maturityDate": "0000-00-00",
           "maturityPeriod": "0",
-          "dailyNav": "10.18",
-          "dailyNavDate": "2026-01-19",
+          "dailyNav": "10.35",
+          "dailyNavDate": "2026-01-22",
           "weeklyNav": "10.1",
           "weeklyNavDate": "2026-01-16",
           "monthlyNav": "9.86",
@@ -958,6 +958,24 @@
           "weeklyNavDate": "2026-01-16",
           "monthlyNav": "9.68",
           "monthlyNavDate": "Mangsir 2082",
+          "marketPrice": null,
+          "publishedDate": null,
+          "premiumDiscount": null,
+          "redemptionNav": null
+        },
+        {
+          "id": 1605,
+          "symbol": "MSY",
+          "name": "Machhapuchchhre SIP Yojana",
+          "fundSize": null,
+          "maturityDate": null,
+          "maturityPeriod": null,
+          "dailyNav": null,
+          "dailyNavDate": null,
+          "weeklyNav": null,
+          "weeklyNavDate": null,
+          "monthlyNav": null,
+          "monthlyNavDate": null,
           "marketPrice": null,
           "publishedDate": null,
           "premiumDiscount": null,
