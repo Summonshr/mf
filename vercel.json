@@ -1,12 +1,6 @@
 {
   "framework": null,
   "outputDirectory": "public",
-  "crons": [
-    {
-      "path": "/api/cron",
-      "schedule": "30 09 * * *"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*).json",
