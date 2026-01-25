@@ -1,4 +1,4 @@
-name: Scheduled Deploy
+name: Scheduled Build
 
 on:
   schedule:
@@ -11,14 +11,27 @@ on:
   workflow_dispatch:
 
 jobs:
-  trigger-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger Vercel Deploy
-        run: |
-          curl -X POST "${{ secrets.DEPLOY_HOOK_URL }}"
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Log deployment
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run build
+        run: npm run build
+
+      - name: Commit and push changes
         run: |
-          echo "Build triggered successfully at $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          git config --global user.name 'Suman Shrestha'
+          git config --global user.email 'summonshr@gmail.com'
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update data - $(date -u +"%Y-%m-%d %H:%M:%S UTC")" && git push)
