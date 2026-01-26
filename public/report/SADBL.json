@@ -4,6 +4,29 @@
   "sym": "SADBL",
   "rpt": [
     {
+      "id": 6176,
+      "qtr": {
+        "id": 2,
+        "qtrNm": "Second Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 41,
+        "fyNm": "2025-2026",
+        "fromYr": "2025-07-17",
+        "toYr": "2026-07-16",
+        "fyNmNp": "2082-2083"
+      },
+      "pe": 24.78,
+      "eps": 16.21,
+      "paidUp": 3734068505.53,
+      "profit": 302597838.13,
+      "nwps": 153.24
+    },
+    {
       "id": 6117,
       "rptTyp": {
         "id": 1,

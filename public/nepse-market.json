@@ -1,63 +1,63 @@
 {
-  "updAt": "2026-01-26T02:44:33.791Z",
+  "updAt": "2026-01-26T05:14:57.575Z",
   "npsIdx": {
     "sts": 200,
     "d": [
       {
-        "id": 57,
-        "generatedTime": "2026-01-25T15:23:15.583",
-        "idx": "Sensitive Index",
-        "cls": 465.43,
-        "hi": 473.5033,
-        "lo": 465.4394,
-        "prevCls": 473.4875,
-        "chg": 8.05,
-        "perChg": 1.73,
-        "w52Hi": 518.6,
-        "w52Lo": 434.98,
-        "curVal": 473.48
-      },
-      {
-        "id": 58,
-        "generatedTime": "2026-01-25T15:23:15.583",
-        "idx": "NEPSE Index",
-        "cls": 2714.61,
-        "hi": 2772.2216,
-        "lo": 2715.7896,
-        "prevCls": 2772.1706,
-        "chg": 57.55,
-        "perChg": 2.12,
-        "w52Hi": 3002.08,
-        "w52Lo": 2487.18,
-        "curVal": 2772.17
+        "id": 63,
+        "generatedTime": "2026-01-26T10:50:00.037",
+        "idx": "Sensitive Float Index",
+        "cls": 161.75,
+        "hi": 161.9297,
+        "lo": 161.9297,
+        "prevCls": 161.7454,
+        "chg": 0.18,
+        "perChg": 0.11,
+        "w52Hi": 177.31,
+        "w52Lo": 145.59,
+        "curVal": 161.92
       },
       {
         "id": 62,
-        "generatedTime": "2026-01-25T15:23:15.583",
+        "generatedTime": "2026-01-26T10:50:00.037",
         "idx": "Float Index",
-        "cls": 186.94,
-        "hi": 190.8769,
-        "lo": 187.0483,
+        "cls": 190.87,
+        "hi": 191.2523,
+        "lo": 191.2523,
         "prevCls": 190.8738,
-        "chg": 3.92,
-        "perChg": 2.1,
+        "chg": 0.37,
+        "perChg": 0.19,
         "w52Hi": 206.26,
         "w52Lo": 170.58,
-        "curVal": 190.87
+        "curVal": 191.25
       },
       {
-        "id": 63,
-        "generatedTime": "2026-01-25T15:23:15.583",
-        "idx": "Sensitive Float Index",
-        "cls": 158.92,
-        "hi": 161.7481,
-        "lo": 158.9381,
-        "prevCls": 161.7454,
-        "chg": 2.82,
-        "perChg": 1.77,
-        "w52Hi": 177.31,
-        "w52Lo": 145.59,
-        "curVal": 161.74
+        "id": 57,
+        "generatedTime": "2026-01-26T10:50:00.033",
+        "idx": "Sensitive Index",
+        "cls": 473.49,
+        "hi": 473.7396,
+        "lo": 473.7396,
+        "prevCls": 473.4875,
+        "chg": 0.25,
+        "perChg": 0.05,
+        "w52Hi": 518.6,
+        "w52Lo": 434.98,
+        "curVal": 473.73
+      },
+      {
+        "id": 58,
+        "generatedTime": "2026-01-26T10:50:00.033",
+        "idx": "NEPSE Index",
+        "cls": 2772.17,
+        "hi": 2776.7761,
+        "lo": 2776.7761,
+        "prevCls": 2772.1706,
+        "chg": 4.6,
+        "perChg": 0.16,
+        "w52Hi": 3002.08,
+        "w52Lo": 2487.18,
+        "curVal": 2776.77
       }
     ]
   },
@@ -291,95 +291,95 @@
     "sts": 200,
     "d": [
       {
-        "id": 64,
-        "idx": "Microfinance Index",
-        "chg": 81.1,
-        "perChg": 1.61,
-        "curVal": 5115.54
-      },
-      {
-        "id": 65,
-        "idx": "Life Insurance",
-        "chg": 268.68,
-        "perChg": 2.03,
-        "curVal": 13497.25
-      },
-      {
-        "id": 66,
-        "idx": "Mutual Fund",
-        "chg": 0.2,
-        "perChg": 0.97,
-        "curVal": 21.09
-      },
-      {
-        "id": 67,
-        "idx": "Investment Index",
-        "chg": 2.99,
-        "perChg": 2.84,
-        "curVal": 108.08
-      },
-      {
         "id": 51,
         "idx": "Banking SubIndex",
-        "chg": 24.91,
-        "perChg": 1.79,
-        "curVal": 1416.57
+        "chg": 3.04,
+        "perChg": 0.21,
+        "curVal": 1419.62
       },
       {
         "id": 52,
         "idx": "Hotels And Tourism Index",
-        "chg": 247.25,
-        "perChg": 3.35,
-        "curVal": 7627.36
+        "chg": 30.91,
+        "perChg": 0.4,
+        "curVal": 7658.28
       },
       {
         "id": 53,
         "idx": "Others Index",
-        "chg": 37.96,
-        "perChg": 1.57,
-        "curVal": 2455.89
+        "chg": 9.09,
+        "perChg": 0.37,
+        "curVal": 2464.99
       },
       {
         "id": 54,
         "idx": "HydroPower Index",
-        "chg": 95.99,
-        "perChg": 2.74,
-        "curVal": 3591.43
-      },
-      {
-        "id": 55,
-        "idx": "Development Bank Index",
-        "chg": 99.09,
-        "perChg": 1.68,
-        "curVal": 5983.21
-      },
-      {
-        "id": 56,
-        "idx": "Manufacturing And Processing",
-        "chg": 275.29,
-        "perChg": 2.97,
-        "curVal": 9517.2
+        "chg": 1.51,
+        "perChg": 0.04,
+        "curVal": 3592.94
       },
       {
         "id": 59,
         "idx": "Non Life Insurance",
-        "chg": 220.75,
-        "perChg": 1.97,
+        "chg": 0,
+        "perChg": 0,
         "curVal": 11420.39
       },
       {
         "id": 60,
         "idx": "Finance Index",
-        "chg": 45.29,
-        "perChg": 1.73,
-        "curVal": 2649.75
+        "chg": -6.39,
+        "perChg": -0.24,
+        "curVal": 2643.35
       },
       {
         "id": 61,
         "idx": "Trading Index",
-        "chg": 56.93,
-        "perChg": 1.51,
+        "chg": 0,
+        "perChg": 0,
         "curVal": 3805.31
+      },
+      {
+        "id": 67,
+        "idx": "Investment Index",
+        "chg": 0.31,
+        "perChg": 0.29,
+        "curVal": 108.4
+      },
+      {
+        "id": 55,
+        "idx": "Development Bank Index",
+        "chg": 2.48,
+        "perChg": 0.04,
+        "curVal": 5985.69
+      },
+      {
+        "id": 56,
+        "idx": "Manufacturing And Processing",
+        "chg": 28.74,
+        "perChg": 0.3,
+        "curVal": 9545.95
+      },
+      {
+        "id": 64,
+        "idx": "Microfinance Index",
+        "chg": 8.43,
+        "perChg": 0.16,
+        "curVal": 5123.97
+      },
+      {
+        "id": 65,
+        "idx": "Life Insurance",
+        "chg": 5.36,
+        "perChg": 0.03,
+        "curVal": 13502.61
+      },
+      {
+        "id": 66,
+        "idx": "Mutual Fund",
+        "chg": 0.02,
+        "perChg": 0.09,
+        "curVal": 21.11
       }
     ]
   },
@@ -388,27 +388,19 @@
     "d": [
       {
         "dtl": "Total Turnover Rs:",
-        "val": 13785729645.05
+        "val": 62313413
       },
       {
         "dtl": "Total Traded Shares",
-        "val": 30915183
+        "val": 100489
       },
       {
         "dtl": "Total Transactions",
-        "val": 133529
+        "val": 251
       },
       {
         "dtl": "Total Scrips Traded",
-        "val": 331
-      },
-      {
-        "dtl": "Total Market Capitalization Rs:",
-        "val": 4654538089942.7
-      },
-      {
-        "dtl": "Total Float Market Capitalization Rs:",
-        "val": 1586320254243.5
+        "val": 82
       }
     ]
   },
@@ -4548,8 +4540,8 @@
   "mktSts": {
     "sts": 200,
     "d": {
-      "isOpen": "CLOSE",
-      "asOf": "2026-01-25T15:00:00",
+      "isOpen": "Pre Open CLOSE",
+      "asOf": "2026-01-26T10:45:00",
       "id": 80
     }
   },
@@ -4558,93 +4550,93 @@
     "d": [
       {
         "sym": "SYPNL",
-        "ltp": 1881.5,
-        "cp": 1881.5,
-        "ptChg": 171,
-        "pctChg": 10,
+        "ltp": 1919.1,
+        "cp": 0,
+        "ptChg": 37.6,
+        "pctChg": 2,
         "secNm": "SY Panel Nepal Limited",
         "secId": 9303
       },
       {
+        "sym": "NRN",
+        "ltp": 1637.1,
+        "cp": 0,
+        "ptChg": 32.1,
+        "pctChg": 2,
+        "secNm": "NRN Infrastructure and Development Limited",
+        "secId": 2898
+      },
+      {
         "sym": "SAIL",
-        "ltp": 1537.9,
-        "cp": 1537.9,
-        "ptChg": 139.8,
-        "pctChg": 10,
+        "ltp": 1568.6,
+        "cp": 0,
+        "ptChg": 30.7,
+        "pctChg": 2,
         "secNm": "Shreenagar Agritech Industries Limited",
         "secId": 9301
       },
       {
-        "sym": "NMIC",
-        "ltp": 1447.6,
-        "cp": 1447.6,
-        "ptChg": 131.6,
-        "pctChg": 10,
-        "secNm": "Nepal Micro Insurance Company Limited",
-        "secId": 9250
-      },
-      {
-        "sym": "BANDIPUR",
-        "ltp": 1078,
-        "cp": 1078,
-        "ptChg": 98,
-        "pctChg": 10,
-        "secNm": "Bandipur Cablecar and Tourism Limited",
-        "secId": 9297
-      },
-      {
         "sym": "HIMSTAR",
-        "ltp": 1045,
-        "cp": 1045,
-        "ptChg": 95,
-        "pctChg": 10,
+        "ltp": 1065.9,
+        "cp": 0,
+        "ptChg": 20.9,
+        "pctChg": 2,
         "secNm": "Him Star Urja Company Limited",
         "secId": 9270
       },
       {
         "sym": "MABEL",
-        "ltp": 831.6,
-        "cp": 831.6,
-        "ptChg": 75.6,
-        "pctChg": 10,
+        "ltp": 848.2,
+        "cp": 0,
+        "ptChg": 16.6,
+        "pctChg": 2,
         "secNm": "Mabilung Energy Limited",
         "secId": 9287
       },
       {
-        "sym": "RLFL",
-        "ltp": 497.4,
-        "cp": 497.4,
-        "ptChg": 45.2,
-        "pctChg": 10,
-        "secNm": "Reliance Finance Ltd.",
-        "secId": 587
+        "sym": "MERO",
+        "ltp": 821.1,
+        "cp": 0,
+        "ptChg": 16.1,
+        "pctChg": 2,
+        "secNm": "Mero Microfinance Bittiya Sanstha Ltd.",
+        "secId": 1741
       },
       {
-        "sym": "AKJCL",
-        "ltp": 268.4,
-        "cp": 268.4,
-        "ptChg": 24.4,
-        "pctChg": 10,
-        "secNm": "Ankhu Khola Jalvidhyut Company Ltd",
-        "secId": 2788
+        "sym": "MKHC",
+        "ltp": 357,
+        "cp": 0,
+        "ptChg": 7,
+        "pctChg": 2,
+        "secNm": "Maya Khola Hydropower Company Limited",
+        "secId": 9149
       },
       {
-        "sym": "TVCL",
-        "ltp": 468.2,
-        "cp": 468.2,
-        "ptChg": 42.5,
-        "pctChg": 9.98,
-        "secNm": "Trishuli Jal Vidhyut Company Limited ",
-        "secId": 9218
+        "sym": "BANDIPUR",
+        "ltp": 1099.5,
+        "cp": 0,
+        "ptChg": 21.5,
+        "pctChg": 1.99,
+        "secNm": "Bandipur Cablecar and Tourism Limited",
+        "secId": 9297
       },
       {
-        "sym": "CREST",
-        "ltp": 1495,
-        "cp": 1495,
-        "ptChg": 135,
-        "pctChg": 9.93,
-        "secNm": "Crest Micro Life Insurance Limited",
-        "secId": 9252
+        "sym": "HRL",
+        "ltp": 928,
+        "cp": 0,
+        "ptChg": 18.1,
+        "pctChg": 1.99,
+        "secNm": "Himalayan Reinsurance Limited",
+        "secId": 9234
+      },
+      {
+        "sym": "FMDBL",
+        "ltp": 860.3,
+        "cp": 0,
+        "ptChg": 16.8,
+        "pctChg": 1.99,
+        "secNm": "First Micro Finance Laghubitta Bittiya Sanstha Limited",
+        "secId": 490
       }
     ]
   },
@@ -4652,94 +4644,94 @@
     "sts": 200,
     "d": [
       {
-        "sym": "EBLD85",
-        "ltp": 1154,
-        "cp": 1154,
-        "ptChg": -71,
-        "pctChg": -5.8,
-        "secNm": "10.50% Everest Bank Limited Debenture 2085",
-        "secId": 8119
+        "sym": "NABBC",
+        "ltp": 1587.6,
+        "cp": 0,
+        "ptChg": -32.4,
+        "pctChg": -2,
+        "secNm": "Narayani Development Bank Limited",
+        "secId": 172
+      },
+      {
+        "sym": "PURE",
+        "ltp": 1158.4,
+        "cp": 0,
+        "ptChg": -23.6,
+        "pctChg": -2,
+        "secNm": "Pure Energy Limited",
+        "secId": 9258
+      },
+      {
+        "sym": "SPL",
+        "ltp": 872.2,
+        "cp": 0,
+        "ptChg": -17.8,
+        "pctChg": -2,
+        "secNm": "Shuvam Power Limited",
+        "secId": 9147
+      },
+      {
+        "sym": "TSHL",
+        "ltp": 784.5,
+        "cp": 0,
+        "ptChg": -16,
+        "pctChg": -2,
+        "secNm": "Three Star Hydropower Limited",
+        "secId": 9194
+      },
+      {
+        "sym": "BPCL",
+        "ltp": 774.2,
+        "cp": 0,
+        "ptChg": -15.8,
+        "pctChg": -2,
+        "secNm": "Butwal Power Company Limited",
+        "secId": 153
       },
       {
         "sym": "EDBL",
-        "ltp": 635,
-        "cp": 635,
-        "ptChg": -33,
-        "pctChg": -4.94,
+        "ltp": 622.3,
+        "cp": 0,
+        "ptChg": -12.7,
+        "pctChg": -2,
         "secNm": "Excel Development Bank Ltd.",
         "secId": 274
       },
       {
-        "sym": "CORBL",
-        "ltp": 1705,
-        "cp": 1705,
-        "ptChg": -70.3,
-        "pctChg": -3.96,
-        "secNm": "Corporate Development Bank Limited",
-        "secId": 450
+        "sym": "UNHPL",
+        "ltp": 450.9,
+        "cp": 0,
+        "ptChg": -9.2,
+        "pctChg": -2,
+        "secNm": "Union Hydropower Limited",
+        "secId": 2831
       },
       {
-        "sym": "MLBLD89",
-        "ltp": 1295,
-        "cp": 1295,
-        "ptChg": -42,
-        "pctChg": -3.14,
-        "secNm": "11% Mahalaxmi Debenture 2089",
-        "secId": 9195
+        "sym": "MFIL",
+        "ltp": 822.3,
+        "cp": 0,
+        "ptChg": -16.7,
+        "pctChg": -1.99,
+        "secNm": "Manjushree Finance Ltd.",
+        "secId": 516
       },
       {
-        "sym": "LUK",
-        "ltp": 9.9,
-        "cp": 9.9,
-        "ptChg": -0.28,
-        "pctChg": -2.75,
-        "secNm": "Laxmi Unnati Kosh",
-        "secId": 2902
+        "sym": "RAWA",
+        "ltp": 786,
+        "cp": 0,
+        "ptChg": -15.9,
+        "pctChg": -1.98,
+        "secNm": "Rawa Energy Development Limited",
+        "secId": 9181
       },
       {
-        "sym": "SFMF",
-        "ltp": 10.15,
-        "cp": 10.15,
-        "ptChg": -0.26,
-        "pctChg": -2.5,
-        "secNm": "Sunrise First Mutual Fund",
-        "secId": 2877
-      },
-      {
-        "sym": "GFCL",
-        "ltp": 704,
-        "cp": 704,
-        "ptChg": -18,
-        "pctChg": -2.49,
-        "secNm": "Goodwill Finance Limited",
-        "secId": 232
-      },
-      {
-        "sym": "RBBF40",
-        "ltp": 9.16,
-        "cp": 9.16,
-        "ptChg": -0.22,
-        "pctChg": -2.35,
-        "secNm": "RBB Focus 40",
-        "secId": 9302
-      },
-      {
-        "sym": "NIBD2082",
-        "ltp": 1020,
-        "cp": 1020,
-        "ptChg": -23.6,
-        "pctChg": -2.26,
-        "secNm": "10.5 % NEPAL INVESTMENT DEBENTURE 2082",
-        "secId": 2851
-      },
-      {
-        "sym": "KPCL",
-        "ltp": 575,
-        "cp": 575,
-        "ptChg": -11.9,
-        "pctChg": -2.03,
-        "secNm": "Kalika power Company Ltd",
-        "secId": 2787
+        "sym": "PPL",
+        "ltp": 341.1,
+        "cp": 0,
+        "ptChg": -6.9,
+        "pctChg": -1.98,
+        "secNm": "People's Power Limited",
+        "secId": 8122
       }
     ]
   },
@@ -4747,74 +4739,74 @@
     "sts": 200,
     "d": [
       {
-        "sym": "AKJCL",
-        "to": 435933162.6,
-        "clsPrc": 268.4,
-        "secNm": "Ankhu Khola Jalvidhyut Company Ltd",
-        "secId": 2788
-      },
-      {
-        "sym": "GVL",
-        "to": 397750505.5,
-        "clsPrc": 536,
-        "secNm": "Green Ventures Limited",
-        "secId": 8045
-      },
-      {
-        "sym": "SHIVM",
-        "to": 320060025.1,
-        "clsPrc": 643,
-        "secNm": "SHIVAM CEMENTS LTD",
-        "secId": 2809
-      },
-      {
         "sym": "UMHL",
-        "to": 301479808.4,
-        "clsPrc": 648,
+        "to": 52130727.8,
+        "clsPrc": 650,
         "secNm": "United Modi Hydropower Ltd.",
         "secId": 2760
       },
       {
+        "sym": "AKJCL",
+        "to": 1678328.4,
+        "clsPrc": 273.7,
+        "secNm": "Ankhu Khola Jalvidhyut Company Ltd",
+        "secId": 2788
+      },
+      {
         "sym": "BANDIPUR",
-        "to": 290681931.7,
-        "clsPrc": 1078,
+        "to": 1528305,
+        "clsPrc": 1099.5,
         "secNm": "Bandipur Cablecar and Tourism Limited",
         "secId": 9297
       },
       {
-        "sym": "HRL",
-        "to": 268718651.7,
-        "clsPrc": 909.9,
-        "secNm": "Himalayan Reinsurance Limited",
-        "secId": 9234
-      },
-      {
-        "sym": "RADHI",
-        "to": 257699788,
-        "clsPrc": 811,
-        "secNm": "Radhi Bidyut Company Ltd",
-        "secId": 2776
-      },
-      {
-        "sym": "NRN",
-        "to": 256897016.3,
-        "clsPrc": 1605,
-        "secNm": "NRN Infrastructure and Development Limited",
-        "secId": 2898
-      },
-      {
         "sym": "SYPNL",
-        "to": 237396362.7,
-        "clsPrc": 1881.5,
+        "to": 1266606,
+        "clsPrc": 1919.1,
         "secNm": "SY Panel Nepal Limited",
         "secId": 9303
       },
       {
-        "sym": "SAIL",
-        "to": 235254478.9,
-        "clsPrc": 1537.9,
-        "secNm": "Shreenagar Agritech Industries Limited",
-        "secId": 9301
+        "sym": "HIMSTAR",
+        "to": 607563,
+        "clsPrc": 1065.9,
+        "secNm": "Him Star Urja Company Limited",
+        "secId": 9270
+      },
+      {
+        "sym": "UPPER",
+        "to": 463660,
+        "clsPrc": 194,
+        "secNm": "Upper Tamakoshi Hydropower Ltd",
+        "secId": 2792
+      },
+      {
+        "sym": "BHL",
+        "to": 431130,
+        "clsPrc": 210,
+        "secNm": "Balephi Hydropower Limited",
+        "secId": 8055
+      },
+      {
+        "sym": "BARUN",
+        "to": 381000,
+        "clsPrc": 381,
+        "secNm": "Barun Hydropower Co. Ltd.",
+        "secId": 686
+      },
+      {
+        "sym": "NABBC",
+        "to": 330220.8,
+        "clsPrc": 1587.6,
+        "secNm": "Narayani Development Bank Limited",
+        "secId": 172
+      },
+      {
+        "sym": "MABEL",
+        "to": 305352,
+        "clsPrc": 848.2,
+        "secNm": "Mabilung Energy Limited",
+        "secId": 9287
       }
     ]
   },
@@ -4822,74 +4814,74 @@
     "sts": 200,
     "d": [
       {
+        "sym": "UMHL",
+        "shrTrd": 78879,
+        "clsPrc": 650,
+        "secNm": "United Modi Hydropower Ltd.",
+        "secId": 2760
+      },
+      {
         "sym": "AKJCL",
-        "shrTrd": 1668005,
-        "clsPrc": 268.4,
+        "shrTrd": 6132,
+        "clsPrc": 273.7,
         "secNm": "Ankhu Khola Jalvidhyut Company Ltd",
         "secId": 2788
       },
       {
-        "sym": "MBLEF",
-        "shrTrd": 1004350,
-        "clsPrc": 9.91,
-        "secNm": "MBL Equity Fund",
-        "secId": 9257
-      },
-      {
-        "sym": "GVL",
-        "shrTrd": 769160,
-        "clsPrc": 536,
-        "secNm": "Green Ventures Limited",
-        "secId": 8045
-      },
-      {
-        "sym": "SSHL",
-        "shrTrd": 646926,
-        "clsPrc": 190.5,
-        "secNm": "Shiva Shree Hydropower Ltd",
-        "secId": 2907
-      },
-      {
-        "sym": "API",
-        "shrTrd": 603653,
-        "clsPrc": 308,
-        "secNm": "Api Power Company Ltd.",
-        "secId": 697
-      },
-      {
-        "sym": "HIDCLP",
-        "shrTrd": 593775,
-        "clsPrc": 200,
-        "secNm": "Hydorelectricity Investment and Development Company Limited Promoter",
-        "secId": 8111
+        "sym": "UPPER",
+        "shrTrd": 2390,
+        "clsPrc": 194,
+        "secNm": "Upper Tamakoshi Hydropower Ltd",
+        "secId": 2792
       },
       {
         "sym": "BHL",
-        "shrTrd": 557069,
-        "clsPrc": 207.5,
+        "shrTrd": 2053,
+        "clsPrc": 210,
         "secNm": "Balephi Hydropower Limited",
         "secId": 8055
       },
       {
-        "sym": "PHCL",
-        "shrTrd": 532218,
-        "clsPrc": 289.6,
-        "secNm": "Peoples Hydropower Company Limited",
-        "secId": 8133
+        "sym": "SSHL",
+        "shrTrd": 1549,
+        "clsPrc": 194,
+        "secNm": "Shiva Shree Hydropower Ltd",
+        "secId": 2907
       },
       {
-        "sym": "NGPL",
-        "shrTrd": 518749,
-        "clsPrc": 415,
-        "secNm": "Ngadi Group Power Ltd.",
-        "secId": 2743
+        "sym": "BANDIPUR",
+        "shrTrd": 1390,
+        "clsPrc": 1099.5,
+        "secNm": "Bandipur Cablecar and Tourism Limited",
+        "secId": 9297
       },
       {
-        "sym": "KBL",
-        "shrTrd": 515634,
-        "clsPrc": 195,
-        "secNm": "Kumari Bank Limited",
-        "secId": 142
+        "sym": "BARUN",
+        "shrTrd": 1000,
+        "clsPrc": 381,
+        "secNm": "Barun Hydropower Co. Ltd.",
+        "secId": 686
+      },
+      {
+        "sym": "SYPNL",
+        "shrTrd": 660,
+        "clsPrc": 1919.1,
+        "secNm": "SY Panel Nepal Limited",
+        "secId": 9303
+      },
+      {
+        "sym": "HIMSTAR",
+        "shrTrd": 570,
+        "clsPrc": 1065.9,
+        "secNm": "Him Star Urja Company Limited",
+        "secId": 9270
+      },
+      {
+        "sym": "TVCL",
+        "shrTrd": 511,
+        "clsPrc": 477,
+        "secNm": "Trishuli Jal Vidhyut Company Limited ",
+        "secId": 9218
       }
     ]
   },
@@ -4897,2326 +4889,583 @@
     "sts": 200,
     "d": [
       {
+        "secId": 2760,
+        "totTrd": 27,
+        "ltp": 650,
+        "secNm": "United Modi Hydropower Ltd.",
+        "sym": "UMHL"
+      },
+      {
         "secId": 2788,
-        "totTrd": 4100,
-        "ltp": 268.4,
+        "totTrd": 20,
+        "ltp": 273.7,
         "secNm": "Ankhu Khola Jalvidhyut Company Ltd",
         "sym": "AKJCL"
       },
       {
-        "secId": 9297,
-        "totTrd": 3835,
-        "ltp": 1078,
-        "secNm": "Bandipur Cablecar and Tourism Limited",
-        "sym": "BANDIPUR"
-      },
-      {
-        "secId": 9262,
-        "totTrd": 2996,
-        "ltp": 1016,
-        "secNm": "Trade Tower Limited",
-        "sym": "TTL"
-      },
-      {
         "secId": 9303,
-        "totTrd": 2878,
-        "ltp": 1881.5,
+        "totTrd": 18,
+        "ltp": 1919.1,
         "secNm": "SY Panel Nepal Limited",
         "sym": "SYPNL"
       },
       {
-        "secId": 9234,
-        "totTrd": 2212,
-        "ltp": 909.9,
-        "secNm": "Himalayan Reinsurance Limited",
-        "sym": "HRL"
+        "secId": 9297,
+        "totTrd": 15,
+        "ltp": 1099.5,
+        "secNm": "Bandipur Cablecar and Tourism Limited",
+        "sym": "BANDIPUR"
       },
       {
         "secId": 9301,
-        "totTrd": 2193,
-        "ltp": 1537.9,
+        "totTrd": 8,
+        "ltp": 1568.6,
         "secNm": "Shreenagar Agritech Industries Limited",
         "sym": "SAIL"
       },
       {
-        "secId": 2907,
-        "totTrd": 2154,
-        "ltp": 190.5,
-        "secNm": "Shiva Shree Hydropower Ltd",
-        "sym": "SSHL"
-      },
-      {
         "secId": 8055,
-        "totTrd": 2136,
-        "ltp": 207.5,
+        "totTrd": 7,
+        "ltp": 210,
         "secNm": "Balephi Hydropower Limited",
         "sym": "BHL"
       },
       {
-        "secId": 134,
-        "totTrd": 2014,
-        "ltp": 198.5,
-        "secNm": "Himalayan Bank Limited",
-        "sym": "HBL"
+        "secId": 9270,
+        "totTrd": 7,
+        "ltp": 1065.9,
+        "secNm": "Him Star Urja Company Limited",
+        "sym": "HIMSTAR"
       },
       {
-        "secId": 9267,
-        "totTrd": 1959,
-        "ltp": 596,
-        "secNm": "Bikash Hydropower Company Limited",
-        "sym": "BHCL"
-      },
-      {
-        "secId": 8133,
-        "totTrd": 1877,
-        "ltp": 289.6,
-        "secNm": "Peoples Hydropower Company Limited",
-        "sym": "PHCL"
-      },
-      {
-        "secId": 2809,
-        "totTrd": 1846,
-        "ltp": 643,
-        "secNm": "SHIVAM CEMENTS LTD",
-        "sym": "SHIVM"
-      },
-      {
-        "secId": 9263,
-        "totTrd": 1730,
-        "ltp": 888,
-        "secNm": "Sanvi Energy Limited",
-        "sym": "SANVI"
-      },
-      {
-        "secId": 8045,
-        "totTrd": 1697,
-        "ltp": 536,
-        "secNm": "Green Ventures Limited",
-        "sym": "GVL"
+        "secId": 2907,
+        "totTrd": 7,
+        "ltp": 194,
+        "secNm": "Shiva Shree Hydropower Ltd",
+        "sym": "SSHL"
       },
       {
         "secId": 686,
-        "totTrd": 1531,
-        "ltp": 375,
+        "totTrd": 7,
+        "ltp": 381,
         "secNm": "Barun Hydropower Co. Ltd.",
         "sym": "BARUN"
       },
       {
+        "secId": 9287,
+        "totTrd": 6,
+        "ltp": 848.2,
+        "secNm": "Mabilung Energy Limited",
+        "sym": "MABEL"
+      },
+      {
         "secId": 9293,
-        "totTrd": 1531,
-        "ltp": 739.9,
+        "totTrd": 6,
+        "ltp": 739,
         "secNm": "Daramkhola Hydro Energy Limited",
         "sym": "DHEL"
       },
       {
-        "secId": 697,
-        "totTrd": 1517,
-        "ltp": 308,
-        "secNm": "Api Power Company Ltd.",
-        "sym": "API"
+        "secId": 140,
+        "totTrd": 5,
+        "ltp": 246.8,
+        "secNm": "Machhapuchhre Bank Limited",
+        "sym": "MBL"
       },
       {
         "secId": 2792,
-        "totTrd": 1461,
-        "ltp": 194.4,
+        "totTrd": 5,
+        "ltp": 194,
         "secNm": "Upper Tamakoshi Hydropower Ltd",
         "sym": "UPPER"
       },
       {
+        "secId": 172,
+        "totTrd": 5,
+        "ltp": 1587.6,
+        "secNm": "Narayani Development Bank Limited",
+        "sym": "NABBC"
+      },
+      {
+        "secId": 9218,
+        "totTrd": 5,
+        "ltp": 477,
+        "secNm": "Trishuli Jal Vidhyut Company Limited ",
+        "sym": "TVCL"
+      },
+      {
+        "secId": 2898,
+        "totTrd": 4,
+        "ltp": 1637.1,
+        "secNm": "NRN Infrastructure and Development Limited",
+        "sym": "NRN"
+      },
+      {
         "secId": 9252,
-        "totTrd": 1421,
+        "totTrd": 4,
         "ltp": 1495,
         "secNm": "Crest Micro Life Insurance Limited",
         "sym": "CREST"
       },
       {
-        "secId": 9296,
-        "totTrd": 1377,
-        "ltp": 752,
-        "secNm": "Bungal Hydro Limited",
-        "sym": "BUNGAL"
-      },
-      {
-        "secId": 2880,
-        "totTrd": 1331,
-        "ltp": 202,
-        "secNm": "Himal Dolakha Hydropower Company Limited",
-        "sym": "HDHPC"
-      },
-      {
-        "secId": 2919,
-        "totTrd": 1284,
-        "ltp": 274,
-        "secNm": "Nepal Infrastructure Bank Limited",
-        "sym": "NIFRA"
-      },
-      {
-        "secId": 2903,
-        "totTrd": 1215,
-        "ltp": 226.5,
-        "secNm": "Liberty Energy Company Limited",
-        "sym": "LEC"
-      },
-      {
-        "secId": 9256,
-        "totTrd": 1197,
-        "ltp": 1500,
-        "secNm": "Om Megashree Pharmaceuticals Limited",
-        "sym": "OMPL"
-      },
-      {
-        "secId": 9287,
-        "totTrd": 1191,
-        "ltp": 831.6,
-        "secNm": "Mabilung Energy Limited",
-        "sym": "MABEL"
-      },
-      {
-        "secId": 2743,
-        "totTrd": 1130,
-        "ltp": 415,
-        "secNm": "Ngadi Group Power Ltd.",
-        "sym": "NGPL"
-      },
-      {
-        "secId": 9294,
-        "totTrd": 1128,
-        "ltp": 2360,
-        "secNm": "Sagar Distillery Limited",
-        "sym": "SAGAR"
-      },
-      {
-        "secId": 235,
-        "totTrd": 1085,
-        "ltp": 1164,
-        "secNm": "Himalayan Distillery Limited",
-        "sym": "HDL"
+        "secId": 9262,
+        "totTrd": 4,
+        "ltp": 1016,
+        "secNm": "Trade Tower Limited",
+        "sym": "TTL"
       },
       {
         "secId": 9250,
-        "totTrd": 1080,
+        "totTrd": 3,
         "ltp": 1447.6,
         "secNm": "Nepal Micro Insurance Company Limited",
         "sym": "NMIC"
       },
       {
-        "secId": 142,
-        "totTrd": 1069,
-        "ltp": 195,
-        "secNm": "Kumari Bank Limited",
-        "sym": "KBL"
-      },
-      {
-        "secId": 8070,
-        "totTrd": 1026,
-        "ltp": 294,
-        "secNm": "Dordi Khola Jal Bidyut Company Limited",
-        "sym": "DORDI"
-      },
-      {
-        "secId": 2760,
-        "totTrd": 950,
-        "ltp": 648,
-        "secNm": "United Modi Hydropower Ltd.",
-        "sym": "UMHL"
-      },
-      {
-        "secId": 2776,
-        "totTrd": 935,
-        "ltp": 811,
-        "secNm": "Radhi Bidyut Company Ltd",
-        "sym": "RADHI"
-      },
-      {
-        "secId": 9258,
-        "totTrd": 934,
-        "ltp": 1182,
-        "secNm": "Pure Energy Limited",
-        "sym": "PURE"
-      },
-      {
-        "secId": 9216,
-        "totTrd": 922,
-        "ltp": 449,
-        "secNm": "Sonapur Minerals And Oil Limited",
-        "sym": "SONA"
-      },
-      {
-        "secId": 358,
-        "totTrd": 912,
-        "ltp": 523,
-        "secNm": "Lumbini Bikas Bank Ltd.",
-        "sym": "LBBL"
-      },
-      {
-        "secId": 9270,
-        "totTrd": 891,
-        "ltp": 1045,
-        "secNm": "Him Star Urja Company Limited",
-        "sym": "HIMSTAR"
-      },
-      {
-        "secId": 152,
-        "totTrd": 871,
-        "ltp": 220.9,
-        "secNm": "National Hydro Power Company Limited",
-        "sym": "NHPC"
-      },
-      {
-        "secId": 587,
-        "totTrd": 846,
-        "ltp": 497.4,
-        "secNm": "Reliance Finance Ltd.",
-        "sym": "RLFL"
-      },
-      {
-        "secId": 2898,
-        "totTrd": 840,
-        "ltp": 1605,
-        "secNm": "NRN Infrastructure and Development Limited",
-        "sym": "NRN"
-      },
-      {
-        "secId": 8066,
-        "totTrd": 805,
-        "ltp": 397.9,
-        "secNm": "River Falls Power Limited",
-        "sym": "RFPL"
-      },
-      {
-        "secId": 2757,
-        "totTrd": 794,
-        "ltp": 264,
-        "secNm": "Arun Kabeli Power Ltd.",
-        "sym": "AKPL"
-      },
-      {
-        "secId": 255,
-        "totTrd": 787,
-        "ltp": 195.9,
-        "secNm": "Prabhu  Bank Limited",
-        "sym": "PRVU"
-      },
-      {
-        "secId": 8021,
-        "totTrd": 782,
-        "ltp": 579.9,
-        "secNm": "Sahas Urja Limited",
-        "sym": "SAHAS"
-      },
-      {
-        "secId": 2742,
-        "totTrd": 774,
-        "ltp": 275,
-        "secNm": "Hydorelectricity Investment and Development Company Ltd",
-        "sym": "HIDCL"
-      },
-      {
-        "secId": 2789,
-        "totTrd": 749,
-        "ltp": 313,
-        "secNm": "Joshi Hydropower Development Company Ltd",
-        "sym": "JOSHI"
-      },
-      {
-        "secId": 8108,
-        "totTrd": 742,
-        "ltp": 290.1,
-        "secNm": "Rapti Hydro And General Construction Limited",
-        "sym": "RHGCL"
-      },
-      {
-        "secId": 2787,
-        "totTrd": 720,
-        "ltp": 575,
-        "secNm": "Kalika power Company Ltd",
-        "sym": "KPCL"
-      },
-      {
-        "secId": 2810,
-        "totTrd": 718,
-        "ltp": 379.2,
-        "secNm": "UNIVERSAL POWER COMPANY LTD",
-        "sym": "UPCL"
-      },
-      {
-        "secId": 131,
-        "totTrd": 718,
-        "ltp": 497.2,
-        "secNm": "Nabil Bank Limited",
-        "sym": "NABIL"
-      },
-      {
-        "secId": 153,
-        "totTrd": 716,
-        "ltp": 790,
-        "secNm": "Butwal Power Company Limited",
-        "sym": "BPCL"
-      },
-      {
-        "secId": 8122,
-        "totTrd": 715,
-        "ltp": 348,
-        "secNm": "People's Power Limited",
-        "sym": "PPL"
-      },
-      {
-        "secId": 8031,
-        "totTrd": 715,
-        "ltp": 295,
-        "secNm": "Madhya Bhotekoshi Jalavidyut Company Limited",
-        "sym": "MBJC"
-      },
-      {
-        "secId": 8022,
-        "totTrd": 708,
-        "ltp": 379,
-        "secNm": "Terhathum Power Company Limited",
-        "sym": "TPC"
-      },
-      {
-        "secId": 393,
-        "totTrd": 696,
-        "ltp": 383.2,
-        "secNm": "Himalayan Life Insurance Limited",
-        "sym": "HLI"
-      },
-      {
-        "secId": 360,
-        "totTrd": 693,
-        "ltp": 279,
-        "secNm": "Arun Valley Hydropower Development Co. Ltd.",
-        "sym": "AHPC"
-      },
-      {
-        "secId": 2824,
-        "totTrd": 685,
-        "ltp": 246,
-        "secNm": "Himalaya Urja Bikas Company Limited",
-        "sym": "HURJA"
-      },
-      {
-        "secId": 8111,
-        "totTrd": 667,
-        "ltp": 200,
-        "secNm": "Hydorelectricity Investment and Development Company Limited Promoter",
-        "sym": "HIDCLP"
-      },
-      {
-        "secId": 2831,
-        "totTrd": 662,
-        "ltp": 460.1,
-        "secNm": "Union Hydropower Limited",
-        "sym": "UNHPL"
-      },
-      {
-        "secId": 341,
-        "totTrd": 655,
-        "ltp": 233,
-        "secNm": "Global IME Bank Limited",
-        "sym": "GBIME"
-      },
-      {
-        "secId": 274,
-        "totTrd": 650,
-        "ltp": 635,
-        "secNm": "Excel Development Bank Ltd.",
-        "sym": "EDBL"
-      },
-      {
-        "secId": 9218,
-        "totTrd": 635,
-        "ltp": 468.2,
-        "secNm": "Trishuli Jal Vidhyut Company Limited ",
-        "sym": "TVCL"
-      },
-      {
-        "secId": 9201,
-        "totTrd": 633,
-        "ltp": 491.3,
-        "secNm": "Sun Nepal Life Insurance Company Limited",
-        "sym": "SNLI"
-      },
-      {
-        "secId": 2881,
-        "totTrd": 632,
-        "ltp": 1329,
-        "secNm": "Nepal Reinsurance Company Limited",
-        "sym": "NRIC"
-      },
-      {
-        "secId": 610,
-        "totTrd": 629,
-        "ltp": 245,
-        "secNm": "Ridi Power Company Limited",
-        "sym": "RIDI"
-      },
-      {
-        "secId": 132,
-        "totTrd": 628,
-        "ltp": 200.9,
-        "secNm": "Nepal Investment Mega Bank Limited",
-        "sym": "NIMB"
-      },
-      {
-        "secId": 2806,
-        "totTrd": 623,
-        "ltp": 236.5,
-        "secNm": "Ghalemdi Hydro Limited",
-        "sym": "GHL"
-      },
-      {
-        "secId": 9199,
-        "totTrd": 612,
-        "ltp": 483,
-        "secNm": "Reliable Nepal Life Insurance Limited",
-        "sym": "RNLI"
-      },
-      {
-        "secId": 591,
-        "totTrd": 609,
-        "ltp": 557.6,
-        "secNm": "Sanima Mai Hydropower Ltd.",
-        "sym": "SHPC"
-      },
-      {
-        "secId": 516,
-        "totTrd": 601,
-        "ltp": 839,
-        "secNm": "Manjushree Finance Ltd.",
-        "sym": "MFIL"
-      },
-      {
-        "secId": 227,
-        "totTrd": 598,
-        "ltp": 513,
-        "secNm": "Best Finance Company Ltd.",
-        "sym": "BFC"
-      },
-      {
-        "secId": 204,
-        "totTrd": 595,
-        "ltp": 598,
-        "secNm": "Gurkhas Finance Ltd.",
-        "sym": "GUFL"
-      },
-      {
-        "secId": 474,
-        "totTrd": 590,
-        "ltp": 386.6,
-        "secNm": "Muktinath Bikas Bank Ltd.",
-        "sym": "MNBBL"
-      },
-      {
-        "secId": 9300,
-        "totTrd": 587,
-        "ltp": 1680,
-        "secNm": "Jhapa Energy Limited",
-        "sym": "JHAPA"
-      },
-      {
-        "secId": 2751,
-        "totTrd": 586,
-        "ltp": 239,
-        "secNm": "Khanikhola Hydropower Co. Ltd.",
-        "sym": "KKHC"
-      },
-      {
-        "secId": 9184,
-        "totTrd": 586,
-        "ltp": 458.4,
-        "secNm": "IME Life Insurance Company Limited",
-        "sym": "ILI"
-      },
-      {
-        "secId": 139,
-        "totTrd": 581,
-        "ltp": 351.2,
-        "secNm": "NIC Asia Bank Ltd.",
-        "sym": "NICA"
-      },
-      {
-        "secId": 9209,
-        "totTrd": 581,
-        "ltp": 482,
-        "secNm": "Citizen Life Insurance Company Limited",
-        "sym": "CLI"
-      },
-      {
-        "secId": 2934,
-        "totTrd": 567,
-        "ltp": 295,
-        "secNm": "Singati Hydro Energy Limited",
-        "sym": "SHEL"
-      },
-      {
-        "secId": 9135,
-        "totTrd": 561,
-        "ltp": 567.9,
-        "secNm": "Barahi Hydropower Public Limited",
-        "sym": "BHPL"
-      },
-      {
-        "secId": 418,
-        "totTrd": 536,
-        "ltp": 369.9,
-        "secNm": "Jyoti Bikas Bank Limited",
-        "sym": "JBBL"
-      },
-      {
-        "secId": 273,
-        "totTrd": 535,
-        "ltp": 702.9,
-        "secNm": "ICFC Finance Limited",
-        "sym": "ICFC"
-      },
-      {
-        "secId": 338,
-        "totTrd": 527,
-        "ltp": 510,
-        "secNm": "Progressive Finance Limited",
-        "sym": "PROFL"
-      },
-      {
-        "secId": 9146,
-        "totTrd": 527,
-        "ltp": 565,
-        "secNm": "Super Madi Hydropower Limited",
-        "sym": "SMHL"
-      },
-      {
         "secId": 561,
-        "totTrd": 516,
-        "ltp": 777,
+        "totTrd": 3,
+        "ltp": 776.7,
         "secNm": "Sindhu Bikash Bank Ltd",
         "sym": "SINDU"
       },
       {
-        "secId": 5982,
-        "totTrd": 495,
-        "ltp": 409.7,
-        "secNm": "Sanima Reliance Life Insurance Limited",
-        "sym": "SRLI"
-      },
-      {
-        "secId": 8100,
-        "totTrd": 488,
-        "ltp": 413,
-        "secNm": "Swet-Ganga Hydropower & Construction Limited ",
-        "sym": "SGHC"
-      },
-      {
-        "secId": 140,
-        "totTrd": 482,
-        "ltp": 242,
-        "secNm": "Machhapuchhre Bank Limited",
-        "sym": "MBL"
-      },
-      {
-        "secId": 9193,
-        "totTrd": 474,
-        "ltp": 443,
-        "secNm": "Ghorahi Cement Industry Limited",
-        "sym": "GCIL"
-      },
-      {
-        "secId": 2766,
-        "totTrd": 472,
-        "ltp": 288.9,
-        "secNm": "Chhyangdi Hydropower Ltd.",
-        "sym": "CHL"
-      },
-      {
-        "secId": 9183,
-        "totTrd": 471,
-        "ltp": 458,
-        "secNm": "Nepal Republic Media Limited",
-        "sym": "NRM"
-      },
-      {
-        "secId": 9213,
-        "totTrd": 471,
-        "ltp": 990,
-        "secNm": "Hathway Investment Nepal Limited",
-        "sym": "HATHY"
-      },
-      {
-        "secId": 8075,
-        "totTrd": 464,
-        "ltp": 498,
-        "secNm": "Bindhyabasini Hydropower Development Company Limited",
-        "sym": "BHDC"
-      },
-      {
-        "secId": 263,
-        "totTrd": 460,
-        "ltp": 506.5,
-        "secNm": "Guheshowori Merchant Bank & Finance Co. Ltd.",
-        "sym": "GMFIL"
-      },
-      {
-        "secId": 2915,
-        "totTrd": 452,
-        "ltp": 533,
-        "secNm": "Prabhu Mahalaxmi Life Insurance Limited",
-        "sym": "PMLI"
-      },
-      {
-        "secId": 244,
-        "totTrd": 452,
+        "secId": 9267,
+        "totTrd": 3,
         "ltp": 600,
-        "secNm": "Shree Investment Finance Co. Ltd.",
-        "sym": "SIFC"
-      },
-      {
-        "secId": 2767,
-        "totTrd": 452,
-        "ltp": 485,
-        "secNm": "Himalayan Power Partner Ltd.",
-        "sym": "HPPL"
-      },
-      {
-        "secId": 256,
-        "totTrd": 451,
-        "ltp": 421.1,
-        "secNm": "Samriddhi Finance Company Limited",
-        "sym": "SFCL"
-      },
-      {
-        "secId": 2759,
-        "totTrd": 450,
-        "ltp": 399,
-        "secNm": "Synergy Power Development Ltd.",
-        "sym": "SPDL"
-      },
-      {
-        "secId": 2744,
-        "totTrd": 444,
-        "ltp": 1160,
-        "secNm": "Green Development Bank Ltd.",
-        "sym": "GRDBL"
-      },
-      {
-        "secId": 8131,
-        "totTrd": 444,
-        "ltp": 422,
-        "secNm": "Eastern Hydropower Limited",
-        "sym": "EHPL"
-      },
-      {
-        "secId": 2913,
-        "totTrd": 443,
-        "ltp": 612,
-        "secNm": "Mountain Energy Nepal Limited",
-        "sym": "MEN"
-      },
-      {
-        "secId": 8104,
-        "totTrd": 443,
-        "ltp": 478,
-        "secNm": "Upper Solu Hydro Electric Company Limited",
-        "sym": "USHEC"
-      },
-      {
-        "secId": 232,
-        "totTrd": 441,
-        "ltp": 704,
-        "secNm": "Goodwill Finance Limited",
-        "sym": "GFCL"
-      },
-      {
-        "secId": 250,
-        "totTrd": 439,
-        "ltp": 472,
-        "secNm": "Janaki Finance Company Limited",
-        "sym": "JFL"
-      },
-      {
-        "secId": 245,
-        "totTrd": 432,
-        "ltp": 577.9,
-        "secNm": "Central Finance Co. Ltd.",
-        "sym": "CFCL"
-      },
-      {
-        "secId": 2841,
-        "totTrd": 426,
-        "ltp": 291,
-        "secNm": "RASUWAGADHI HYDROPOWER COMPANY LIMITED",
-        "sym": "RHPL"
-      },
-      {
-        "secId": 187,
-        "totTrd": 424,
-        "ltp": 802,
-        "secNm": "Nepal Life Insurance Co. Ltd.",
-        "sym": "NLIC"
-      },
-      {
-        "secId": 2924,
-        "totTrd": 422,
-        "ltp": 271,
-        "secNm": "GreenLife Hydropower Limited",
-        "sym": "GLH"
-      },
-      {
-        "secId": 172,
-        "totTrd": 420,
-        "ltp": 1620,
-        "secNm": "Narayani Development Bank Limited",
-        "sym": "NABBC"
-      },
-      {
-        "secId": 9179,
-        "totTrd": 412,
-        "ltp": 289.5,
-        "secNm": "Modi Energy Limited",
-        "sym": "MEL"
-      },
-      {
-        "secId": 180,
-        "totTrd": 404,
-        "ltp": 489.5,
-        "secNm": "United Ajod Insurance Limited",
-        "sym": "UAIL"
-      },
-      {
-        "secId": 517,
-        "totTrd": 404,
-        "ltp": 251.9,
-        "secNm": "Nepal Bank Limited",
-        "sym": "NBL"
-      },
-      {
-        "secId": 9295,
-        "totTrd": 402,
-        "ltp": 3270.1,
-        "secNm": "Swastik Laghubitta Bittiya Sanstha Limited",
-        "sym": "SWASTIK"
-      },
-      {
-        "secId": 236,
-        "totTrd": 402,
-        "ltp": 400,
-        "secNm": "Pokhara Finance Ltd.",
-        "sym": "PFL"
-      },
-      {
-        "secId": 8025,
-        "totTrd": 390,
-        "ltp": 540.9,
-        "secNm": "Samling Power Company Limited",
-        "sym": "SPC"
-      },
-      {
-        "secId": 194,
-        "totTrd": 388,
-        "ltp": 680.3,
-        "secNm": "Nepal Finance Ltd.",
-        "sym": "NFS"
-      },
-      {
-        "secId": 403,
-        "totTrd": 385,
-        "ltp": 456.6,
-        "secNm": "SuryaJyoti Life Insurance Company Limited",
-        "sym": "SJLIC"
-      },
-      {
-        "secId": 3946,
-        "totTrd": 385,
-        "ltp": 2453,
-        "secNm": "CEDB Holdings Limited",
-        "sym": "CHDC"
-      },
-      {
-        "secId": 9217,
-        "totTrd": 370,
-        "ltp": 593,
-        "secNm": "Mathillo Mailun Khola Jalvidhyut Limited",
-        "sym": "MMKJL"
-      },
-      {
-        "secId": 2860,
-        "totTrd": 369,
-        "ltp": 829,
-        "secNm": "Saptakoshi Development Bank Ltd",
-        "sym": "SAPDBL"
-      },
-      {
-        "secId": 385,
-        "totTrd": 356,
-        "ltp": 491.5,
-        "secNm": "Asian Life Insurance Co. Limited",
-        "sym": "ALICL"
-      },
-      {
-        "secId": 459,
-        "totTrd": 350,
-        "ltp": 481.9,
-        "secNm": "Kamana Sewa Bikas Bank Limited",
-        "sym": "KSBBL"
-      },
-      {
-        "secId": 9233,
-        "totTrd": 345,
-        "ltp": 960,
-        "secNm": "Nepal Warehousing Company Limited ",
-        "sym": "NWCL"
-      },
-      {
-        "secId": 2917,
-        "totTrd": 339,
-        "ltp": 909.5,
-        "secNm": "Chandragiri Hills Limited",
-        "sym": "CGH"
-      },
-      {
-        "secId": 8126,
-        "totTrd": 337,
-        "ltp": 640,
-        "secNm": "Sikles Hydropower Limited",
-        "sym": "SIKLES"
-      },
-      {
-        "secId": 8076,
-        "totTrd": 336,
-        "ltp": 344.2,
-        "secNm": "Himalayan Hydropower Limited",
-        "sym": "HHL"
-      },
-      {
-        "secId": 8102,
-        "totTrd": 330,
-        "ltp": 536,
-        "secNm": "Mandakini Hydropower Limited",
-        "sym": "MHL"
-      },
-      {
-        "secId": 8032,
-        "totTrd": 328,
-        "ltp": 524.8,
-        "secNm": "Buddha Bhumi Nepal Hydropower Company Limited",
-        "sym": "BNHC"
-      },
-      {
-        "secId": 2887,
-        "totTrd": 327,
-        "ltp": 595,
-        "secNm": "NIC ASIA Laghubitta Bittiya Sanstha Limited",
-        "sym": "NICLBSL"
-      },
-      {
-        "secId": 154,
-        "totTrd": 327,
-        "ltp": 486,
-        "secNm": "Chilime Hydropower Company Limited",
-        "sym": "CHCL"
-      },
-      {
-        "secId": 8005,
-        "totTrd": 326,
-        "ltp": 520,
-        "secNm": "Mailung Khola Jal Vidhyut Company Limited",
-        "sym": "MKJC"
+        "secNm": "Bikash Hydropower Company Limited",
+        "sym": "BHCL"
       },
       {
         "secId": 9203,
-        "totTrd": 325,
+        "totTrd": 3,
         "ltp": 455,
         "secNm": "Manakamana Engineering Hydropower Limited",
         "sym": "MEHL"
       },
       {
-        "secId": 2748,
-        "totTrd": 322,
-        "ltp": 689,
-        "secNm": "RSDC Laghubitta Bittiya Sanstha Ltd.",
-        "sym": "RSDC"
+        "secId": 8066,
+        "totTrd": 3,
+        "ltp": 397.9,
+        "secNm": "River Falls Power Limited",
+        "sym": "RFPL"
       },
       {
-        "secId": 371,
-        "totTrd": 316,
-        "ltp": 663,
-        "secNm": "Miteri Development Bank Limited",
-        "sym": "MDB"
+        "secId": 8133,
+        "totTrd": 3,
+        "ltp": 295,
+        "secNm": "Peoples Hydropower Company Limited",
+        "sym": "PHCL"
       },
       {
-        "secId": 9156,
-        "totTrd": 311,
-        "ltp": 459.8,
-        "secNm": "Sanima Middle Tamor Hydropower Limited",
-        "sym": "TAMOR"
+        "secId": 134,
+        "totTrd": 3,
+        "ltp": 198.5,
+        "secNm": "Himalayan Bank Limited",
+        "sym": "HBL"
       },
       {
-        "secId": 2908,
-        "totTrd": 307,
-        "ltp": 502,
-        "secNm": "Sanima GIC Insurance Limited",
-        "sym": "SGIC"
+        "secId": 9256,
+        "totTrd": 2,
+        "ltp": 1500,
+        "secNm": "Om Megashree Pharmaceuticals Limited",
+        "sym": "OMPL"
       },
       {
-        "secId": 210,
-        "totTrd": 303,
-        "ltp": 1796.9,
-        "secNm": "Citizen Investment Trust",
-        "sym": "CIT"
+        "secId": 268,
+        "totTrd": 2,
+        "ltp": 765,
+        "secNm": "Swabalamban Laghubitta Bittiya Sanstha Limited",
+        "sym": "SWBBL"
       },
       {
-        "secId": 348,
-        "totTrd": 300,
-        "ltp": 203,
-        "secNm": "Citizens Bank International Limited",
-        "sym": "CZBIL"
+        "secId": 9258,
+        "totTrd": 2,
+        "ltp": 1158.4,
+        "secNm": "Pure Energy Limited",
+        "sym": "PURE"
       },
       {
-        "secId": 9242,
-        "totTrd": 297,
-        "ltp": 904,
-        "secNm": "Sarbottam Cement Limited",
-        "sym": "SARBTM"
+        "secId": 587,
+        "totTrd": 2,
+        "ltp": 507,
+        "secNm": "Reliance Finance Ltd.",
+        "sym": "RLFL"
       },
       {
-        "secId": 307,
-        "totTrd": 294,
-        "ltp": 868.7,
-        "secNm": "Nepal Doorsanchar Company Limited",
-        "sym": "NTC"
+        "secId": 8021,
+        "totTrd": 2,
+        "ltp": 580,
+        "secNm": "Sahas Urja Limited",
+        "sym": "SAHAS"
       },
       {
-        "secId": 357,
-        "totTrd": 293,
-        "ltp": 246.2,
-        "secNm": "Prime Commercial Bank Ltd.",
-        "sym": "PCBL"
+        "secId": 9234,
+        "totTrd": 2,
+        "ltp": 928,
+        "secNm": "Himalayan Reinsurance Limited",
+        "sym": "HRL"
       },
       {
-        "secId": 137,
-        "totTrd": 291,
-        "ltp": 674,
-        "secNm": "Everest Bank Limited",
-        "sym": "EBL"
+        "secId": 8070,
+        "totTrd": 2,
+        "ltp": 295,
+        "secNm": "Dordi Khola Jal Bidyut Company Limited",
+        "sym": "DORDI"
       },
       {
-        "secId": 9159,
-        "totTrd": 287,
-        "ltp": 504,
-        "secNm": "Sagarmatha Jalabidhyut Company Limited",
-        "sym": "SMJC"
+        "secId": 9296,
+        "totTrd": 2,
+        "ltp": 755,
+        "secNm": "Bungal Hydro Limited",
+        "sym": "BUNGAL"
       },
       {
-        "secId": 9173,
-        "totTrd": 279,
-        "ltp": 498.3,
-        "secNm": "City Hotel Limited",
-        "sym": "CITY"
-      },
-      {
-        "secId": 8026,
-        "totTrd": 276,
-        "ltp": 424.9,
-        "secNm": "Nyadi Hydropower Limited",
-        "sym": "NYADI"
-      },
-      {
-        "secId": 9175,
-        "totTrd": 275,
-        "ltp": 449.8,
-        "secNm": "Menchhiyam Hydropower Limited",
-        "sym": "MCHL"
-      },
-      {
-        "secId": 171,
-        "totTrd": 275,
-        "ltp": 343.9,
-        "secNm": "Sanima Bank Limited",
-        "sym": "SANIMA"
-      },
-      {
-        "secId": 141,
-        "totTrd": 273,
-        "ltp": 223,
-        "secNm": "Laxmi Sunrise Bank Limited",
-        "sym": "LSL"
-      },
-      {
-        "secId": 490,
-        "totTrd": 269,
-        "ltp": 843.5,
-        "secNm": "First Micro Finance Laghubitta Bittiya Sanstha Limited",
-        "sym": "FMDBL"
-      },
-      {
-        "secId": 9230,
-        "totTrd": 268,
-        "ltp": 1480,
-        "secNm": "Muktinath Krishi Company Limited",
-        "sym": "MKCL"
-      },
-      {
-        "secId": 9149,
-        "totTrd": 263,
-        "ltp": 350,
-        "secNm": "Maya Khola Hydropower Company Limited",
-        "sym": "MKHC"
-      },
-      {
-        "secId": 9246,
-        "totTrd": 262,
-        "ltp": 1929.9,
-        "secNm": "Guardian Micro Life Insurance Limited ",
-        "sym": "GMLI"
-      },
-      {
-        "secId": 401,
-        "totTrd": 262,
-        "ltp": 392,
-        "secNm": "Mahalaxmi Bikas Bank Ltd.",
-        "sym": "MLBL"
-      },
-      {
-        "secId": 2842,
-        "totTrd": 261,
-        "ltp": 299.3,
-        "secNm": "SANJEN JALAVIDHYUT COMPANY LIMITED",
-        "sym": "SJCL"
-      },
-      {
-        "secId": 9158,
-        "totTrd": 261,
-        "ltp": 402,
-        "secNm": "Molung Hydropower Company Limited",
-        "sym": "MHCL"
-      },
-      {
-        "secId": 472,
-        "totTrd": 259,
-        "ltp": 432,
-        "secNm": "Shangrila Development Bank Ltd.",
-        "sym": "SADBL"
-      },
-      {
-        "secId": 238,
-        "totTrd": 257,
-        "ltp": 246.4,
-        "secNm": "NMB Bank Limited",
-        "sym": "NMB"
-      },
-      {
-        "secId": 9176,
-        "totTrd": 253,
-        "ltp": 562,
-        "secNm": "Ingwa Hydropower Limited",
-        "sym": "IHL"
-      },
-      {
-        "secId": 186,
-        "totTrd": 250,
-        "ltp": 454.1,
-        "secNm": "IGI Prudential insurance Limited",
-        "sym": "IGI"
-      },
-      {
-        "secId": 2807,
-        "totTrd": 247,
-        "ltp": 1210,
-        "secNm": "Asha Laghubitta Bittiya Sanstha Ltd",
-        "sym": "ALBSL"
-      },
-      {
-        "secId": 559,
-        "totTrd": 245,
-        "ltp": 695,
-        "secNm": "NLG Insurance Company Ltd.",
-        "sym": "NLG"
-      },
-      {
-        "secId": 397,
-        "totTrd": 245,
-        "ltp": 307.5,
-        "secNm": "Agricultural Development Bank Limited",
-        "sym": "ADBL"
-      },
-      {
-        "secId": 176,
-        "totTrd": 244,
-        "ltp": 531,
-        "secNm": "Nepal Insurance Co. Ltd.",
-        "sym": "NICL"
-      },
-      {
-        "secId": 145,
-        "totTrd": 242,
-        "ltp": 396,
-        "secNm": "Siddhartha Bank Limited",
-        "sym": "SBL"
-      },
-      {
-        "secId": 8099,
-        "totTrd": 242,
-        "ltp": 583.1,
-        "secNm": "Upper Hewakhola Hydropower Company Limited",
-        "sym": "UHEWA"
-      },
-      {
-        "secId": 9232,
-        "totTrd": 241,
-        "ltp": 716.4,
-        "secNm": "Chirkhwa Hydropower Limited ",
-        "sym": "CKHL"
-      },
-      {
-        "secId": 9171,
-        "totTrd": 238,
-        "ltp": 536,
-        "secNm": "Bhugol Energy Development Company Limited",
-        "sym": "BEDC"
-      },
-      {
-        "secId": 2914,
-        "totTrd": 237,
-        "ltp": 584,
-        "secNm": "United IDI Mardi RB Hydropower Limited.",
-        "sym": "UMRH"
-      },
-      {
-        "secId": 473,
-        "totTrd": 236,
-        "ltp": 421.8,
-        "secNm": "Shine Resunga Development Bank Ltd.",
-        "sym": "SHINE"
-      },
-      {
-        "secId": 188,
-        "totTrd": 221,
-        "ltp": 888,
-        "secNm": "Life Insurance Corporation (Nepal) Limited",
-        "sym": "LICN"
-      },
-      {
-        "secId": 2786,
-        "totTrd": 220,
-        "ltp": 342,
-        "secNm": "Panchakanya Mai Hydropower Ltd",
-        "sym": "PMHPL"
-      },
-      {
-        "secId": 2774,
-        "totTrd": 218,
-        "ltp": 1569.5,
-        "secNm": "Unnati Sahakarya Laghubitta Bittiya Sanstha Limited",
-        "sym": "USLB"
-      },
-      {
-        "secId": 178,
-        "totTrd": 216,
-        "ltp": 604,
-        "secNm": "National Life Insurance Co. Ltd.",
-        "sym": "NLICL"
-      },
-      {
-        "secId": 164,
-        "totTrd": 215,
-        "ltp": 970,
-        "secNm": "Chhimek Laghubitta Bittiya Sanstha Limited",
-        "sym": "CBBL"
-      },
-      {
-        "secId": 2813,
-        "totTrd": 207,
-        "ltp": 367.9,
-        "secNm": "Panchthar Power Compant Limited",
-        "sym": "PPCL"
+        "secId": 274,
+        "totTrd": 2,
+        "ltp": 622.3,
+        "secNm": "Excel Development Bank Ltd.",
+        "sym": "EDBL"
       },
       {
         "secId": 9194,
-        "totTrd": 205,
-        "ltp": 800.5,
+        "totTrd": 2,
+        "ltp": 784.5,
         "secNm": "Three Star Hydropower Limited",
         "sym": "TSHL"
       },
       {
-        "secId": 417,
-        "totTrd": 205,
-        "ltp": 410,
-        "secNm": "Garima Bikas Bank Limited",
-        "sym": "GBBL"
+        "secId": 2880,
+        "totTrd": 2,
+        "ltp": 206,
+        "secNm": "Himal Dolakha Hydropower Company Limited",
+        "sym": "HDHPC"
       },
       {
-        "secId": 9150,
-        "totTrd": 205,
-        "ltp": 565.9,
-        "secNm": "Asian Hydropower Limited",
-        "sym": "AHL"
+        "secId": 2807,
+        "totTrd": 2,
+        "ltp": 1210.5,
+        "secNm": "Asha Laghubitta Bittiya Sanstha Ltd",
+        "sym": "ALBSL"
       },
       {
-        "secId": 9225,
-        "totTrd": 204,
-        "ltp": 580,
-        "secNm": "Vision Lumbini Urja Company Limited ",
-        "sym": "VLUCL"
+        "secId": 516,
+        "totTrd": 2,
+        "ltp": 822.3,
+        "secNm": "Manjushree Finance Ltd.",
+        "sym": "MFIL"
+      },
+      {
+        "secId": 9209,
+        "totTrd": 1,
+        "ltp": 482,
+        "secNm": "Citizen Life Insurance Company Limited",
+        "sym": "CLI"
+      },
+      {
+        "secId": 517,
+        "totTrd": 1,
+        "ltp": 246.9,
+        "secNm": "Nepal Bank Limited",
+        "sym": "NBL"
+      },
+      {
+        "secId": 9135,
+        "totTrd": 1,
+        "ltp": 579.2,
+        "secNm": "Barahi Hydropower Public Limited",
+        "sym": "BHPL"
+      },
+      {
+        "secId": 2757,
+        "totTrd": 1,
+        "ltp": 259,
+        "secNm": "Arun Kabeli Power Ltd.",
+        "sym": "AKPL"
       },
       {
         "secId": 9167,
-        "totTrd": 202,
-        "ltp": 819.9,
+        "totTrd": 1,
+        "ltp": 804.6,
         "secNm": "Mai Khola Hydropower Limited",
         "sym": "MKHL"
       },
       {
-        "secId": 4951,
-        "totTrd": 202,
-        "ltp": 1349.4,
-        "secNm": "Jeevan Bikas Laghubitta  Bittya Sanstha Ltd",
-        "sym": "JBLB"
-      },
-      {
-        "secId": 471,
-        "totTrd": 200,
-        "ltp": 680,
-        "secNm": "Multipurpose Finance Company  Limited",
-        "sym": "MPFL"
-      },
-      {
-        "secId": 9151,
-        "totTrd": 197,
-        "ltp": 820,
-        "secNm": "Kalinchowk Darshan Limited",
-        "sym": "KDL"
-      },
-      {
-        "secId": 184,
-        "totTrd": 192,
-        "ltp": 738,
-        "secNm": "Prabhu Insurance Ltd.",
-        "sym": "PRIN"
-      },
-      {
-        "secId": 2811,
-        "totTrd": 181,
-        "ltp": 269,
-        "secNm": "Mountain Hydro Nepal Limited",
-        "sym": "MHNL"
-      },
-      {
-        "secId": 9208,
-        "totTrd": 180,
-        "ltp": 472,
-        "secNm": "Upper Lohore Khola Hydropower Company Limited",
-        "sym": "ULHC"
+        "secId": 2831,
+        "totTrd": 1,
+        "ltp": 450.9,
+        "secNm": "Union Hydropower Limited",
+        "sym": "UNHPL"
       },
       {
         "secId": 9170,
-        "totTrd": 179,
-        "ltp": 525,
+        "totTrd": 1,
+        "ltp": 530,
         "secNm": "Dolti Power Company Limited",
         "sym": "DOLTI"
       },
       {
-        "secId": 2761,
-        "totTrd": 171,
-        "ltp": 826.3,
-        "secNm": "Samata Gharelu Laghubitta Bittiya Sanstha Limited",
-        "sym": "SMATA"
-      },
-      {
-        "secId": 8121,
-        "totTrd": 164,
-        "ltp": 581,
-        "secNm": "Sayapatri Hydropower Limited",
-        "sym": "SPHL"
-      },
-      {
-        "secId": 450,
-        "totTrd": 164,
-        "ltp": 1705,
-        "secNm": "Corporate Development Bank Limited",
-        "sym": "CORBL"
-      },
-      {
-        "secId": 574,
-        "totTrd": 163,
-        "ltp": 796,
-        "secNm": "Sana Kisan Bikas Laghubitta Bittiya Sanstha Limited",
-        "sym": "SKBBL"
-      },
-      {
-        "secId": 687,
-        "totTrd": 159,
-        "ltp": 791.9,
-        "secNm": "Vijaya laghubitta Bittiya Sanstha Ltd.",
-        "sym": "VLBS"
-      },
-      {
-        "secId": 147,
-        "totTrd": 157,
-        "ltp": 508.5,
-        "secNm": "Soaltee Hotel Limited",
-        "sym": "SHL"
-      },
-      {
-        "secId": 545,
-        "totTrd": 156,
-        "ltp": 854,
-        "secNm": "Swarojgar Laghubitta Bittiya Sanstha Ltd.",
-        "sym": "SLBBL"
-      },
-      {
-        "secId": 1741,
-        "totTrd": 156,
-        "ltp": 805,
-        "secNm": "Mero Microfinance Bittiya Sanstha Ltd.",
-        "sym": "MERO"
-      },
-      {
-        "secId": 133,
-        "totTrd": 151,
-        "ltp": 637.2,
-        "secNm": "Standard Chartered Bank Limited",
-        "sym": "SCB"
-      },
-      {
-        "secId": 2754,
-        "totTrd": 151,
-        "ltp": 314.9,
-        "secNm": "Dibyashwori Hydropower Ltd.",
-        "sym": "DHPL"
+        "secId": 132,
+        "totTrd": 1,
+        "ltp": 204,
+        "secNm": "Nepal Investment Mega Bank Limited",
+        "sym": "NIMB"
       },
       {
         "secId": 9192,
-        "totTrd": 150,
+        "totTrd": 1,
         "ltp": 820,
         "secNm": "Upper Syange Hydropower Limited",
         "sym": "USHL"
       },
       {
-        "secId": 8117,
-        "totTrd": 150,
-        "ltp": 973,
-        "secNm": "Aviyan Laghubitta Bittiya Sanstha Limited",
-        "sym": "AVYAN"
-      },
-      {
-        "secId": 2935,
-        "totTrd": 148,
-        "ltp": 683,
-        "secNm": "Ru Ru Jalbidhyut Pariyojana Limited",
-        "sym": "RURU"
-      },
-      {
-        "secId": 183,
-        "totTrd": 146,
-        "ltp": 655,
-        "secNm": "Neco Insurance Limited",
-        "sym": "NIL"
-      },
-      {
-        "secId": 8065,
-        "totTrd": 145,
-        "ltp": 1600,
-        "secNm": "CYC Nepal Laghubitta Bittiya Sanstha Limited",
-        "sym": "CYCL"
-      },
-      {
-        "secId": 135,
-        "totTrd": 143,
-        "ltp": 415,
-        "secNm": "Nepal SBI Bank Limited",
-        "sym": "SBI"
-      },
-      {
-        "secId": 583,
-        "totTrd": 137,
-        "ltp": 808.1,
-        "secNm": "Grameen Bikas Laghubitta Bittiya Sanstha Ltd.",
-        "sym": "GBLBS"
-      },
-      {
-        "secId": 192,
-        "totTrd": 135,
-        "ltp": 650,
-        "secNm": "Shikhar Insurance Co. Ltd.",
-        "sym": "SICL"
-      },
-      {
-        "secId": 2769,
-        "totTrd": 134,
-        "ltp": 693,
-        "secNm": "Nepal Hydro Developers Ltd.",
-        "sym": "NHDL"
-      },
-      {
-        "secId": 396,
-        "totTrd": 133,
-        "ltp": 675,
-        "secNm": "Nerude Mirmire Laghubitta Bittiya Sanstha Limited",
-        "sym": "NMLBBL"
-      },
-      {
-        "secId": 2804,
-        "totTrd": 124,
-        "ltp": 1450,
-        "secNm": "Samudayik Laghubitta Bittiya Sanstha Limited",
-        "sym": "SLBSL"
-      },
-      {
-        "secId": 9181,
-        "totTrd": 124,
-        "ltp": 801.9,
-        "secNm": "Rawa Energy Development Limited",
-        "sym": "RAWA"
-      },
-      {
-        "secId": 2896,
-        "totTrd": 121,
-        "ltp": 907,
-        "secNm": "Sampada Laghubitta Bittiya Sanstha Limited",
-        "sym": "SMPDA"
-      },
-      {
-        "secId": 268,
-        "totTrd": 113,
-        "ltp": 761,
-        "secNm": "Swabalamban Laghubitta Bittiya Sanstha Limited",
-        "sym": "SWBBL"
-      },
-      {
-        "secId": 166,
-        "totTrd": 112,
-        "ltp": 848.3,
-        "secNm": "Deprosc Laghubitta Bittiya Sanstha Limited",
-        "sym": "DDBL"
-      },
-      {
-        "secId": 2758,
-        "totTrd": 112,
-        "ltp": 1135,
-        "secNm": "Forward Microfinance Laghubitta Bittiya Sanstha Limited",
-        "sym": "FOWAD"
-      },
-      {
-        "secId": 182,
-        "totTrd": 111,
-        "ltp": 739.8,
-        "secNm": "Siddhartha Premier Insurance Limited",
-        "sym": "SPIL"
-      },
-      {
-        "secId": 185,
-        "totTrd": 111,
-        "ltp": 613.3,
-        "secNm": "Sagarmatha Lumbini Insurance Co. Limited",
-        "sym": "SALICO"
-      },
-      {
-        "secId": 8034,
-        "totTrd": 111,
-        "ltp": 992,
-        "secNm": "Emerging Nepal Limited",
-        "sym": "ENL"
-      },
-      {
-        "secId": 9147,
-        "totTrd": 110,
-        "ltp": 890,
-        "secNm": "Shuvam Power Limited",
-        "sym": "SPL"
-      },
-      {
-        "secId": 706,
-        "totTrd": 102,
-        "ltp": 719,
-        "secNm": "Suryodaya Womi Laghubitta Bittiya Sanstha Limited",
-        "sym": "SWMF"
-      },
-      {
-        "secId": 593,
-        "totTrd": 102,
-        "ltp": 960.1,
-        "secNm": "Kalika Laghubitta Bittiya Sanstha Ltd",
-        "sym": "KMCDB"
-      },
-      {
-        "secId": 2781,
-        "totTrd": 101,
-        "ltp": 1594,
-        "secNm": "Wean Nepal Laghubitta Bittiya Sanstha Limited",
-        "sym": "WNLB"
-      },
-      {
-        "secId": 2832,
-        "totTrd": 96,
-        "ltp": 1007,
-        "secNm": "Infinity Laghubitta Bittiya Sanstha Limited",
-        "sym": "ILBS"
-      },
-      {
-        "secId": 9166,
-        "totTrd": 86,
-        "ltp": 548,
-        "secNm": "Makar Jitumaya Suri Hydropower Limited",
-        "sym": "MAKAR"
-      },
-      {
-        "secId": 8041,
-        "totTrd": 85,
-        "ltp": 1600,
-        "secNm": "NESDO Sambridha Laghubitta Bittiya Sanstha Limited",
-        "sym": "NESDO"
-      },
-      {
-        "secId": 9214,
-        "totTrd": 85,
-        "ltp": 792,
-        "secNm": "Bhagawati Hydropower Development Company Limited",
-        "sym": "BGWT"
-      },
-      {
-        "secId": 2746,
-        "totTrd": 84,
-        "ltp": 1135,
-        "secNm": "National Laghubitta Bittiya Sanstha Limited",
-        "sym": "NMFBS"
-      },
-      {
-        "secId": 179,
-        "totTrd": 83,
-        "ltp": 535,
-        "secNm": "Himalayan Everest Insurance Limited",
-        "sym": "HEI"
-      },
-      {
-        "secId": 8018,
-        "totTrd": 83,
-        "ltp": 1470,
-        "secNm": "Manushi Laghubitta Bittiya Sanstha Limited",
-        "sym": "MLBS"
-      },
-      {
-        "secId": 9212,
-        "totTrd": 79,
-        "ltp": 858,
-        "secNm": "Mandu Hydropower Limited",
-        "sym": "MANDU"
-      },
-      {
-        "secId": 9148,
-        "totTrd": 79,
-        "ltp": 725,
-        "secNm": "Super Mai Hydropower Limited",
-        "sym": "SMH"
-      },
-      {
-        "secId": 163,
-        "totTrd": 79,
-        "ltp": 740,
-        "secNm": "Nirdhan Utthan Laghubitta Bittiya Sanstha Limited",
-        "sym": "NUBL"
-      },
-      {
-        "secId": 155,
-        "totTrd": 79,
-        "ltp": 5610,
-        "secNm": "Salt Trading Corporation",
-        "sym": "STC"
-      },
-      {
-        "secId": 2768,
-        "totTrd": 77,
-        "ltp": 1331.2,
-        "secNm": "Mahuli Laghubitta Bittiya Sanstha Limited",
-        "sym": "MSLB"
-      },
-      {
-        "secId": 694,
-        "totTrd": 77,
-        "ltp": 1015,
-        "secNm": "Matribhumi Lagubitta Bittiya Sanstha Limited",
-        "sym": "MATRI"
-      },
-      {
-        "secId": 2925,
-        "totTrd": 75,
-        "ltp": 1978.1,
-        "secNm": "Mahila Lagubitta Bittiya Sanstha Limited ",
-        "sym": "MLBSL"
-      },
-      {
-        "secId": 601,
-        "totTrd": 74,
-        "ltp": 1390,
-        "secNm": "Mithila LaghuBitta Bittiya Sanstha Limited",
-        "sym": "MLBBL"
-      },
-      {
-        "secId": 704,
-        "totTrd": 74,
-        "ltp": 704,
-        "secNm": "NMB  Microfinance Bittiya Sanstha Ltd.",
-        "sym": "NMBMF"
-      },
-      {
-        "secId": 149,
-        "totTrd": 73,
-        "ltp": 739.8,
-        "secNm": "Oriental Hotels Limited",
-        "sym": "OHL"
-      },
-      {
-        "secId": 2790,
-        "totTrd": 71,
-        "ltp": 980,
-        "secNm": "Aarambha Chautari Laghubitta Bittiya Sanstha Limited",
-        "sym": "ACLBSL"
-      },
-      {
-        "secId": 2826,
-        "totTrd": 65,
-        "ltp": 2060,
-        "secNm": "Gurans Laghubitta Bittiya Sanstha Limited",
-        "sym": "GLBSL"
-      },
-      {
-        "secId": 148,
-        "totTrd": 63,
-        "ltp": 760.1,
-        "secNm": "Taragaon Regency Hotel Limited",
-        "sym": "TRH"
-      },
-      {
-        "secId": 8123,
-        "totTrd": 63,
-        "ltp": 1383.5,
-        "secNm": "Dhaulagiri Laghubitta Bittiya Sanstha Limited",
-        "sym": "DLBS"
-      },
-      {
-        "secId": 9245,
-        "totTrd": 61,
-        "ltp": 9.5,
-        "secNm": "Muktinath Mutual Fund 1",
-        "sym": "MNMF1"
-      },
-      {
-        "secId": 2784,
-        "totTrd": 54,
-        "ltp": 844.9,
-        "secNm": "Nadep Laghubittiya bittya Sanstha Ltd.",
-        "sym": "NADEP"
-      },
-      {
-        "secId": 9257,
-        "totTrd": 51,
-        "ltp": 9.91,
-        "secNm": "MBL Equity Fund",
-        "sym": "MBLEF"
-      },
-      {
-        "secId": 8023,
-        "totTrd": 51,
-        "ltp": 8.7,
-        "secNm": "Mega Mutual Fund -1",
-        "sym": "MMF1"
-      },
-      {
-        "secId": 705,
-        "totTrd": 49,
-        "ltp": 1204.8,
-        "secNm": "Global IME Laghubitta Bittiya Sanstha Ltd.",
-        "sym": "GILB"
-      },
-      {
-        "secId": 9248,
-        "totTrd": 48,
-        "ltp": 9.26,
-        "secNm": "Garima Samriddhi Yojana",
-        "sym": "GSY"
-      },
-      {
-        "secId": 8024,
-        "totTrd": 46,
-        "ltp": 9.34,
-        "secNm": "Nabil Balanced Fund-3",
-        "sym": "NBF3"
-      },
-      {
-        "secId": 618,
-        "totTrd": 46,
-        "ltp": 1048,
-        "secNm": "Laxmi Laghubitta Bittiya Sanstha Ltd.",
-        "sym": "LLBS"
-      },
-      {
-        "secId": 156,
-        "totTrd": 45,
-        "ltp": 4878.3,
-        "secNm": "Bishal Bazar Company Limited",
-        "sym": "BBC"
-      },
-      {
-        "secId": 9215,
-        "totTrd": 44,
-        "ltp": 840,
-        "secNm": "Mid Solu Hydropower Limited",
-        "sym": "MSHL"
-      },
-      {
-        "secId": 8063,
-        "totTrd": 44,
-        "ltp": 3360,
-        "secNm": "Upakar Laghubitta Bittiya Sanstha Limited",
-        "sym": "ULBSL"
-      },
-      {
-        "secId": 9140,
-        "totTrd": 42,
-        "ltp": 1957,
-        "secNm": "Unique Nepal Laghubitta Bittiya Sanstha Limited",
-        "sym": "UNLB"
-      },
-      {
-        "secId": 2771,
-        "totTrd": 42,
-        "ltp": 1914,
-        "secNm": "Support Microfinance Bittiya Sanstha Ltd.",
-        "sym": "SMB"
-      },
-      {
-        "secId": 4949,
-        "totTrd": 41,
-        "ltp": 8.95,
-        "secNm": "NIBL Samriddhi Fund -2",
-        "sym": "NIBSF2"
-      },
-      {
-        "secId": 2815,
-        "totTrd": 37,
-        "ltp": 1520,
-        "secNm": "Ganapati Laghubitta Bittiya Sanstha Limited",
-        "sym": "GMFBS"
-      },
-      {
-        "secId": 9254,
-        "totTrd": 35,
-        "ltp": 9.52,
-        "secNm": "NMB Hybrid Fund L- II",
-        "sym": "NMBHF2"
-      },
-      {
-        "secId": 9139,
-        "totTrd": 35,
-        "ltp": 10,
-        "secNm": "Sanima Growth Fund",
-        "sym": "SAGF"
-      },
-      {
-        "secId": 8132,
-        "totTrd": 34,
-        "ltp": 1683.3,
-        "secNm": "Shrijanshil Laghubitta Bittiya Sanstha Limited",
-        "sym": "SHLB"
-      },
-      {
-        "secId": 8074,
-        "totTrd": 33,
-        "ltp": 10.05,
-        "secNm": "Kumari Dhanabriddhi Yojana",
-        "sym": "KDBY"
-      },
-      {
-        "secId": 9302,
-        "totTrd": 32,
-        "ltp": 9.16,
-        "secNm": "RBB Focus 40",
-        "sym": "RBBF40"
-      },
-      {
-        "secId": 695,
-        "totTrd": 31,
-        "ltp": 1208,
-        "secNm": "Janautthan Samudayic Laghubitta Bittya Sanstha Limited",
-        "sym": "JSLBB"
-      },
-      {
-        "secId": 2923,
-        "totTrd": 29,
-        "ltp": 9.6,
-        "secNm": "Sanima Large Cap Fund",
-        "sym": "SLCF"
-      },
-      {
-        "secId": 693,
-        "totTrd": 29,
-        "ltp": 939.4,
-        "secNm": "Himalayan Laghubitta Bittiya Sanstha Limited",
-        "sym": "HLBSL"
-      },
-      {
-        "secId": 4947,
-        "totTrd": 28,
-        "ltp": 11.15,
-        "secNm": "Prabhu Select Fund",
-        "sym": "PSF"
-      },
-      {
-        "secId": 9290,
-        "totTrd": 27,
-        "ltp": 9.61,
-        "secNm": "HLI Large Cap Fund",
-        "sym": "HLICF"
-      },
-      {
-        "secId": 8125,
-        "totTrd": 27,
-        "ltp": 10.59,
-        "secNm": "NMB Sulav Investment Fund - 2",
-        "sym": "NSIF2"
-      },
-      {
-        "secId": 8106,
-        "totTrd": 27,
-        "ltp": 10.75,
-        "secNm": "Global IME Balanced Fund-1",
-        "sym": "GIBF1"
-      },
-      {
-        "secId": 9259,
-        "totTrd": 27,
-        "ltp": 9.78,
-        "secNm": "Reliable Samriddhi Yojana",
-        "sym": "RSY"
-      },
-      {
-        "secId": 213,
-        "totTrd": 26,
-        "ltp": 12025,
-        "secNm": "Bottlers Nepal (Terai) Limited",
-        "sym": "BNT"
-      },
-      {
-        "secId": 9244,
-        "totTrd": 25,
-        "ltp": 8.81,
-        "secNm": "NIBL Stable Fund",
-        "sym": "NIBLSTF"
-      },
-      {
         "secId": 2933,
-        "totTrd": 23,
-        "ltp": 9.32,
+        "totTrd": 1,
+        "ltp": 9.5,
         "secNm": "Kumari Equity Fund",
         "sym": "KEF"
       },
       {
-        "secId": 8073,
-        "totTrd": 23,
-        "ltp": 9.03,
-        "secNm": "NIC Asia Flexi CAP Fund",
-        "sym": "NICFC"
-      },
-      {
-        "secId": 4968,
-        "totTrd": 23,
-        "ltp": 9.5,
-        "secNm": "RBB Mutual Fund 1",
-        "sym": "RMF1"
-      },
-      {
-        "secId": 2829,
-        "totTrd": 22,
-        "ltp": 1742.9,
-        "secNm": "Swabhimaan Laghubitta Bittiya Sanstha Limited",
-        "sym": "SMFBS"
-      },
-      {
-        "secId": 4967,
-        "totTrd": 21,
-        "ltp": 8.9,
-        "secNm": "NIC Asia Select Fund 30",
-        "sym": "NICSF"
-      },
-      {
-        "secId": 9241,
-        "totTrd": 21,
-        "ltp": 9.4,
-        "secNm": "Kumari Sabal Yojana",
-        "sym": "KSY"
-      },
-      {
-        "secId": 9236,
-        "totTrd": 20,
-        "ltp": 9.15,
-        "secNm": "NIC ASIA Growth Fund-2",
-        "sym": "NICGF2"
-      },
-      {
-        "secId": 9269,
-        "totTrd": 20,
-        "ltp": 9.2,
-        "secNm": "Global IME Sammunat Yojana -2",
-        "sym": "GBIMESY2"
-      },
-      {
-        "secId": 9198,
-        "totTrd": 18,
-        "ltp": 9.65,
-        "secNm": "Laxmi Value Fund 2",
-        "sym": "LVF2"
-      },
-      {
-        "secId": 9154,
-        "totTrd": 17,
-        "ltp": 9.79,
-        "secNm": "Sunrise Focused Equity Fund",
-        "sym": "SFEF"
-      },
-      {
-        "secId": 2937,
-        "totTrd": 17,
-        "ltp": 9.25,
-        "secNm": "Sunrise Bluechip Fund",
-        "sym": "SBCF"
-      },
-      {
-        "secId": 700,
-        "totTrd": 14,
-        "ltp": 318,
-        "secNm": "Himalayan Everest Insurance Limited Promoter",
-        "sym": "HEIP"
-      },
-      {
-        "secId": 9161,
-        "totTrd": 14,
-        "ltp": 6050,
-        "secNm": "Aatmanirbhar Laghubitta Bittiya Sanstha Limited",
-        "sym": "ANLB"
-      },
-      {
-        "secId": 9178,
-        "totTrd": 14,
-        "ltp": 9.66,
-        "secNm": "RBB Mutual Fund 2",
-        "sym": "RMF2"
-      },
-      {
-        "secId": 469,
-        "totTrd": 13,
-        "ltp": 157.1,
-        "secNm": "Nepal Investment Mega Bank Ltd. Promoter Share",
-        "sym": "NIMBPO"
-      },
-      {
-        "secId": 9174,
-        "totTrd": 12,
-        "ltp": 11.32,
-        "secNm": "Prabhu Smart Fund",
-        "sym": "PRSF"
-      },
-      {
-        "secId": 177,
-        "totTrd": 12,
-        "ltp": 15022,
-        "secNm": "Rastriya Beema Company Limited",
-        "sym": "RBCL"
-      },
-      {
-        "secId": 9196,
-        "totTrd": 12,
-        "ltp": 1720,
-        "secNm": "Kutheli Bukhari Small Hydropower Limited",
-        "sym": "KBSH"
-      },
-      {
-        "secId": 9221,
-        "totTrd": 11,
-        "ltp": 11.38,
-        "secNm": "Himalayan 80-20",
-        "sym": "H8020"
-      },
-      {
-        "secId": 2770,
-        "totTrd": 11,
-        "ltp": 9.61,
-        "secNm": "Siddhartha Equity Fund",
-        "sym": "SEF"
-      },
-      {
-        "secId": 634,
-        "totTrd": 10,
-        "ltp": 12200,
-        "secNm": "Rastriya Beema Company Limited Promoter Share",
-        "sym": "RBCLPO"
-      },
-      {
-        "secId": 219,
-        "totTrd": 8,
-        "ltp": 47500,
-        "secNm": "Unilever Nepal Limited",
-        "sym": "UNL"
-      },
-      {
-        "secId": 9138,
-        "totTrd": 8,
-        "ltp": 8.95,
-        "secNm": "NIBL Growth Fund",
-        "sym": "NIBLGF"
-      },
-      {
-        "secId": 8033,
-        "totTrd": 7,
-        "ltp": 1070,
-        "secNm": "Garima Debenture, 2085",
-        "sym": "GBBD85"
-      },
-      {
-        "secId": 8119,
-        "totTrd": 7,
-        "ltp": 1154,
-        "secNm": "10.50% Everest Bank Limited Debenture 2085",
-        "sym": "EBLD85"
-      },
-      {
-        "secId": 2851,
-        "totTrd": 7,
-        "ltp": 1020,
-        "secNm": "10.5 % NEPAL INVESTMENT DEBENTURE 2082",
-        "sym": "NIBD2082"
-      },
-      {
-        "secId": 8097,
-        "totTrd": 7,
-        "ltp": 1150,
-        "secNm": "10% Prime Debenture 2088",
-        "sym": "PBD88"
-      },
-      {
-        "secId": 195,
-        "totTrd": 6,
-        "ltp": 15551,
-        "secNm": "Bottlers Nepal (Balaju) Limited",
-        "sym": "BNL"
-      },
-      {
-        "secId": 9182,
-        "totTrd": 6,
-        "ltp": 10.02,
-        "secNm": "Siddhartha Investment Growth Scheme 3",
-        "sym": "SIGS3"
-      },
-      {
-        "secId": 9255,
-        "totTrd": 6,
-        "ltp": 1070,
-        "secNm": "Everest Bank Limited Debenture 2091",
-        "sym": "EBLD91"
-      },
-      {
-        "secId": 2835,
-        "totTrd": 5,
-        "ltp": 9.61,
-        "secNm": "NABIL BALANCED FUND-2",
-        "sym": "NBF2"
-      },
-      {
-        "secId": 9191,
-        "totTrd": 5,
-        "ltp": 9.54,
-        "secNm": "Citizens Super 30 Mutual Fund",
-        "sym": "C30MF"
-      },
-      {
-        "secId": 2877,
-        "totTrd": 5,
-        "ltp": 10.15,
-        "secNm": "Sunrise First Mutual Fund",
-        "sym": "SFMF"
-      },
-      {
-        "secId": 2863,
-        "totTrd": 4,
-        "ltp": 9.05,
-        "secNm": "NIC Asia Balanced Fund",
-        "sym": "NICBF"
-      },
-      {
-        "secId": 9211,
-        "totTrd": 4,
-        "ltp": 1160,
-        "secNm": "9% Nepal SBI Bank Rinpatra 2089",
-        "sym": "SBID89"
-      },
-      {
-        "secId": 8068,
-        "totTrd": 3,
-        "ltp": 1185,
-        "secNm": "Century Debenture 2088",
-        "sym": "CCBD88"
-      },
-      {
-        "secId": 2867,
-        "totTrd": 3,
-        "ltp": 10.3,
-        "secNm": "NMB 50",
-        "sym": "NMB50"
-      },
-      {
-        "secId": 8110,
-        "totTrd": 3,
-        "ltp": 1060.6,
-        "secNm": "10.25% Nepal SBI Bank Debenture 2083",
-        "sym": "SBID83"
-      },
-      {
-        "secId": 2902,
-        "totTrd": 3,
-        "ltp": 9.9,
-        "secNm": "Laxmi Unnati Kosh",
-        "sym": "LUK"
-      },
-      {
-        "secId": 2859,
-        "totTrd": 3,
-        "ltp": 9.99,
-        "secNm": "Siddhartha Investment Growth Scheme - 2",
-        "sym": "SIGS2"
-      },
-      {
-        "secId": 9195,
-        "totTrd": 3,
-        "ltp": 1295,
-        "secNm": "11% Mahalaxmi Debenture 2089",
-        "sym": "MLBLD89"
-      },
-      {
-        "secId": 8116,
-        "totTrd": 3,
-        "ltp": 1133,
-        "secNm": "10.15% Prime Debenture 2084",
-        "sym": "PBD84"
-      },
-      {
-        "secId": 4962,
-        "totTrd": 2,
-        "ltp": 1072,
-        "secNm": "8.5% Prabhu Bank Debenture 2087",
-        "sym": "PBLD87"
-      },
-      {
-        "secId": 2862,
-        "totTrd": 2,
-        "ltp": 9.9,
-        "secNm": "CITIZENS MUTUAL FUND 2",
-        "sym": "CMF2"
-      },
-      {
-        "secId": 2904,
-        "totTrd": 2,
-        "ltp": 1104.5,
-        "secNm": "10% Prabhu Bank Debenture 2084 ",
-        "sym": "PBLD84"
-      },
-      {
-        "secId": 9286,
-        "totTrd": 2,
-        "ltp": 1130,
-        "secNm": "Shine Resunga Debenture",
-        "sym": "SHINED"
-      },
-      {
-        "secId": 2921,
-        "totTrd": 2,
-        "ltp": 660,
-        "secNm": "Forward Microfinance Laghubitta Bittiya Sanstha Limited Promoter",
-        "sym": "FOWADP"
-      },
-      {
-        "secId": 9249,
-        "totTrd": 2,
-        "ltp": 1103.1,
-        "secNm": "9% ICFC Finance Limited Debenture 2088",
-        "sym": "ICFCD88"
-      },
-      {
-        "secId": 9266,
-        "totTrd": 2,
-        "ltp": 1060,
-        "secNm": "7% NIC ASIA Debenture 2091",
-        "sym": "NICAD2091"
-      },
-      {
-        "secId": 9299,
-        "totTrd": 2,
-        "ltp": 1052.6,
-        "secNm": "7% Nabil Debenture 2089",
-        "sym": "NABILD2089"
-      },
-      {
-        "secId": 9271,
+        "secId": 9193,
         "totTrd": 1,
-        "ltp": 1056.4,
-        "secNm": "7.25% SBL Debenture 2091",
-        "sym": "SBLD2091"
+        "ltp": 443,
+        "secNm": "Ghorahi Cement Industry Limited",
+        "sym": "GCIL"
       },
       {
-        "secId": 9264,
+        "secId": 341,
         "totTrd": 1,
-        "ltp": 1053.1,
-        "secNm": "7% RBBL Debenture 2088",
-        "sym": "RBBD2088"
+        "ltp": 233,
+        "secNm": "Global IME Bank Limited",
+        "sym": "GBIME"
       },
       {
-        "secId": 9261,
+        "secId": 8075,
         "totTrd": 1,
-        "ltp": 1035,
-        "secNm": "Nifra Green Energy Debenture 6% - 2088/89",
-        "sym": "NIFRAGED"
+        "ltp": 505,
+        "secNm": "Bindhyabasini Hydropower Development Company Limited",
+        "sym": "BHDC"
       },
       {
-        "secId": 9289,
+        "secId": 473,
         "totTrd": 1,
-        "ltp": 1050.2,
-        "secNm": "7% Nepal SBI Bank Debenture 2090",
-        "sym": "SBID2090"
+        "ltp": 430.2,
+        "secNm": "Shine Resunga Development Bank Ltd.",
+        "sym": "SHINE"
       },
       {
-        "secId": 9243,
+        "secId": 8108,
         "totTrd": 1,
-        "ltp": 1227.1,
-        "secNm": "10% NIMB Debenture 2090",
-        "sym": "NIMBD90"
+        "ltp": 295,
+        "secNm": "Rapti Hydro And General Construction Limited",
+        "sym": "RHGCL"
       },
       {
-        "secId": 4969,
+        "secId": 490,
         "totTrd": 1,
-        "ltp": 1085.1,
-        "secNm": "Muktinath Debenture 2084/85",
-        "sym": "MND84/85"
+        "ltp": 860.3,
+        "secNm": "First Micro Finance Laghubitta Bittiya Sanstha Limited",
+        "sym": "FMDBL"
       },
       {
-        "secId": 4959,
+        "secId": 8131,
         "totTrd": 1,
-        "ltp": 1078,
-        "secNm": "8.5% Nepal Bank Debenture 2087",
-        "sym": "NBLD87"
+        "ltp": 430,
+        "secNm": "Eastern Hydropower Limited",
+        "sym": "EHPL"
       },
       {
-        "secId": 7986,
+        "secId": 255,
         "totTrd": 1,
-        "ltp": 1080,
-        "secNm": "NIC ASIA Rinpatra 2088",
-        "sym": "NICD88"
+        "ltp": 199.8,
+        "secNm": "Prabhu  Bank Limited",
+        "sym": "PRVU"
       },
       {
-        "secId": 8003,
+        "secId": 360,
         "totTrd": 1,
-        "ltp": 1025.7,
-        "secNm": "8.5% RBBL Debenture 2083",
-        "sym": "RBBD83"
+        "ltp": 273.5,
+        "secNm": "Arun Valley Hydropower Development Co. Ltd.",
+        "sym": "AHPC"
+      },
+      {
+        "secId": 141,
+        "totTrd": 1,
+        "ltp": 225,
+        "secNm": "Laxmi Sunrise Bank Limited",
+        "sym": "LSL"
+      },
+      {
+        "secId": 393,
+        "totTrd": 1,
+        "ltp": 385,
+        "secNm": "Himalayan Life Insurance Limited",
+        "sym": "HLI"
+      },
+      {
+        "secId": 8102,
+        "totTrd": 1,
+        "ltp": 525.5,
+        "secNm": "Mandakini Hydropower Limited",
+        "sym": "MHL"
+      },
+      {
+        "secId": 418,
+        "totTrd": 1,
+        "ltp": 369.9,
+        "secNm": "Jyoti Bikas Bank Limited",
+        "sym": "JBBL"
+      },
+      {
+        "secId": 8104,
+        "totTrd": 1,
+        "ltp": 487.5,
+        "secNm": "Upper Solu Hydro Electric Company Limited",
+        "sym": "USHEC"
+      },
+      {
+        "secId": 471,
+        "totTrd": 1,
+        "ltp": 669,
+        "secNm": "Multipurpose Finance Company  Limited",
+        "sym": "MPFL"
+      },
+      {
+        "secId": 8111,
+        "totTrd": 1,
+        "ltp": 196,
+        "secNm": "Hydorelectricity Investment and Development Company Limited Promoter",
+        "sym": "HIDCLP"
+      },
+      {
+        "secId": 152,
+        "totTrd": 1,
+        "ltp": 220.9,
+        "secNm": "National Hydro Power Company Limited",
+        "sym": "NHPC"
+      },
+      {
+        "secId": 8122,
+        "totTrd": 1,
+        "ltp": 341.1,
+        "secNm": "People's Power Limited",
+        "sym": "PPL"
+      },
+      {
+        "secId": 153,
+        "totTrd": 1,
+        "ltp": 774.2,
+        "secNm": "Butwal Power Company Limited",
+        "sym": "BPCL"
+      },
+      {
+        "secId": 9147,
+        "totTrd": 1,
+        "ltp": 872.2,
+        "secNm": "Shuvam Power Limited",
+        "sym": "SPL"
+      },
+      {
+        "secId": 210,
+        "totTrd": 1,
+        "ltp": 1800,
+        "secNm": "Citizen Investment Trust",
+        "sym": "CIT"
+      },
+      {
+        "secId": 9149,
+        "totTrd": 1,
+        "ltp": 357,
+        "secNm": "Maya Khola Hydropower Company Limited",
+        "sym": "MKHC"
+      },
+      {
+        "secId": 227,
+        "totTrd": 1,
+        "ltp": 503,
+        "secNm": "Best Finance Company Ltd.",
+        "sym": "BFC"
+      },
+      {
+        "secId": 9181,
+        "totTrd": 1,
+        "ltp": 786,
+        "secNm": "Rawa Energy Development Limited",
+        "sym": "RAWA"
+      },
+      {
+        "secId": 2810,
+        "totTrd": 1,
+        "ltp": 386.7,
+        "secNm": "UNIVERSAL POWER COMPANY LTD",
+        "sym": "UPCL"
+      },
+      {
+        "secId": 9230,
+        "totTrd": 1,
+        "ltp": 1480,
+        "secNm": "Muktinath Krishi Company Limited",
+        "sym": "MKCL"
+      },
+      {
+        "secId": 2903,
+        "totTrd": 1,
+        "ltp": 231,
+        "secNm": "Liberty Energy Company Limited",
+        "sym": "LEC"
+      },
+      {
+        "secId": 9232,
+        "totTrd": 1,
+        "ltp": 702.8,
+        "secNm": "Chirkhwa Hydropower Limited ",
+        "sym": "CKHL"
+      },
+      {
+        "secId": 2919,
+        "totTrd": 1,
+        "ltp": 275,
+        "secNm": "Nepal Infrastructure Bank Limited",
+        "sym": "NIFRA"
+      },
+      {
+        "secId": 8024,
+        "totTrd": 1,
+        "ltp": 9.52,
+        "secNm": "Nabil Balanced Fund-3",
+        "sym": "NBF3"
+      },
+      {
+        "secId": 704,
+        "totTrd": 1,
+        "ltp": 718,
+        "secNm": "NMB  Microfinance Bittiya Sanstha Ltd.",
+        "sym": "NMBMF"
+      },
+      {
+        "secId": 1741,
+        "totTrd": 1,
+        "ltp": 821.1,
+        "secNm": "Mero Microfinance Bittiya Sanstha Ltd.",
+        "sym": "MERO"
+      },
+      {
+        "secId": 2751,
+        "totTrd": 1,
+        "ltp": 234.3,
+        "secNm": "Khanikhola Hydropower Co. Ltd.",
+        "sym": "KKHC"
+      },
+      {
+        "secId": 2759,
+        "totTrd": 1,
+        "ltp": 399,
+        "secNm": "Synergy Power Development Ltd.",
+        "sym": "SPDL"
       }
     ]
   },
   "mfNavs": {
-    "updatedAt": "2026-01-26T02:44:33.786Z",
+    "updatedAt": "2026-01-26T05:14:57.570Z",
     "funds": {
       "closed": {
         "total": 41,
