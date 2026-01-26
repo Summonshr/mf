@@ -4,6 +4,29 @@
   "sym": "MDB",
   "rpt": [
     {
+      "id": 6178,
+      "qtr": {
+        "id": 2,
+        "qtrNm": "Second Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 41,
+        "fyNm": "2025-2026",
+        "fromYr": "2025-07-17",
+        "toYr": "2026-07-16",
+        "fyNmNp": "2082-2083"
+      },
+      "pe": 64.1,
+      "eps": 9.37,
+      "paidUp": 1217100000,
+      "profit": 45403378,
+      "nwps": 135.98
+    },
+    {
       "id": 5823,
       "qtr": {
         "id": 1,
