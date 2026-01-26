@@ -1,30 +1,30 @@
 {
-  "updAt": "2026-01-26T09:47:34.735Z",
+  "updAt": "2026-01-26T10:07:54.060Z",
   "npsIdx": {
     "sts": 200,
     "d": [
       {
-        "id": 63,
-        "generatedTime": "2026-01-26T14:59:59.813",
-        "idx": "Sensitive Float Index",
-        "cls": 161.75,
-        "hi": 162.6014,
-        "lo": 160.3891,
-        "prevCls": 161.7454,
-        "chg": -0.52,
-        "perChg": -0.32,
-        "w52Hi": 177.31,
-        "w52Lo": 145.59,
-        "curVal": 161.22
+        "id": 57,
+        "generatedTime": "2026-01-26T15:36:08.987",
+        "idx": "Sensitive Index",
+        "cls": 473.49,
+        "hi": 475.897,
+        "lo": 469.3899,
+        "prevCls": 471.8392,
+        "chg": -1.64,
+        "perChg": -0.34,
+        "w52Hi": 518.6,
+        "w52Lo": 434.98,
+        "curVal": 471.83
       },
       {
         "id": 58,
-        "generatedTime": "2026-01-26T15:00:00.01",
+        "generatedTime": "2026-01-26T15:36:08.987",
         "idx": "NEPSE Index",
         "cls": 2772.17,
         "hi": 2788.0904,
         "lo": 2746.877,
-        "prevCls": 2772.1706,
+        "prevCls": 2769.0998,
         "chg": -3.07,
         "perChg": -0.11,
         "w52Hi": 3002.08,
@@ -33,12 +33,12 @@
       },
       {
         "id": 62,
-        "generatedTime": "2026-01-26T15:00:00.01",
+        "generatedTime": "2026-01-26T15:36:08.987",
         "idx": "Float Index",
         "cls": 190.87,
         "hi": 191.9389,
         "lo": 189.1547,
-        "prevCls": 190.8738,
+        "prevCls": 190.6612,
         "chg": -0.21,
         "perChg": -0.11,
         "w52Hi": 206.26,
@@ -46,18 +46,18 @@
         "curVal": 190.66
       },
       {
-        "id": 57,
-        "generatedTime": "2026-01-26T14:59:59.81",
-        "idx": "Sensitive Index",
-        "cls": 473.49,
-        "hi": 475.897,
-        "lo": 469.3899,
-        "prevCls": 473.4875,
-        "chg": -1.65,
-        "perChg": -0.34,
-        "w52Hi": 518.6,
-        "w52Lo": 434.98,
-        "curVal": 471.83
+        "id": 63,
+        "generatedTime": "2026-01-26T15:36:08.987",
+        "idx": "Sensitive Float Index",
+        "cls": 161.75,
+        "hi": 162.6014,
+        "lo": 160.3891,
+        "prevCls": 161.2213,
+        "chg": -0.52,
+        "perChg": -0.32,
+        "w52Hi": 177.31,
+        "w52Lo": 145.59,
+        "curVal": 161.22
       }
     ]
   },
@@ -291,20 +291,6 @@
     "sts": 200,
     "d": [
       {
-        "id": 55,
-        "idx": "Development Bank Index",
-        "chg": -3.78,
-        "perChg": -0.06,
-        "curVal": 5979.42
-      },
-      {
-        "id": 56,
-        "idx": "Manufacturing And Processing",
-        "chg": 38.94,
-        "perChg": 0.4,
-        "curVal": 9556.15
-      },
-      {
         "id": 64,
         "idx": "Microfinance Index",
         "chg": -25.54,
@@ -326,6 +312,13 @@
         "curVal": 21.26
       },
       {
+        "id": 67,
+        "idx": "Investment Index",
+        "chg": -0.59,
+        "perChg": -0.55,
+        "curVal": 107.48
+      },
+      {
         "id": 51,
         "idx": "Banking SubIndex",
         "chg": -2.36,
@@ -342,9 +335,9 @@
       {
         "id": 53,
         "idx": "Others Index",
-        "chg": -12.44,
+        "chg": -12.35,
         "perChg": -0.5,
-        "curVal": 2443.45
+        "curVal": 2443.53
       },
       {
         "id": 54,
@@ -352,6 +345,20 @@
         "chg": 11.04,
         "perChg": 0.3,
         "curVal": 3602.47
+      },
+      {
+        "id": 55,
+        "idx": "Development Bank Index",
+        "chg": -3.78,
+        "perChg": -0.06,
+        "curVal": 5979.42
+      },
+      {
+        "id": 56,
+        "idx": "Manufacturing And Processing",
+        "chg": 38.94,
+        "perChg": 0.4,
+        "curVal": 9556.15
       },
       {
         "id": 59,
@@ -370,16 +377,9 @@
       {
         "id": 61,
         "idx": "Trading Index",
-        "chg": -4.71,
-        "perChg": -0.12,
-        "curVal": 3800.59
-      },
-      {
-        "id": 67,
-        "idx": "Investment Index",
-        "chg": -0.59,
-        "perChg": -0.55,
-        "curVal": 107.48
+        "chg": -0.78,
+        "perChg": -0.02,
+        "curVal": 3804.52
       }
     ]
   },
@@ -401,6 +401,14 @@
       {
         "dtl": "Total Scrips Traded",
         "val": 332
+      },
+      {
+        "dtl": "Total Market Capitalization Rs:",
+        "val": 4649382210457.9
+      },
+      {
+        "dtl": "Total Float Market Capitalization Rs:",
+        "val": 1584553100568.3
       }
     ]
   },
@@ -5059,14 +5067,14 @@
       {
         "secId": 2759,
         "totTrd": 1283,
-        "ltp": 417,
+        "ltp": 423,
         "secNm": "Synergy Power Development Ltd.",
         "sym": "SPDL"
       },
       {
         "secId": 9294,
         "totTrd": 1223,
-        "ltp": 2310,
+        "ltp": 2354,
         "secNm": "Sagar Distillery Limited",
         "sym": "SAGAR"
       },
@@ -5514,7 +5522,7 @@
       {
         "secId": 172,
         "totTrd": 507,
-        "ltp": 1610,
+        "ltp": 1700,
         "secNm": "Narayani Development Bank Limited",
         "sym": "NABBC"
       },
@@ -7026,7 +7034,7 @@
       {
         "secId": 9243,
         "totTrd": 3,
-        "ltp": 1230,
+        "ltp": 1227,
         "secNm": "10% NIMB Debenture 2090",
         "sym": "NIMBD90"
       },
@@ -7138,7 +7146,7 @@
       {
         "secId": 2850,
         "totTrd": 1,
-        "ltp": 1142,
+        "ltp": 1120,
         "secNm": "10 % NMB DEBENTURE 2085",
         "sym": "NMBD2085"
       },
@@ -7166,7 +7174,7 @@
       {
         "secId": 5984,
         "totTrd": 1,
-        "ltp": 1161,
+        "ltp": 1160,
         "secNm": "8.5% Laxmi Bank Debenture 2088",
         "sym": "LBLD88"
       },
@@ -7215,7 +7223,7 @@
     ]
   },
   "mfNavs": {
-    "updatedAt": "2026-01-26T09:47:34.730Z",
+    "updatedAt": "2026-01-26T10:07:54.055Z",
     "funds": {
       "closed": {
         "total": 41,
@@ -7233,9 +7241,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "9.82",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.61",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -6.243902439024396,
+            "marketPrice": "9.94",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -3.024390243902444,
             "redemptionNav": null
           },
           {
@@ -7251,9 +7259,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.19",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.61",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -9.42507068803016,
+            "marketPrice": "9.60",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -9.51932139491046,
             "redemptionNav": null
           },
           {
@@ -7270,7 +7278,7 @@
             "monthlyNav": "9.74",
             "monthlyNavDate": "Mangsir 2082",
             "marketPrice": "9.90",
-            "publishedDate": "2026-01-25",
+            "publishedDate": "2026-01-26",
             "premiumDiscount": -1.3944223107569602,
             "redemptionNav": null
           },
@@ -7287,9 +7295,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.15",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.30",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -2.554399243140961,
+            "marketPrice": "10.49",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -0.7568590350047311,
             "redemptionNav": null
           },
           {
@@ -7305,9 +7313,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.13",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.99",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -6.197183098591551,
+            "marketPrice": "10.10",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -5.164319248826297,
             "redemptionNav": null
           },
           {
@@ -7323,9 +7331,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.86",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.05",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -9.22768304914744,
+            "marketPrice": "9.42",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -5.516549648946848,
             "redemptionNav": null
           },
           {
@@ -7341,9 +7349,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.15",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.15",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -3.4253092293054186,
+            "marketPrice": "10.18",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -3.1398667935299724,
             "redemptionNav": null
           },
           {
@@ -7359,9 +7367,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "9.86",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.90",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -3.4146341463414602,
+            "marketPrice": "9.70",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -5.365853658536592,
             "redemptionNav": null
           },
           {
@@ -7378,7 +7386,7 @@
             "monthlyNav": "9.95",
             "monthlyNavDate": "Mangsir 2082",
             "marketPrice": "9.60",
-            "publishedDate": "2026-01-25",
+            "publishedDate": "2026-01-26",
             "premiumDiscount": -4.287138584247256,
             "redemptionNav": null
           },
@@ -7395,9 +7403,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "9.87",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.32",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -9.338521400778202,
+            "marketPrice": "9.75",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -5.155642023346298,
             "redemptionNav": null
           },
           {
@@ -7413,9 +7421,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "9.64",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.25",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -8.051689860834994,
+            "marketPrice": "9.60",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -4.572564612326052,
             "redemptionNav": null
           },
           {
@@ -7431,9 +7439,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "11.64",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "11.15",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -9.716599190283395,
+            "marketPrice": "11.12",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -9.95951417004049,
             "redemptionNav": null
           },
           {
@@ -7449,9 +7457,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.54",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "8.95",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -7.1576763485477315,
+            "marketPrice": "8.93",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -7.365145228215776,
             "redemptionNav": null
           },
           {
@@ -7467,9 +7475,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.36",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "8.90",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -5.520169851380038,
+            "marketPrice": "8.97",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -4.77707006369426,
             "redemptionNav": null
           },
           {
@@ -7485,9 +7493,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.76",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.50",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -3.9433771486349904,
+            "marketPrice": "9.71",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -1.8200202224469129,
             "redemptionNav": null
           },
           {
@@ -7503,9 +7511,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "9.97",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.34",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -10.536398467432948,
+            "marketPrice": "9.50",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -9.003831417624516,
             "redemptionNav": null
           },
           {
@@ -7521,9 +7529,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.32",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "8.70",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -7.741251325556739,
+            "marketPrice": "8.78",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -6.892895015906684,
             "redemptionNav": null
           },
           {
@@ -7539,9 +7547,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.65",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.05",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -10.107334525939168,
+            "marketPrice": "10.00",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -10.554561717352414,
             "redemptionNav": null
           },
           {
@@ -7557,9 +7565,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "9.83",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.03",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -9.880239520958087,
+            "marketPrice": "9.10",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -9.181636726546905,
             "redemptionNav": null
           },
           {
@@ -7575,9 +7583,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "11.42",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.75",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -8.04106073567151,
+            "marketPrice": "10.80",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -7.6133447390932325,
             "redemptionNav": null
           },
           {
@@ -7593,9 +7601,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "11.33",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.59",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -11.454849498327766,
+            "marketPrice": "10.80",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -9.698996655518394,
             "redemptionNav": null
           },
           {
@@ -7611,9 +7619,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "10.26",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.00",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -3.6608863198458645,
+            "marketPrice": "9.72",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -6.3583815028901745,
             "redemptionNav": null
           },
           {
@@ -7629,9 +7637,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.52",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "8.95",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -7.061266874351002,
+            "marketPrice": "9.01",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -6.438213914849439,
             "redemptionNav": null
           },
           {
@@ -7647,9 +7655,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.38",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.79",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -9.183673469387758,
+            "marketPrice": "9.72",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -9.833024118738393,
             "redemptionNav": null
           },
           {
@@ -7665,9 +7673,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "11.91",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "11.32",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -10.30110935023771,
+            "marketPrice": "11.40",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -9.66719492868462,
             "redemptionNav": null
           },
           {
@@ -7683,9 +7691,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "10.21",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.54",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -8.620689655172416,
+            "marketPrice": "9.73",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -6.800766283524896,
             "redemptionNav": null
           },
           {
@@ -7701,9 +7709,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.45",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.02",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -8.82620564149227,
+            "marketPrice": "10.20",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -7.188353048225668,
             "redemptionNav": null
           },
           {
@@ -7719,9 +7727,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "10.49",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.66",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -8.349146110056918,
+            "marketPrice": "9.68",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -8.15939278937381,
             "redemptionNav": null
           },
           {
@@ -7737,9 +7745,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.07",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.65",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -7.919847328244275,
+            "marketPrice": "9.60",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -8.396946564885504,
             "redemptionNav": null
           },
           {
@@ -7755,9 +7763,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "11.45",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "11.38",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -4.2087542087542085,
+            "marketPrice": "11.60",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -2.356902356902366,
             "redemptionNav": null
           },
           {
@@ -7773,9 +7781,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "9.97",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.15",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -9.763313609467456,
+            "marketPrice": "9.33",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -7.988165680473378,
             "redemptionNav": null
           },
           {
@@ -7791,9 +7799,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.52",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "8.81",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -9.081527347781208,
+            "marketPrice": "8.98",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -7.327141382868928,
             "redemptionNav": null
           },
           {
@@ -7809,9 +7817,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.00",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.40",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -10.731244064577389,
+            "marketPrice": "9.25",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -12.155745489078818,
             "redemptionNav": null
           },
           {
@@ -7827,9 +7835,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "9.81",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.50",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -7.135874877810365,
+            "marketPrice": "9.70",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -5.180840664711643,
             "redemptionNav": null
           },
           {
@@ -7845,9 +7853,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "9.71",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.26",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -8.316831683168315,
+            "marketPrice": "9.69",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -4.059405940594061,
             "redemptionNav": null
           },
           {
@@ -7863,9 +7871,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.17",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.52",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -9.591642924976258,
+            "marketPrice": "9.60",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -8.83190883190883,
             "redemptionNav": null
           },
           {
@@ -7882,7 +7890,7 @@
             "monthlyNav": "10.52",
             "monthlyNavDate": "Mangsir 2082",
             "marketPrice": "9.91",
-            "publishedDate": "2026-01-25",
+            "publishedDate": "2026-01-26",
             "premiumDiscount": -8.494921514312095,
             "redemptionNav": null
           },
@@ -7899,9 +7907,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "10.36",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.78",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -8.255159474671677,
+            "marketPrice": "10.00",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -6.191369606003754,
             "redemptionNav": null
           },
           {
@@ -7917,9 +7925,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.59",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.20",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -6.408952187182103,
+            "marketPrice": "9.22",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -6.205493387589008,
             "redemptionNav": null
           },
           {
@@ -7935,9 +7943,9 @@
             "weeklyNavDate": "2025-12-26",
             "monthlyNav": "9.55",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.61",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": 0.9453781512605027,
+            "marketPrice": "9.40",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -1.2605042016806642,
             "redemptionNav": null
           },
           {
@@ -7953,9 +7961,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.93",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.16",
-            "publishedDate": "2026-01-25",
-            "premiumDiscount": -7.3811931243680515,
+            "marketPrice": "9.34",
+            "publishedDate": "2026-01-26",
+            "premiumDiscount": -5.5611729019211396,
             "redemptionNav": null
           }
         ]
