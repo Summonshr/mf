@@ -26,9 +26,6 @@ jobs:
       - name: Run Command
         run: bun run scrape-nepalstock-market.mjs
 
-      - name: Run Command
-        run: bun run scrape-report.mjs
-
       - name: Commit and push changes
         run: |
           git config --global user.name 'Suman Shrestha'
