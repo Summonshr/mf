@@ -1,16 +1,16 @@
 {
-  "updAt": "2026-01-27T09:16:21.615Z",
+  "updAt": "2026-01-27T09:45:38.030Z",
   "npsIdx": {
     "sts": 200,
     "d": [
       {
         "id": 57,
-        "generatedTime": "2026-01-27T14:59:59.6",
+        "generatedTime": "2026-01-27T15:16:33.827",
         "idx": "Sensitive Index",
         "cls": 471.84,
         "hi": 472.8535,
         "lo": 463.7255,
-        "prevCls": 471.8392,
+        "prevCls": 464.4656,
         "chg": -7.37,
         "perChg": -1.56,
         "w52Hi": 518.6,
@@ -18,27 +18,13 @@
         "curVal": 464.46
       },
       {
-        "id": 62,
-        "generatedTime": "2026-01-27T14:59:59.987",
-        "idx": "Float Index",
-        "cls": 190.66,
-        "hi": 191.5823,
-        "lo": 187.0314,
-        "prevCls": 190.6612,
-        "chg": -3.09,
-        "perChg": -1.62,
-        "w52Hi": 206.26,
-        "w52Lo": 170.58,
-        "curVal": 187.57
-      },
-      {
         "id": 58,
-        "generatedTime": "2026-01-27T14:59:59.983",
+        "generatedTime": "2026-01-27T15:16:33.83",
         "idx": "NEPSE Index",
         "cls": 2769.1,
         "hi": 2782.9614,
         "lo": 2718.8579,
-        "prevCls": 2769.0998,
+        "prevCls": 2726.5108,
         "chg": -42.58,
         "perChg": -1.53,
         "w52Hi": 3002.08,
@@ -46,13 +32,27 @@
         "curVal": 2726.51
       },
       {
+        "id": 62,
+        "generatedTime": "2026-01-27T15:16:33.833",
+        "idx": "Float Index",
+        "cls": 190.66,
+        "hi": 191.5823,
+        "lo": 187.0314,
+        "prevCls": 187.57,
+        "chg": -3.09,
+        "perChg": -1.62,
+        "w52Hi": 206.26,
+        "w52Lo": 170.58,
+        "curVal": 187.57
+      },
+      {
         "id": 63,
-        "generatedTime": "2026-01-27T14:59:59.6",
+        "generatedTime": "2026-01-27T15:16:33.837",
         "idx": "Sensitive Float Index",
         "cls": 161.22,
         "hi": 161.5615,
         "lo": 158.3586,
-        "prevCls": 161.2213,
+        "prevCls": 158.5773,
         "chg": -2.64,
         "perChg": -1.63,
         "w52Hi": 177.31,
@@ -291,20 +291,6 @@
     "sts": 200,
     "d": [
       {
-        "id": 55,
-        "idx": "Development Bank Index",
-        "chg": -59.98,
-        "perChg": -1,
-        "curVal": 5919.44
-      },
-      {
-        "id": 56,
-        "idx": "Manufacturing And Processing",
-        "chg": -134,
-        "perChg": -1.4,
-        "curVal": 9422.15
-      },
-      {
         "id": 64,
         "idx": "Microfinance Index",
         "chg": -73.14,
@@ -326,6 +312,13 @@
         "curVal": 21.25
       },
       {
+        "id": 67,
+        "idx": "Investment Index",
+        "chg": -1.83,
+        "perChg": -1.7,
+        "curVal": 105.65
+      },
+      {
         "id": 51,
         "idx": "Banking SubIndex",
         "chg": -21.09,
@@ -335,9 +328,9 @@
       {
         "id": 52,
         "idx": "Hotels And Tourism Index",
-        "chg": -147.88,
-        "perChg": -1.9,
-        "curVal": 7607.16
+        "chg": -140.69,
+        "perChg": -1.81,
+        "curVal": 7614.36
       },
       {
         "id": 53,
@@ -354,6 +347,20 @@
         "curVal": 3551.66
       },
       {
+        "id": 55,
+        "idx": "Development Bank Index",
+        "chg": -59.98,
+        "perChg": -1,
+        "curVal": 5919.44
+      },
+      {
+        "id": 56,
+        "idx": "Manufacturing And Processing",
+        "chg": -134,
+        "perChg": -1.4,
+        "curVal": 9422.15
+      },
+      {
         "id": 59,
         "idx": "Non Life Insurance",
         "chg": -199.41,
@@ -363,9 +370,9 @@
       {
         "id": 60,
         "idx": "Finance Index",
-        "chg": -64.5,
-        "perChg": -2.44,
-        "curVal": 2573.1
+        "chg": -63.94,
+        "perChg": -2.42,
+        "curVal": 2573.66
       },
       {
         "id": 61,
@@ -373,13 +380,6 @@
         "chg": -19.6,
         "perChg": -0.51,
         "curVal": 3784.92
-      },
-      {
-        "id": 67,
-        "idx": "Investment Index",
-        "chg": -1.83,
-        "perChg": -1.7,
-        "curVal": 105.65
       }
     ]
   },
@@ -401,6 +401,14 @@
       {
         "dtl": "Total Scrips Traded",
         "val": 333
+      },
+      {
+        "dtl": "Total Market Capitalization Rs:",
+        "val": 4577874328309
+      },
+      {
+        "dtl": "Total Float Market Capitalization Rs:",
+        "val": 1558862925724.9
       }
     ]
   },
@@ -5141,18 +5149,18 @@
         "sym": "LEC"
       },
       {
-        "secId": 235,
-        "totTrd": 943,
-        "ltp": 1152,
-        "secNm": "Himalayan Distillery Limited",
-        "sym": "HDL"
-      },
-      {
         "secId": 9250,
         "totTrd": 943,
         "ltp": 1395,
         "secNm": "Nepal Micro Insurance Company Limited",
         "sym": "NMIC"
+      },
+      {
+        "secId": 235,
+        "totTrd": 943,
+        "ltp": 1152,
+        "secNm": "Himalayan Distillery Limited",
+        "sym": "HDL"
       },
       {
         "secId": 153,
@@ -5171,7 +5179,7 @@
       {
         "secId": 9258,
         "totTrd": 911,
-        "ltp": 1190,
+        "ltp": 1199,
         "secNm": "Pure Energy Limited",
         "sym": "PURE"
       },
@@ -5458,7 +5466,7 @@
       {
         "secId": 610,
         "totTrd": 526,
-        "ltp": 236,
+        "ltp": 237,
         "secNm": "Ridi Power Company Limited",
         "sym": "RIDI"
       },
@@ -5617,11 +5625,11 @@
         "sym": "TPC"
       },
       {
-        "secId": 385,
+        "secId": 450,
         "totTrd": 399,
-        "ltp": 480.2,
-        "secNm": "Asian Life Insurance Co. Limited",
-        "sym": "ALICL"
+        "ltp": 1997,
+        "secNm": "Corporate Development Bank Limited",
+        "sym": "CORBL"
       },
       {
         "secId": 2841,
@@ -5631,11 +5639,11 @@
         "sym": "RHPL"
       },
       {
-        "secId": 450,
+        "secId": 385,
         "totTrd": 399,
-        "ltp": 1997,
-        "secNm": "Corporate Development Bank Limited",
-        "sym": "CORBL"
+        "ltp": 480.2,
+        "secNm": "Asian Life Insurance Co. Limited",
+        "sym": "ALICL"
       },
       {
         "secId": 9193,
@@ -5687,18 +5695,18 @@
         "sym": "SFCL"
       },
       {
-        "secId": 194,
-        "totTrd": 361,
-        "ltp": 657,
-        "secNm": "Nepal Finance Ltd.",
-        "sym": "NFS"
-      },
-      {
         "secId": 227,
         "totTrd": 361,
         "ltp": 487,
         "secNm": "Best Finance Company Ltd.",
         "sym": "BFC"
+      },
+      {
+        "secId": 194,
+        "totTrd": 361,
+        "ltp": 657,
+        "secNm": "Nepal Finance Ltd.",
+        "sym": "NFS"
       },
       {
         "secId": 172,
@@ -5904,13 +5912,6 @@
         "sym": "GBBL"
       },
       {
-        "secId": 2908,
-        "totTrd": 238,
-        "ltp": 495,
-        "secNm": "Sanima GIC Insurance Limited",
-        "sym": "SGIC"
-      },
-      {
         "secId": 9173,
         "totTrd": 238,
         "ltp": 488,
@@ -5918,11 +5919,11 @@
         "sym": "CITY"
       },
       {
-        "secId": 9156,
-        "totTrd": 237,
-        "ltp": 457.8,
-        "secNm": "Sanima Middle Tamor Hydropower Limited",
-        "sym": "TAMOR"
+        "secId": 2908,
+        "totTrd": 238,
+        "ltp": 495,
+        "secNm": "Sanima GIC Insurance Limited",
+        "sym": "SGIC"
       },
       {
         "secId": 2887,
@@ -5930,6 +5931,13 @@
         "ltp": 573,
         "secNm": "NIC ASIA Laghubitta Bittiya Sanstha Limited",
         "sym": "NICLBSL"
+      },
+      {
+        "secId": 9156,
+        "totTrd": 237,
+        "ltp": 457.8,
+        "secNm": "Sanima Middle Tamor Hydropower Limited",
+        "sym": "TAMOR"
       },
       {
         "secId": 274,
@@ -5960,18 +5968,18 @@
         "sym": "JBLB"
       },
       {
-        "secId": 145,
-        "totTrd": 221,
-        "ltp": 387,
-        "secNm": "Siddhartha Bank Limited",
-        "sym": "SBL"
-      },
-      {
         "secId": 140,
         "totTrd": 221,
         "ltp": 231.5,
         "secNm": "Machhapuchhre Bank Limited",
         "sym": "MBL"
+      },
+      {
+        "secId": 145,
+        "totTrd": 221,
+        "ltp": 387,
+        "secNm": "Siddhartha Bank Limited",
+        "sym": "SBL"
       },
       {
         "secId": 238,
@@ -6002,13 +6010,6 @@
         "sym": "LSL"
       },
       {
-        "secId": 9246,
-        "totTrd": 209,
-        "ltp": 1825.5,
-        "secNm": "Guardian Micro Life Insurance Limited ",
-        "sym": "GMLI"
-      },
-      {
         "secId": 188,
         "totTrd": 209,
         "ltp": 864.7,
@@ -6021,6 +6022,13 @@
         "ltp": 1445,
         "secNm": "Muktinath Krishi Company Limited",
         "sym": "MKCL"
+      },
+      {
+        "secId": 9246,
+        "totTrd": 209,
+        "ltp": 1825.5,
+        "secNm": "Guardian Micro Life Insurance Limited ",
+        "sym": "GMLI"
       },
       {
         "secId": 176,
@@ -6093,18 +6101,18 @@
         "sym": "SMPDA"
       },
       {
-        "secId": 9170,
-        "totTrd": 191,
-        "ltp": 543,
-        "secNm": "Dolti Power Company Limited",
-        "sym": "DOLTI"
-      },
-      {
         "secId": 184,
         "totTrd": 191,
         "ltp": 734,
         "secNm": "Prabhu Insurance Ltd.",
         "sym": "PRIN"
+      },
+      {
+        "secId": 9170,
+        "totTrd": 191,
+        "ltp": 543,
+        "secNm": "Dolti Power Company Limited",
+        "sym": "DOLTI"
       },
       {
         "secId": 2914,
@@ -6114,18 +6122,18 @@
         "sym": "UMRH"
       },
       {
-        "secId": 473,
-        "totTrd": 188,
-        "ltp": 411,
-        "secNm": "Shine Resunga Development Bank Ltd.",
-        "sym": "SHINE"
-      },
-      {
         "secId": 186,
         "totTrd": 188,
         "ltp": 437,
         "secNm": "IGI Prudential insurance Limited",
         "sym": "IGI"
+      },
+      {
+        "secId": 473,
+        "totTrd": 188,
+        "ltp": 411,
+        "secNm": "Shine Resunga Development Bank Ltd.",
+        "sym": "SHINE"
       },
       {
         "secId": 2786,
@@ -6135,18 +6143,18 @@
         "sym": "PMHPL"
       },
       {
-        "secId": 183,
-        "totTrd": 186,
-        "ltp": 649,
-        "secNm": "Neco Insurance Limited",
-        "sym": "NIL"
-      },
-      {
         "secId": 357,
         "totTrd": 186,
         "ltp": 243,
         "secNm": "Prime Commercial Bank Ltd.",
         "sym": "PCBL"
+      },
+      {
+        "secId": 183,
+        "totTrd": 186,
+        "ltp": 649,
+        "secNm": "Neco Insurance Limited",
+        "sym": "NIL"
       },
       {
         "secId": 8026,
@@ -6219,18 +6227,18 @@
         "sym": "SPHL"
       },
       {
-        "secId": 236,
-        "totTrd": 155,
-        "ltp": 383,
-        "secNm": "Pokhara Finance Ltd.",
-        "sym": "PFL"
-      },
-      {
         "secId": 2761,
         "totTrd": 155,
         "ltp": 806,
         "secNm": "Samata Gharelu Laghubitta Bittiya Sanstha Limited",
         "sym": "SMATA"
+      },
+      {
+        "secId": 236,
+        "totTrd": 155,
+        "ltp": 383,
+        "secNm": "Pokhara Finance Ltd.",
+        "sym": "PFL"
       },
       {
         "secId": 2769,
@@ -6366,20 +6374,6 @@
         "sym": "SLBSL"
       },
       {
-        "secId": 2832,
-        "totTrd": 111,
-        "ltp": 999,
-        "secNm": "Infinity Laghubitta Bittiya Sanstha Limited",
-        "sym": "ILBS"
-      },
-      {
-        "secId": 268,
-        "totTrd": 111,
-        "ltp": 762,
-        "secNm": "Swabalamban Laghubitta Bittiya Sanstha Limited",
-        "sym": "SWBBL"
-      },
-      {
         "secId": 185,
         "totTrd": 111,
         "ltp": 613.9,
@@ -6392,6 +6386,20 @@
         "ltp": 594,
         "secNm": "National Life Insurance Co. Ltd.",
         "sym": "NLICL"
+      },
+      {
+        "secId": 268,
+        "totTrd": 111,
+        "ltp": 762,
+        "secNm": "Swabalamban Laghubitta Bittiya Sanstha Limited",
+        "sym": "SWBBL"
+      },
+      {
+        "secId": 2832,
+        "totTrd": 111,
+        "ltp": 999,
+        "secNm": "Infinity Laghubitta Bittiya Sanstha Limited",
+        "sym": "ILBS"
       },
       {
         "secId": 9175,
@@ -6513,18 +6521,18 @@
         "sym": "SBI"
       },
       {
-        "secId": 8065,
-        "totTrd": 77,
-        "ltp": 1565,
-        "secNm": "CYC Nepal Laghubitta Bittiya Sanstha Limited",
-        "sym": "CYCL"
-      },
-      {
         "secId": 2781,
         "totTrd": 77,
         "ltp": 1587,
         "secNm": "Wean Nepal Laghubitta Bittiya Sanstha Limited",
         "sym": "WNLB"
+      },
+      {
+        "secId": 8065,
+        "totTrd": 77,
+        "ltp": 1565,
+        "secNm": "CYC Nepal Laghubitta Bittiya Sanstha Limited",
+        "sym": "CYCL"
       },
       {
         "secId": 179,
@@ -6597,18 +6605,18 @@
         "sym": "MSHL"
       },
       {
-        "secId": 693,
-        "totTrd": 52,
-        "ltp": 925,
-        "secNm": "Himalayan Laghubitta Bittiya Sanstha Limited",
-        "sym": "HLBSL"
-      },
-      {
         "secId": 8041,
         "totTrd": 52,
         "ltp": 1568,
         "secNm": "NESDO Sambridha Laghubitta Bittiya Sanstha Limited",
         "sym": "NESDO"
+      },
+      {
+        "secId": 693,
+        "totTrd": 52,
+        "ltp": 925,
+        "secNm": "Himalayan Laghubitta Bittiya Sanstha Limited",
+        "sym": "HLBSL"
       },
       {
         "secId": 2815,
@@ -6632,18 +6640,18 @@
         "sym": "NIBSF2"
       },
       {
-        "secId": 705,
-        "totTrd": 47,
-        "ltp": 1180,
-        "secNm": "Global IME Laghubitta Bittiya Sanstha Ltd.",
-        "sym": "GILB"
-      },
-      {
         "secId": 9257,
         "totTrd": 47,
         "ltp": 10,
         "secNm": "MBL Equity Fund",
         "sym": "MBLEF"
+      },
+      {
+        "secId": 705,
+        "totTrd": 47,
+        "ltp": 1180,
+        "secNm": "Global IME Laghubitta Bittiya Sanstha Ltd.",
+        "sym": "GILB"
       },
       {
         "secId": 8023,
@@ -6674,18 +6682,18 @@
         "sym": "MLBSL"
       },
       {
+        "secId": 9140,
+        "totTrd": 41,
+        "ltp": 1920,
+        "secNm": "Unique Nepal Laghubitta Bittiya Sanstha Limited",
+        "sym": "UNLB"
+      },
+      {
         "secId": 694,
         "totTrd": 41,
         "ltp": 998,
         "secNm": "Matribhumi Lagubitta Bittiya Sanstha Limited",
         "sym": "MATRI"
-      },
-      {
-        "secId": 9244,
-        "totTrd": 41,
-        "ltp": 9.15,
-        "secNm": "NIBL Stable Fund",
-        "sym": "NIBLSTF"
       },
       {
         "secId": 2829,
@@ -6695,11 +6703,11 @@
         "sym": "SMFBS"
       },
       {
-        "secId": 9140,
+        "secId": 9244,
         "totTrd": 41,
-        "ltp": 1920,
-        "secNm": "Unique Nepal Laghubitta Bittiya Sanstha Limited",
-        "sym": "UNLB"
+        "ltp": 9.15,
+        "secNm": "NIBL Stable Fund",
+        "sym": "NIBLSTF"
       },
       {
         "secId": 9198,
@@ -6716,18 +6724,18 @@
         "sym": "PSF"
       },
       {
-        "secId": 8132,
-        "totTrd": 35,
-        "ltp": 1667,
-        "secNm": "Shrijanshil Laghubitta Bittiya Sanstha Limited",
-        "sym": "SHLB"
-      },
-      {
         "secId": 9196,
         "totTrd": 35,
         "ltp": 1700,
         "secNm": "Kutheli Bukhari Small Hydropower Limited",
         "sym": "KBSH"
+      },
+      {
+        "secId": 8132,
+        "totTrd": 35,
+        "ltp": 1667,
+        "secNm": "Shrijanshil Laghubitta Bittiya Sanstha Limited",
+        "sym": "SHLB"
       },
       {
         "secId": 4967,
@@ -6744,13 +6752,6 @@
         "sym": "MNMF1"
       },
       {
-        "secId": 4968,
-        "totTrd": 30,
-        "ltp": 9.85,
-        "secNm": "RBB Mutual Fund 1",
-        "sym": "RMF1"
-      },
-      {
         "secId": 8106,
         "totTrd": 30,
         "ltp": 10.68,
@@ -6765,11 +6766,11 @@
         "sym": "GSY"
       },
       {
-        "secId": 9174,
-        "totTrd": 29,
-        "ltp": 11.5,
-        "secNm": "Prabhu Smart Fund",
-        "sym": "PRSF"
+        "secId": 4968,
+        "totTrd": 30,
+        "ltp": 9.85,
+        "secNm": "RBB Mutual Fund 1",
+        "sym": "RMF1"
       },
       {
         "secId": 695,
@@ -6777,6 +6778,13 @@
         "ltp": 1180,
         "secNm": "Janautthan Samudayic Laghubitta Bittya Sanstha Limited",
         "sym": "JSLBB"
+      },
+      {
+        "secId": 9174,
+        "totTrd": 29,
+        "ltp": 11.5,
+        "secNm": "Prabhu Smart Fund",
+        "sym": "PRSF"
       },
       {
         "secId": 2937,
@@ -6828,18 +6836,18 @@
         "sym": "KEF"
       },
       {
-        "secId": 9269,
-        "totTrd": 21,
-        "ltp": 9.24,
-        "secNm": "Global IME Sammunat Yojana -2",
-        "sym": "GBIMESY2"
-      },
-      {
         "secId": 156,
         "totTrd": 21,
         "ltp": 4854,
         "secNm": "Bishal Bazar Company Limited",
         "sym": "BBC"
+      },
+      {
+        "secId": 9269,
+        "totTrd": 21,
+        "ltp": 9.24,
+        "secNm": "Global IME Sammunat Yojana -2",
+        "sym": "GBIMESY2"
       },
       {
         "secId": 9236,
@@ -6905,13 +6913,6 @@
         "sym": "NICBF"
       },
       {
-        "secId": 469,
-        "totTrd": 13,
-        "ltp": 157.2,
-        "secNm": "Nepal Investment Mega Bank Ltd. Promoter Share",
-        "sym": "NIMBPO"
-      },
-      {
         "secId": 177,
         "totTrd": 13,
         "ltp": 14934,
@@ -6919,11 +6920,11 @@
         "sym": "RBCL"
       },
       {
-        "secId": 9241,
-        "totTrd": 12,
-        "ltp": 9.4,
-        "secNm": "Kumari Sabal Yojana",
-        "sym": "KSY"
+        "secId": 469,
+        "totTrd": 13,
+        "ltp": 157.2,
+        "secNm": "Nepal Investment Mega Bank Ltd. Promoter Share",
+        "sym": "NIMBPO"
       },
       {
         "secId": 9255,
@@ -6931,6 +6932,13 @@
         "ltp": 1056.2,
         "secNm": "Everest Bank Limited Debenture 2091",
         "sym": "EBLD91"
+      },
+      {
+        "secId": 9241,
+        "totTrd": 12,
+        "ltp": 9.4,
+        "secNm": "Kumari Sabal Yojana",
+        "sym": "KSY"
       },
       {
         "secId": 2770,
@@ -6947,13 +6955,6 @@
         "sym": "SFEF"
       },
       {
-        "secId": 213,
-        "totTrd": 10,
-        "ltp": 11820,
-        "secNm": "Bottlers Nepal (Terai) Limited",
-        "sym": "BNT"
-      },
-      {
         "secId": 9178,
         "totTrd": 10,
         "ltp": 9.63,
@@ -6966,6 +6967,13 @@
         "ltp": 9.73,
         "secNm": "Citizens Super 30 Mutual Fund",
         "sym": "C30MF"
+      },
+      {
+        "secId": 213,
+        "totTrd": 10,
+        "ltp": 11820,
+        "secNm": "Bottlers Nepal (Terai) Limited",
+        "sym": "BNT"
       },
       {
         "secId": 2923,
@@ -6989,13 +6997,6 @@
         "sym": "RBCLPO"
       },
       {
-        "secId": 9221,
-        "totTrd": 7,
-        "ltp": 11.45,
-        "secNm": "Himalayan 80-20",
-        "sym": "H8020"
-      },
-      {
         "secId": 9182,
         "totTrd": 7,
         "ltp": 10.22,
@@ -7010,6 +7011,13 @@
         "sym": "ICFCD88"
       },
       {
+        "secId": 9221,
+        "totTrd": 7,
+        "ltp": 11.45,
+        "secNm": "Himalayan 80-20",
+        "sym": "H8020"
+      },
+      {
         "secId": 2902,
         "totTrd": 4,
         "ltp": 9.65,
@@ -7017,11 +7025,46 @@
         "sym": "LUK"
       },
       {
+        "secId": 7985,
+        "totTrd": 3,
+        "ltp": 1123,
+        "secNm": "8.5% Machhapuchchhre Debenture 2087",
+        "sym": "MBLD87"
+      },
+      {
+        "secId": 8110,
+        "totTrd": 3,
+        "ltp": 1075,
+        "secNm": "10.25% Nepal SBI Bank Debenture 2083",
+        "sym": "SBID83"
+      },
+      {
         "secId": 2862,
         "totTrd": 3,
         "ltp": 9.72,
         "secNm": "CITIZENS MUTUAL FUND 2",
         "sym": "CMF2"
+      },
+      {
+        "secId": 9266,
+        "totTrd": 3,
+        "ltp": 1068,
+        "secNm": "7% NIC ASIA Debenture 2091",
+        "sym": "NICAD2091"
+      },
+      {
+        "secId": 4961,
+        "totTrd": 3,
+        "ltp": 1090,
+        "secNm": "8.5% BOK Debenture 2086",
+        "sym": "BOKD86"
+      },
+      {
+        "secId": 2931,
+        "totTrd": 3,
+        "ltp": 1107.4,
+        "secNm": "8.5% Nepal Investment Bank Debenture 2084",
+        "sym": "NIBD84"
       },
       {
         "secId": 9271,
@@ -7038,62 +7081,6 @@
         "sym": "SHINED"
       },
       {
-        "secId": 4961,
-        "totTrd": 3,
-        "ltp": 1090,
-        "secNm": "8.5% BOK Debenture 2086",
-        "sym": "BOKD86"
-      },
-      {
-        "secId": 7985,
-        "totTrd": 3,
-        "ltp": 1123,
-        "secNm": "8.5% Machhapuchchhre Debenture 2087",
-        "sym": "MBLD87"
-      },
-      {
-        "secId": 2931,
-        "totTrd": 3,
-        "ltp": 1107.4,
-        "secNm": "8.5% Nepal Investment Bank Debenture 2084",
-        "sym": "NIBD84"
-      },
-      {
-        "secId": 8110,
-        "totTrd": 3,
-        "ltp": 1075,
-        "secNm": "10.25% Nepal SBI Bank Debenture 2083",
-        "sym": "SBID83"
-      },
-      {
-        "secId": 9266,
-        "totTrd": 3,
-        "ltp": 1068,
-        "secNm": "7% NIC ASIA Debenture 2091",
-        "sym": "NICAD2091"
-      },
-      {
-        "secId": 9197,
-        "totTrd": 2,
-        "ltp": 1270,
-        "secNm": "11% L.B.B.L. Debenture 2089",
-        "sym": "LBBLD89"
-      },
-      {
-        "secId": 2873,
-        "totTrd": 2,
-        "ltp": 1054,
-        "secNm": "10% Himalayan Bank Debenture 2083",
-        "sym": "HBLD83"
-      },
-      {
-        "secId": 8020,
-        "totTrd": 2,
-        "ltp": 1106.1,
-        "secNm": "Jyoti Bikash Bank Bond 2087",
-        "sym": "JBBD87"
-      },
-      {
         "secId": 9261,
         "totTrd": 2,
         "ltp": 1011.1,
@@ -7108,13 +7095,6 @@
         "sym": "MLBLD89"
       },
       {
-        "secId": 2850,
-        "totTrd": 2,
-        "ltp": 1140,
-        "secNm": "10 % NMB DEBENTURE 2085",
-        "sym": "NMBD2085"
-      },
-      {
         "secId": 195,
         "totTrd": 2,
         "ltp": 15650.1,
@@ -7122,18 +7102,46 @@
         "sym": "BNL"
       },
       {
-        "secId": 219,
-        "totTrd": 1,
-        "ltp": 47700,
-        "secNm": "Unilever Nepal Limited",
-        "sym": "UNL"
+        "secId": 2873,
+        "totTrd": 2,
+        "ltp": 1054,
+        "secNm": "10% Himalayan Bank Debenture 2083",
+        "sym": "HBLD83"
       },
       {
-        "secId": 544,
+        "secId": 9197,
+        "totTrd": 2,
+        "ltp": 1270,
+        "secNm": "11% L.B.B.L. Debenture 2089",
+        "sym": "LBBLD89"
+      },
+      {
+        "secId": 2850,
+        "totTrd": 2,
+        "ltp": 1140,
+        "secNm": "10 % NMB DEBENTURE 2085",
+        "sym": "NMBD2085"
+      },
+      {
+        "secId": 8020,
+        "totTrd": 2,
+        "ltp": 1106.1,
+        "secNm": "Jyoti Bikash Bank Bond 2087",
+        "sym": "JBBD87"
+      },
+      {
+        "secId": 7986,
         "totTrd": 1,
-        "ltp": 100,
-        "secNm": "Prime Commercial Bank Promoter Share",
-        "sym": "PCBLP"
+        "ltp": 1081.1,
+        "secNm": "NIC ASIA Rinpatra 2088",
+        "sym": "NICD88"
+      },
+      {
+        "secId": 6985,
+        "totTrd": 1,
+        "ltp": 1124,
+        "secNm": "Shangri-la Development Bank Debenture 2087",
+        "sym": "SDBD87"
       },
       {
         "secId": 2867,
@@ -7157,11 +7165,11 @@
         "sym": "SAND2085"
       },
       {
-        "secId": 9168,
+        "secId": 9299,
         "totTrd": 1,
-        "ltp": 1170,
-        "secNm": "Global IME Bank Debenture, 2084/85",
-        "sym": "GBILD84/85"
+        "ltp": 1055.4,
+        "secNm": "7% Nabil Debenture 2089",
+        "sym": "NABILD2089"
       },
       {
         "secId": 9152,
@@ -7178,25 +7186,11 @@
         "sym": "GBBD85"
       },
       {
-        "secId": 9211,
+        "secId": 582,
         "totTrd": 1,
-        "ltp": 1161,
-        "secNm": "9% Nepal SBI Bank Rinpatra 2089",
-        "sym": "SBID89"
-      },
-      {
-        "secId": 7986,
-        "totTrd": 1,
-        "ltp": 1081.1,
-        "secNm": "NIC ASIA Rinpatra 2088",
-        "sym": "NICD88"
-      },
-      {
-        "secId": 6985,
-        "totTrd": 1,
-        "ltp": 1124,
-        "secNm": "Shangri-la Development Bank Debenture 2087",
-        "sym": "SDBD87"
+        "ltp": 321,
+        "secNm": "National Life Insurance Co. Ltd. Promoter Share",
+        "sym": "NLICLP"
       },
       {
         "secId": 2922,
@@ -7206,23 +7200,37 @@
         "sym": "SBD87"
       },
       {
-        "secId": 582,
+        "secId": 219,
         "totTrd": 1,
-        "ltp": 321,
-        "secNm": "National Life Insurance Co. Ltd. Promoter Share",
-        "sym": "NLICLP"
+        "ltp": 47700,
+        "secNm": "Unilever Nepal Limited",
+        "sym": "UNL"
       },
       {
-        "secId": 9299,
+        "secId": 544,
         "totTrd": 1,
-        "ltp": 1055.4,
-        "secNm": "7% Nabil Debenture 2089",
-        "sym": "NABILD2089"
+        "ltp": 100,
+        "secNm": "Prime Commercial Bank Promoter Share",
+        "sym": "PCBLP"
+      },
+      {
+        "secId": 9168,
+        "totTrd": 1,
+        "ltp": 1170,
+        "secNm": "Global IME Bank Debenture, 2084/85",
+        "sym": "GBILD84/85"
+      },
+      {
+        "secId": 9211,
+        "totTrd": 1,
+        "ltp": 1161,
+        "secNm": "9% Nepal SBI Bank Rinpatra 2089",
+        "sym": "SBID89"
       }
     ]
   },
   "mfNavs": {
-    "updatedAt": "2026-01-27T09:16:21.609Z",
+    "updatedAt": "2026-01-27T09:45:38.026Z",
     "funds": {
       "closed": {
         "total": 41,
@@ -7240,9 +7248,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "9.82",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.94",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -3.024390243902444,
+            "marketPrice": "9.71",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -5.268292682926821,
             "redemptionNav": null
           },
           {
@@ -7258,9 +7266,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.19",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.60",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -9.51932139491046,
+            "marketPrice": "9.80",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -7.6343072573044175,
             "redemptionNav": null
           },
           {
@@ -7276,9 +7284,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "9.74",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.90",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -4.8076923076923075,
+            "marketPrice": "9.72",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -6.538461538461536,
             "redemptionNav": null
           },
           {
@@ -7294,9 +7302,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.15",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.49",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -0.7568590350047311,
+            "marketPrice": "10.35",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -2.0813623462630146,
             "redemptionNav": null
           },
           {
@@ -7312,9 +7320,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.13",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.10",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -5.164319248826297,
+            "marketPrice": "9.84",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -7.6056338028169055,
             "redemptionNav": null
           },
           {
@@ -7330,9 +7338,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.86",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.42",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -5.516549648946848,
+            "marketPrice": "9.60",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -3.7111334002006116,
             "redemptionNav": null
           },
           {
@@ -7348,9 +7356,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.15",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.18",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -3.1398667935299724,
+            "marketPrice": "10.19",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -3.044719314938157,
             "redemptionNav": null
           },
           {
@@ -7366,9 +7374,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "9.86",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.70",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -5.365853658536592,
+            "marketPrice": "9.65",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -5.853658536585363,
             "redemptionNav": null
           },
           {
@@ -7384,9 +7392,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "9.95",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.60",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -5.138339920948613,
+            "marketPrice": "9.46",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -6.521739130434767,
             "redemptionNav": null
           },
           {
@@ -7402,9 +7410,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "9.87",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.75",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -5.155642023346298,
+            "marketPrice": "9.74",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -5.252918287937735,
             "redemptionNav": null
           },
           {
@@ -7420,9 +7428,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "9.64",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.60",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -4.572564612326052,
+            "marketPrice": "9.74",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -3.1809145129224676,
             "redemptionNav": null
           },
           {
@@ -7438,9 +7446,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "11.64",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "11.12",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -9.95951417004049,
+            "marketPrice": "11.23",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -9.068825910931167,
             "redemptionNav": null
           },
           {
@@ -7456,9 +7464,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.54",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "8.93",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -7.365145228215776,
+            "marketPrice": "9.10",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -5.601659751037354,
             "redemptionNav": null
           },
           {
@@ -7474,9 +7482,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "9.36",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "8.97",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -8.375893769152182,
+            "marketPrice": "9.10",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -7.048008171603673,
             "redemptionNav": null
           },
           {
@@ -7492,9 +7500,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.76",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.71",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -1.8200202224469129,
+            "marketPrice": "9.85",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -0.4044489383215462,
             "redemptionNav": null
           },
           {
@@ -7510,9 +7518,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "9.97",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.50",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -9.003831417624516,
+            "marketPrice": "9.69",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -7.183908045977012,
             "redemptionNav": null
           },
           {
@@ -7528,9 +7536,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.32",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "8.78",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -6.892895015906684,
+            "marketPrice": "8.73",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -7.423117709437957,
             "redemptionNav": null
           },
           {
@@ -7546,9 +7554,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.65",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.00",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -10.554561717352414,
+            "marketPrice": "10.17",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -9.033989266547405,
             "redemptionNav": null
           },
           {
@@ -7564,9 +7572,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "9.83",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.10",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -9.181636726546905,
+            "marketPrice": "9.14",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -8.78243512974051,
             "redemptionNav": null
           },
           {
@@ -7582,9 +7590,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "11.42",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.80",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -7.6133447390932325,
+            "marketPrice": "10.68",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -8.639863130881094,
             "redemptionNav": null
           },
           {
@@ -7600,9 +7608,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "11.33",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.80",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -9.698996655518394,
+            "marketPrice": "10.65",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -10.953177257525088,
             "redemptionNav": null
           },
           {
@@ -7618,9 +7626,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "10.26",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.72",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -7.251908396946563,
+            "marketPrice": "10.10",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -3.62595419847329,
             "redemptionNav": null
           },
           {
@@ -7636,9 +7644,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.52",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.01",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -6.438213914849439,
+            "marketPrice": "9.26",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -3.842159916926282,
             "redemptionNav": null
           },
           {
@@ -7654,9 +7662,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.38",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.72",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -9.833024118738393,
+            "marketPrice": "9.76",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -9.461966604823745,
             "redemptionNav": null
           },
           {
@@ -7672,9 +7680,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "11.91",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "11.40",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -9.66719492868462,
+            "marketPrice": "11.50",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -8.87480190174326,
             "redemptionNav": null
           },
           {
@@ -7691,7 +7699,7 @@
             "monthlyNav": "10.21",
             "monthlyNavDate": "Mangsir 2082",
             "marketPrice": "9.73",
-            "publishedDate": "2026-01-26",
+            "publishedDate": "2026-01-27",
             "premiumDiscount": -9.065420560747652,
             "redemptionNav": null
           },
@@ -7708,9 +7716,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.45",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.20",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -7.188353048225668,
+            "marketPrice": "10.22",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -7.006369426751588,
             "redemptionNav": null
           },
           {
@@ -7726,9 +7734,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "10.49",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.68",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -8.15939278937381,
+            "marketPrice": "9.63",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -8.633776091081579,
             "redemptionNav": null
           },
           {
@@ -7744,9 +7752,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.07",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.60",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -8.396946564885504,
+            "marketPrice": "9.41",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -10.209923664122138,
             "redemptionNav": null
           },
           {
@@ -7762,9 +7770,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "11.45",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "11.60",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -2.356902356902366,
+            "marketPrice": "11.45",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -3.6195286195286323,
             "redemptionNav": null
           },
           {
@@ -7780,9 +7788,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "9.97",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.33",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -7.988165680473378,
+            "marketPrice": "9.18",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -9.467455621301783,
             "redemptionNav": null
           },
           {
@@ -7798,9 +7806,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.52",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "8.98",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -7.327141382868928,
+            "marketPrice": "9.15",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -5.572755417956648,
             "redemptionNav": null
           },
           {
@@ -7816,9 +7824,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.00",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.25",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -12.155745489078818,
+            "marketPrice": "9.40",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -10.731244064577389,
             "redemptionNav": null
           },
           {
@@ -7834,9 +7842,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "9.81",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.70",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -5.180840664711643,
+            "marketPrice": "9.50",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -7.135874877810365,
             "redemptionNav": null
           },
           {
@@ -7852,9 +7860,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "9.71",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.69",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -4.059405940594061,
+            "marketPrice": "9.40",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -6.930693069306924,
             "redemptionNav": null
           },
           {
@@ -7870,9 +7878,9 @@
             "weeklyNavDate": "2026-01-23",
             "monthlyNav": "10.17",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.60",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -8.83190883190883,
+            "marketPrice": "9.50",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -9.78157644824311,
             "redemptionNav": null
           },
           {
@@ -7888,9 +7896,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "10.52",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.91",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -8.494921514312095,
+            "marketPrice": "10.00",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -7.663896583564174,
             "redemptionNav": null
           },
           {
@@ -7906,9 +7914,9 @@
             "weeklyNavDate": "2026-01-16",
             "monthlyNav": "10.36",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "10.00",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -6.191369606003754,
+            "marketPrice": "9.84",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -7.692307692307695,
             "redemptionNav": null
           },
           {
@@ -7924,9 +7932,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.59",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.22",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -6.205493387589008,
+            "marketPrice": "9.24",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -6.002034587995929,
             "redemptionNav": null
           },
           {
@@ -7942,9 +7950,9 @@
             "weeklyNavDate": "2025-12-26",
             "monthlyNav": "9.55",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.40",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -1.2605042016806642,
+            "marketPrice": "9.41",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -1.1554621848739437,
             "redemptionNav": null
           },
           {
@@ -7960,9 +7968,9 @@
             "weeklyNavDate": "2026-01-09",
             "monthlyNav": "9.93",
             "monthlyNavDate": "Mangsir 2082",
-            "marketPrice": "9.34",
-            "publishedDate": "2026-01-26",
-            "premiumDiscount": -5.5611729019211396,
+            "marketPrice": "9.63",
+            "publishedDate": "2026-01-27",
+            "premiumDiscount": -2.6289180990899874,
             "redemptionNav": null
           }
         ]
