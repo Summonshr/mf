@@ -4,6 +4,29 @@
   "sym": "SMB",
   "rpt": [
     {
+      "id": 6180,
+      "qtr": {
+        "id": 2,
+        "qtrNm": "Second Quarter"
+      },
+      "rptTyp": {
+        "id": 2,
+        "rptNm": "Quarterly Report"
+      },
+      "fy": {
+        "id": 41,
+        "fyNm": "2025-2026",
+        "fromYr": "2025-07-17",
+        "toYr": "2026-07-16",
+        "fyNmNp": "2082-2083"
+      },
+      "pe": 34.37,
+      "eps": 51.87,
+      "paidUp": 122443448.99,
+      "profit": 31755793,
+      "nwps": 189.01
+    },
+    {
       "id": 6160,
       "rptTyp": {
         "id": 1,
