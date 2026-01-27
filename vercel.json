@@ -7,7 +7,7 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=900, s-maxage=900"
+          "value": "public, max-age=900, s-maxage=900, immutable"
         },
         {
           "key": "Content-Type",
