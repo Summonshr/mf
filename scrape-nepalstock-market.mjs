@@ -44,6 +44,9 @@ const WASM_URL = `${BASE_URL}/assets/prod/css.wasm`;
 const DEFAULT_OUT = "public/nepse-market.json";
 const MF_BASE_URL = "https://www.sharesansar.com/mutual-fund-navs";
 const MF_PAGE_LENGTH = 50;
+const CONCURRENCY = Math.max(1, Number(process.env.SCRAPE_CONCURRENCY ?? "5"));
+const MAX_RETRIES = 3;
+const RETRY_DELAY_MS = 500;
 
 const args = process.argv.slice(2);
 let outPath = DEFAULT_OUT;
@@ -106,6 +109,46 @@ const mutualFundNavs = await fetchMutualFundNavs();
 const companiesData = cleanData(results.list);
 if (companiesData?.d) {
 	companiesData.d = companiesData.d.filter((c) => c.sts === "A");
+}
+
+// Fetch reports and dividends for each company
+console.log(`Fetching reports for ${companiesData.d?.length || 0} companies...`);
+if (companiesData?.d?.length) {
+	await mapWithConcurrency(companiesData.d, CONCURRENCY, async (company) => {
+		const companyId = company.id;
+
+		try {
+			const [reportResponse, dividendResponse] = await Promise.all([
+				fetchJsonWithRetry(`${API_BASE}/nots/application/reports/${companyId}`, headers),
+				fetchJsonWithRetry(`${API_BASE}/nots/application/dividend/${companyId}`, headers),
+			]);
+
+			const reportData = cleanData(reportResponse);
+			const dividendData = cleanData(dividendResponse);
+
+			// Extract report items
+			let reportItems = reportData?.d;
+			if (reportItems?.map) {
+				reportItems = reportItems.map((item) => item.fiscal).filter(Boolean);
+			}
+
+			// Extract dividend items
+			const dividendItems = extractDividendItems(dividendData);
+
+			// Add to company object
+			if (reportItems?.length) {
+				company.rpt = reportItems;
+			}
+			if (dividendItems?.length) {
+				company.div = dividendItems;
+			}
+
+			console.log(`Fetched reports for ${company.sym}`);
+		} catch (error) {
+			console.log(`Error fetching reports for ${company.sym}: ${formatError(error)}`);
+		}
+	});
+	console.log(`Completed fetching reports for all companies`);
 }
 
 const output = {
@@ -176,13 +219,13 @@ function limitToTen(data) {
 		return data;
 	}
 
-	if (Array.isArray(data)) {
-		return data.slice(0, 10);
-	}
+	// if (Array.isArray(data)) {
+	// 	return data.slice(0, 10);
+	// }
 
-	if (Array.isArray(data.d)) {
-		return { ...data, d: data.d.slice(0, 10) };
-	}
+	// if (Array.isArray(data.d)) {
+	// 	return { ...data, d: data.d.slice(0, 10) };
+	// }
 
 	return data;
 }
@@ -199,11 +242,27 @@ function fetchBuffer(url) {
 	});
 }
 
-function fetchJson(url, headers = {}) {
+function fetchJson(url, headers = {}, options = {}) {
 	return new Promise((resolve, reject) => {
+		const method = options.method ?? "GET";
+		let body;
+		if (options.body !== undefined) {
+			if (typeof options.body === "string" || Buffer.isBuffer(options.body)) {
+				body = options.body;
+			} else {
+				body = JSON.stringify(options.body);
+			}
+		}
+		const reqHeaders = { ...headers, ...(options.headers || {}) };
+		if (body !== undefined) {
+			if (!reqHeaders["Content-Type"] && !reqHeaders["content-type"]) {
+				reqHeaders["Content-Type"] = "application/json";
+			}
+			reqHeaders["Content-Length"] = Buffer.byteLength(body);
+		}
 		const req = https.request(
 			url,
-			{ headers, rejectUnauthorized: false },
+			{ headers: reqHeaders, method, rejectUnauthorized: false },
 			(res) => {
 				let data = "";
 				res.on("data", (chunk) => {
@@ -219,6 +278,9 @@ function fetchJson(url, headers = {}) {
 			},
 		);
 		req.on("error", reject);
+		if (body !== undefined) {
+			req.write(body);
+		}
 		req.end();
 	});
 }
@@ -382,4 +444,179 @@ function cleanToken(token, salts, exports) {
 		token.slice(ndx + 1, mdx) +
 		token.slice(mdx + 1)
 	);
+}
+
+function shouldRetry(response) {
+	if (!response) {
+		return true;
+	}
+	if (typeof response.status === "number" && response.status >= 400) {
+		return true;
+	}
+	const data = response.data;
+	if (!data || typeof data !== "object") {
+		return false;
+	}
+	return (
+		data.status === "error" ||
+		data.status === "ERROR" ||
+		Boolean(data.error)
+	);
+}
+
+async function fetchJsonWithRetry(url, currentHeaders, options = {}) {
+	let lastError;
+	for (let attempt = 1; attempt <= MAX_RETRIES; attempt += 1) {
+		try {
+			const response = await fetchJson(url, currentHeaders, options);
+			if (response?.status === 401 || response?.status === 403) {
+				lastError = new Error(`auth_failed status=${response.status}`);
+			} else if (!shouldRetry(response)) {
+				return response;
+			} else {
+				lastError = new Error(
+					`request_failed status=${response?.status ?? "unknown"}`,
+				);
+			}
+		} catch (error) {
+			lastError = error;
+		}
+		if (attempt < MAX_RETRIES) {
+			await sleep(RETRY_DELAY_MS * attempt);
+		}
+	}
+	return undefined;
+}
+
+function extractDividendItems(dividendData) {
+	if (!dividendData?.d || !Array.isArray(dividendData.d)) {
+		return [];
+	}
+
+	return dividendData.d
+		.map((item) => {
+			const news = item?.news ?? {};
+			const notice = news?.dividendsNotice ?? item?.dividendsNotice ?? {};
+			const record = {
+				divCash: roundToTwoDecimals(notice?.divCash),
+				bonus: roundToTwoDecimals(notice?.bonus),
+				rtShare: roundToTwoDecimals(notice?.rtShare),
+				bkClsDt: notice?.bkClsDt ?? notice?.bkClsNtc,
+				expDt: news?.expDt ?? item?.expDt,
+				addDt: dateOnly(news?.addDt ?? item?.addDt),
+				announcementDate: dateOnly(
+					news?.modDt ?? item?.modDt ?? news?.modifiedDate ?? item?.modifiedDate,
+				),
+				fy: resolveFinancialYear(item, notice, news),
+			};
+
+			const hasValue = Object.values(record).some((value) => value !== undefined);
+			return hasValue ? record : undefined;
+		})
+		.filter(Boolean);
+}
+
+function dateOnly(value) {
+	if (!value || typeof value !== "string") {
+		return value;
+	}
+	return value.split("T")[0];
+}
+
+function roundToTwoDecimals(value) {
+	if (typeof value !== "number") {
+		return value;
+	}
+	return Number(value.toFixed(2));
+}
+
+function resolveFinancialYear(item, notice, news) {
+	const sources = [notice, item, news];
+	for (const source of sources) {
+		if (!source || typeof source !== "object") {
+			continue;
+		}
+		const direct = source.fy ?? source.fiscal;
+		if (direct !== undefined) {
+			const normalized = normalizeFinancialYear(direct);
+			if (normalized !== undefined) {
+				return normalized;
+			}
+		}
+		const normalized = normalizeFinancialYear(source);
+		if (normalized !== undefined) {
+			return normalized;
+		}
+	}
+	return undefined;
+}
+
+function normalizeFinancialYear(value) {
+	if (!value) {
+		return undefined;
+	}
+	if (typeof value === "string" || typeof value === "number") {
+		return value;
+	}
+	if (typeof value !== "object") {
+		return undefined;
+	}
+	if (value.fyNmNp) {
+		return value.fyNmNp;
+	}
+	if (value.fyNm) {
+		return value.fyNm;
+	}
+	if (value.nm) {
+		return value.nm;
+	}
+	const from = value.fromYr ?? value.fromYear;
+	const to = value.toYr ?? value.toYear;
+	if (from || to) {
+		return [from, to].filter(Boolean).join("/");
+	}
+	return undefined;
+}
+
+function formatError(error) {
+	if (!error) {
+		return "unknown error";
+	}
+	if (typeof error === "string") {
+		return error;
+	}
+	if (error instanceof Error) {
+		return `${error.message}${error.cause ? ` cause=${error.cause}` : ""}`;
+	}
+	try {
+		return JSON.stringify(error);
+	} catch {
+		return String(error);
+	}
+}
+
+function sleep(ms) {
+	return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function mapWithConcurrency(items, limit, mapper) {
+	if (limit <= 1) {
+		for (const item of items) {
+			await mapper(item);
+		}
+		return;
+	}
+
+	let index = 0;
+	const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+		while (true) {
+			const current = index;
+			index += 1;
+			if (current >= items.length) {
+				break;
+			}
+			await mapper(items[current]);
+		}
+	});
+	await Promise.all(workers);
 }
