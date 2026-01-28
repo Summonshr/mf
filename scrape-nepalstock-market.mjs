@@ -153,18 +153,19 @@ if (companiesData?.d?.length) {
 }
 
 // Fetch dividend data for mutual funds from chukul.com
-const allMfFunds = [
+const mfSymbols = new Set([
 	...(mutualFundNavs?.funds?.closed?.data ?? []),
 	...(mutualFundNavs?.funds?.opened?.data ?? []),
-].filter((f) => f.symbol);
-console.log(`Fetching dividends for ${allMfFunds.length} mutual funds...`);
-if (allMfFunds.length) {
-	await mapWithConcurrency(allMfFunds, CONCURRENCY, async (fund) => {
+].map((f) => f.symbol).filter(Boolean));
+const mfCompanies = (companiesData?.d ?? []).filter((c) => mfSymbols.has(c.sym));
+console.log(`Fetching dividends for ${mfCompanies.length} mutual funds...`);
+if (mfCompanies.length) {
+	await mapWithConcurrency(mfCompanies, CONCURRENCY, async (company) => {
 		try {
-			const res = await fetchJsonWithRetry(`${CHUKUL_BONUS_URL}/?symbol=${fund.symbol}`);
+			const res = await fetchJsonWithRetry(`${CHUKUL_BONUS_URL}/?symbol=${company.sym}`);
 			const items = res?.data;
 			if (Array.isArray(items) && items.length) {
-				fund.div = items.map((d) => ({
+				company.div = items.map((d) => ({
 					fy: d.year,
 					divCash: roundToTwoDecimals(d.cash),
 					total: roundToTwoDecimals(d.total),
@@ -172,9 +173,9 @@ if (allMfFunds.length) {
 					addDt: dateOnly(d.announcement_date),
 				})).filter((d) => Object.values(d).some((v) => v !== undefined));
 			}
-			console.log(`Fetched dividends for ${fund.symbol}`);
+			console.log(`Fetched dividends for ${company.sym}`);
 		} catch (error) {
-			console.log(`Error fetching dividends for ${fund.symbol}: ${formatError(error)}`);
+			console.log(`Error fetching dividends for ${company.sym}: ${formatError(error)}`);
 		}
 	});
 	console.log(`Completed fetching mutual fund dividends`);

@@ -1,5 +1,5 @@
 {
-  "updAt": "2026-01-28T14:03:22.729Z",
+  "updAt": "2026-01-28T14:07:26.737Z",
   "npsIdx": {
     "sts": 200,
     "d": [
@@ -43407,7 +43407,45 @@
         "email": "laxman.ghimire@sbl.com.np",
         "web": "www.siddharthabank.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 20,
+            "total": 20,
+            "bkClsDt": "2025-08-22"
+          },
+          {
+            "fy": "079/080",
+            "divCash": 5,
+            "total": 5,
+            "bkClsDt": "2023-08-30"
+          },
+          {
+            "fy": "078/079",
+            "divCash": 9,
+            "total": 9,
+            "bkClsDt": "2022-08-23"
+          },
+          {
+            "fy": "077/078",
+            "divCash": 30,
+            "total": 30,
+            "bkClsDt": "2021-08-16"
+          },
+          {
+            "fy": "076/077",
+            "divCash": 7.5,
+            "total": 7.5,
+            "bkClsDt": "2020-08-16"
+          },
+          {
+            "fy": "075/076",
+            "divCash": 11,
+            "total": 11,
+            "bkClsDt": "2019-08-18"
+          }
+        ]
       },
       {
         "id": 2771,
@@ -52571,7 +52609,39 @@
         "email": "company.affairs@nabilbank.com",
         "web": "www.nabilbank.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 13,
+            "total": 13,
+            "bkClsDt": "2025-09-07"
+          },
+          {
+            "fy": "079/080",
+            "divCash": 9.6,
+            "total": 9.6,
+            "bkClsDt": "2023-10-13"
+          },
+          {
+            "fy": "078/079",
+            "divCash": 7,
+            "total": 7,
+            "bkClsDt": "2022-11-04"
+          },
+          {
+            "fy": "077/078",
+            "divCash": 35,
+            "total": 35,
+            "bkClsDt": "2021-09-08"
+          },
+          {
+            "fy": "076/077",
+            "divCash": 9,
+            "total": 9,
+            "bkClsDt": "2020-09-10"
+          }
+        ]
       },
       {
         "id": 2841,
@@ -53254,7 +53324,39 @@
         "email": "laxman.ghimire@sbl.com.np",
         "web": "www.siddharthabank.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 20,
+            "total": 20,
+            "bkClsDt": "2025-08-22"
+          },
+          {
+            "fy": "079/080",
+            "divCash": 6.5,
+            "total": 6.5,
+            "bkClsDt": "2023-08-30"
+          },
+          {
+            "fy": "078/079",
+            "divCash": 10,
+            "total": 10,
+            "bkClsDt": "2022-08-23"
+          },
+          {
+            "fy": "077/078",
+            "divCash": 30,
+            "total": 30,
+            "bkClsDt": "2021-08-16"
+          },
+          {
+            "fy": "076/077",
+            "divCash": 5,
+            "total": 5,
+            "bkClsDt": "2020-08-16"
+          }
+        ]
       },
       {
         "id": 2860,
@@ -53574,7 +53676,38 @@
         "email": "info@cbilcapital.com",
         "web": "www.cbilcapital.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 8.5,
+            "total": 8.5,
+            "bkClsDt": "2025-08-29"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 6.5,
+            "bkClsDt": "2024-10-09"
+          },
+          {
+            "fy": "079/080",
+            "divCash": 8,
+            "total": 8,
+            "bkClsDt": "2023-09-05"
+          },
+          {
+            "fy": "077/078",
+            "divCash": 40,
+            "total": 40,
+            "bkClsDt": "2021-09-09"
+          },
+          {
+            "fy": "076/077",
+            "divCash": 10,
+            "total": 10,
+            "bkClsDt": "2020-09-15"
+          }
+        ]
       },
       {
         "id": 2863,
@@ -53585,7 +53718,45 @@
         "email": "info@nicasiacapital.com",
         "web": "www.nicasiacapital.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 9.9,
+            "total": 9.9,
+            "bkClsDt": "2025-08-14"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 9.25,
+            "total": 9.25,
+            "bkClsDt": "2024-09-13"
+          },
+          {
+            "fy": "079/080",
+            "divCash": 10,
+            "total": 10,
+            "bkClsDt": "2023-11-08"
+          },
+          {
+            "fy": "078/079",
+            "divCash": 13,
+            "total": 13,
+            "bkClsDt": "2022-11-01"
+          },
+          {
+            "fy": "077/078",
+            "divCash": 30,
+            "total": 30,
+            "bkClsDt": "2021-09-12"
+          },
+          {
+            "fy": "076/077",
+            "divCash": 8,
+            "total": 8,
+            "bkClsDt": "2020-09-10"
+          }
+        ]
       },
       {
         "id": 2864,
@@ -53618,7 +53789,51 @@
         "email": "mutualfunds@nmbcl.com.np",
         "web": "www.nmbcl.com.np",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 15,
+            "total": 15,
+            "bkClsDt": "2025-08-29"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 15,
+            "total": 15,
+            "bkClsDt": "2024-09-27"
+          },
+          {
+            "fy": "079/080",
+            "divCash": 15,
+            "total": 15,
+            "bkClsDt": "2023-09-29"
+          },
+          {
+            "fy": "078/079",
+            "divCash": 21.05,
+            "total": 21.05,
+            "bkClsDt": "2022-08-16"
+          },
+          {
+            "fy": "077/078",
+            "divCash": 30,
+            "total": 30,
+            "bkClsDt": "2021-09-03"
+          },
+          {
+            "fy": "076/077",
+            "divCash": 5,
+            "total": 5,
+            "bkClsDt": "2020-10-02"
+          },
+          {
+            "fy": "075/076",
+            "divCash": 10,
+            "total": 10,
+            "bkClsDt": "2019-09-12"
+          }
+        ]
       },
       {
         "id": 2868,
@@ -53664,12 +53879,40 @@
         "instTyp": "Mutual Funds",
         "div": [
           {
+            "fy": "081/082",
             "divCash": 14,
-            "bonus": 0,
-            "rtShare": 0,
-            "expDt": "2025-08-07",
-            "addDt": "2025-08-06",
-            "fy": "2081-2082"
+            "total": 14,
+            "bkClsDt": "2025-08-19"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 12.5,
+            "total": 12.5,
+            "bkClsDt": "2024-08-22"
+          },
+          {
+            "fy": "079/080",
+            "divCash": 16,
+            "total": 16,
+            "bkClsDt": "2023-10-01"
+          },
+          {
+            "fy": "078/079",
+            "divCash": 12,
+            "total": 12,
+            "bkClsDt": "2022-09-14"
+          },
+          {
+            "fy": "077/078",
+            "divCash": 50,
+            "total": 50,
+            "bkClsDt": "2021-09-01"
+          },
+          {
+            "fy": "076/077",
+            "divCash": 7,
+            "total": 7,
+            "bkClsDt": "2020-09-27"
           }
         ]
       },
@@ -55455,12 +55698,34 @@
         "instTyp": "Mutual Funds",
         "div": [
           {
+            "fy": "081/082",
             "divCash": 20,
-            "bonus": 0,
-            "rtShare": 0,
-            "expDt": "2025-08-07",
-            "addDt": "2025-08-06",
-            "fy": "2081-2082"
+            "total": 20,
+            "bkClsDt": "2025-08-19"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 7.5,
+            "total": 7.5,
+            "bkClsDt": "2024-08-15"
+          },
+          {
+            "fy": "079/080",
+            "divCash": 9.5,
+            "total": 9.5,
+            "bkClsDt": "2023-08-17"
+          },
+          {
+            "fy": "078/079",
+            "divCash": 5,
+            "total": 5,
+            "bkClsDt": "2022-08-23"
+          },
+          {
+            "fy": "077/078",
+            "divCash": 25,
+            "total": 25,
+            "bkClsDt": "2021-07-28"
           }
         ]
       },
@@ -58203,12 +58468,16 @@
         "instTyp": "Mutual Funds",
         "div": [
           {
+            "fy": "081/082",
             "divCash": 21.05,
-            "bonus": 0,
-            "rtShare": 0,
-            "expDt": "2025-08-15",
-            "addDt": "2025-08-14",
-            "fy": "2081-2082"
+            "total": 21.05,
+            "bkClsDt": "2025-08-22"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 10,
+            "total": 10,
+            "bkClsDt": "2024-09-11"
           }
         ]
       },
@@ -58955,7 +59224,33 @@
         "email": "info@kumaribank.com",
         "web": "http://www.kumaribank.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 11.5,
+            "total": 11.5,
+            "bkClsDt": "2025-08-25"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 9.5,
+            "total": 9.5,
+            "bkClsDt": "2024-09-04"
+          },
+          {
+            "fy": "079/080",
+            "divCash": 10,
+            "total": 10,
+            "bkClsDt": "2023-09-04"
+          },
+          {
+            "fy": "077/078",
+            "divCash": 5,
+            "total": 5,
+            "bkClsDt": "2021-08-09"
+          }
+        ]
       },
       {
         "id": 2934,
@@ -59655,12 +59950,10 @@
         "instTyp": "Mutual Funds",
         "div": [
           {
+            "fy": "081/082",
             "divCash": 19,
-            "bonus": 0,
-            "rtShare": 0,
-            "expDt": "2025-07-30",
-            "addDt": "2025-07-29",
-            "fy": "2081-2082"
+            "total": 19,
+            "bkClsDt": "2025-08-11"
           }
         ]
       },
@@ -59969,7 +60262,27 @@
         "sts": "A",
         "email": "amit.bhandari@prabhubank.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 12,
+            "total": 12,
+            "bkClsDt": "2025-08-29"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 10,
+            "total": 10,
+            "bkClsDt": "2024-09-30"
+          },
+          {
+            "fy": "079/080",
+            "divCash": 9.5,
+            "total": 9.5,
+            "bkClsDt": "2023-09-29"
+          }
+        ]
       },
       {
         "id": 4948,
@@ -60542,7 +60855,21 @@
         "email": "info@nicasiacapital.com",
         "web": "www.nicasiacapital.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 8.65,
+            "total": 8.65,
+            "bkClsDt": "2025-08-14"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 14,
+            "total": 14,
+            "bkClsDt": "2024-09-13"
+          }
+        ]
       },
       {
         "id": 4968,
@@ -60553,7 +60880,21 @@
         "email": "rbbmbl@rbbmbl.com.np",
         "web": "www.rbbmbl.com.np",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 20,
+            "total": 20,
+            "bkClsDt": "2025-08-25"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 3.81,
+            "total": 3.81,
+            "bkClsDt": "2024-09-16"
+          }
+        ]
       },
       {
         "id": 4969,
@@ -62319,7 +62660,15 @@
         "email": "company.affairs@nabilbank.com",
         "web": "www.nabilbank.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 13,
+            "total": 13,
+            "bkClsDt": "2025-09-07"
+          }
+        ]
       },
       {
         "id": 8025,
@@ -66189,7 +66538,21 @@
         "email": "nica.nots@nicasiabank.com",
         "web": "www.nicasiabank.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 10.1,
+            "total": 10.01,
+            "bkClsDt": "2025-08-14"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 10.5,
+            "total": 10.5,
+            "bkClsDt": "2024-09-13"
+          }
+        ]
       },
       {
         "id": 8074,
@@ -66200,7 +66563,21 @@
         "email": "info@kumaribank.com",
         "web": "http://www.kumaribank.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 10.5,
+            "total": 10.5,
+            "bkClsDt": "2025-08-25"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 9.5,
+            "total": 9.5,
+            "bkClsDt": "2024-09-04"
+          }
+        ]
       },
       {
         "id": 8075,
@@ -68091,7 +68468,21 @@
         "email": "gimeb1@gicl.com.np",
         "web": "www.globalimecapital.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 12,
+            "total": 12,
+            "bkClsDt": "2025-09-12"
+          },
+          {
+            "fy": "079/080",
+            "divCash": 5,
+            "total": 5,
+            "bkClsDt": "2023-10-12"
+          }
+        ]
       },
       {
         "id": 8108,
@@ -69587,7 +69978,21 @@
         "email": "mutualfunds@nmbcl.com.np",
         "web": "www.nmbcl.com.np",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 15,
+            "total": 15,
+            "bkClsDt": "2025-08-29"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 10,
+            "total": 10,
+            "bkClsDt": "2024-09-27"
+          }
+        ]
       },
       {
         "id": 8126,
@@ -71059,7 +71464,15 @@
         "email": "info@niblcapital.com",
         "web": "www.niblcapital.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "080/081",
+            "divCash": 6.35,
+            "total": 6.35,
+            "bkClsDt": "2024-10-02"
+          }
+        ]
       },
       {
         "id": 9139,
@@ -71073,12 +71486,16 @@
         "instTyp": "Mutual Funds",
         "div": [
           {
+            "fy": "081/082",
             "divCash": 15.79,
-            "bonus": 0,
-            "rtShare": 0,
-            "expDt": "2025-08-15",
-            "addDt": "2025-08-14",
-            "fy": "2081-2082"
+            "total": 15.79,
+            "bkClsDt": "2025-08-22"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 10,
+            "total": 10,
+            "bkClsDt": "2024-09-11"
           }
         ]
       },
@@ -72842,12 +73259,16 @@
         "instTyp": "Mutual Funds",
         "div": [
           {
+            "fy": "081/082",
             "divCash": 13.5,
-            "bonus": 0,
-            "rtShare": 0,
-            "expDt": "2025-08-07",
-            "addDt": "2025-08-06",
-            "fy": "2081-2082"
+            "total": 13.5,
+            "bkClsDt": "2025-08-19"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 4.5,
+            "total": 4.5,
+            "bkClsDt": "2024-08-23"
           }
         ]
       },
@@ -74924,7 +75345,21 @@
         "email": "info@prabhucapital.com",
         "web": " www.prabhucapital.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 10,
+            "total": 10,
+            "bkClsDt": "2025-08-29"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 8.5,
+            "total": 8.5,
+            "bkClsDt": "2024-09-30"
+          }
+        ]
       },
       {
         "id": 9175,
@@ -75427,7 +75862,21 @@
         "email": "rbbmbl@rbbmbl.com.np",
         "web": "www.rbbmbl.com.np",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 13,
+            "total": 13,
+            "bkClsDt": "2025-08-25"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 8.74,
+            "total": 8.74,
+            "bkClsDt": "2024-09-16"
+          }
+        ]
       },
       {
         "id": 9179,
@@ -75915,7 +76364,21 @@
         "email": "laxman.ghimire@sbl.com.np",
         "web": "www.siddharthabank.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 17,
+            "total": 17,
+            "bkClsDt": "2025-08-22"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 7,
+            "total": 7,
+            "bkClsDt": "2024-08-29"
+          }
+        ]
       },
       {
         "id": 9183,
@@ -76426,7 +76889,20 @@
         "email": "pramesh.kayastha@ctznbank.com",
         "web": "www.ctznbank.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 12.75,
+            "total": 12.75,
+            "bkClsDt": "2025-08-29"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 10,
+            "bkClsDt": "2024-10-09"
+          }
+        ]
       },
       {
         "id": 9192,
@@ -77479,12 +77955,16 @@
         "instTyp": "Mutual Funds",
         "div": [
           {
+            "fy": "081/082",
             "divCash": 15,
-            "bonus": 0,
-            "rtShare": 0,
-            "expDt": "2025-07-30",
-            "addDt": "2025-07-29",
-            "fy": "2081-2082"
+            "total": 15,
+            "bkClsDt": "2025-08-11"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 4.5,
+            "total": 4.5,
+            "bkClsDt": "2024-08-15"
           }
         ]
       },
@@ -80206,7 +80686,21 @@
         "email": "legal@himalayanbank.com",
         "web": "https://www.himalayanbank.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 16.16,
+            "total": 16.16,
+            "bkClsDt": "2025-09-12"
+          },
+          {
+            "fy": "080/081",
+            "divCash": 6,
+            "total": 6,
+            "bkClsDt": "2024-10-25"
+          }
+        ]
       },
       {
         "id": 9225,
@@ -81222,7 +81716,15 @@
         "email": "info@kumaribank.com",
         "web": "http://www.kumaribank.com",
         "regBody": "Nepal Rastra Bank",
-        "instTyp": "Mutual Funds"
+        "instTyp": "Mutual Funds",
+        "div": [
+          {
+            "fy": "081/082",
+            "divCash": 9,
+            "total": 9,
+            "bkClsDt": "2025-08-25"
+          }
+        ]
       },
       {
         "id": 9242,
@@ -81444,12 +81946,10 @@
         "instTyp": "Mutual Funds",
         "div": [
           {
+            "fy": "081/082",
             "divCash": 3.8,
-            "bonus": 0,
-            "rtShare": 0,
-            "expDt": "2025-08-07",
-            "addDt": "2025-08-06",
-            "fy": "2081-2082"
+            "total": 3.8,
+            "bkClsDt": "2025-08-15"
           }
         ]
       },
@@ -81556,12 +82056,10 @@
         "instTyp": "Mutual Funds",
         "div": [
           {
+            "fy": "081/082",
             "divCash": 5.1,
-            "bonus": 0,
-            "rtShare": 0,
-            "expDt": "2025-08-03",
-            "addDt": "2025-07-31",
-            "fy": "2081-2082"
+            "total": 5.1,
+            "bkClsDt": "2025-08-12"
           }
         ]
       },
@@ -92350,7 +92848,7 @@
     ]
   },
   "mfNavs": {
-    "updatedAt": "2026-01-28T14:03:18.323Z",
+    "updatedAt": "2026-01-28T14:07:22.267Z",
     "funds": {
       "closed": {
         "total": 41,
@@ -92371,45 +92869,7 @@
             "marketPrice": "9.58",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -6.536585365853657,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 20,
-                "total": 20,
-                "bkClsDt": "2025-08-22"
-              },
-              {
-                "fy": "079/080",
-                "divCash": 5,
-                "total": 5,
-                "bkClsDt": "2023-08-30"
-              },
-              {
-                "fy": "078/079",
-                "divCash": 9,
-                "total": 9,
-                "bkClsDt": "2022-08-23"
-              },
-              {
-                "fy": "077/078",
-                "divCash": 30,
-                "total": 30,
-                "bkClsDt": "2021-08-16"
-              },
-              {
-                "fy": "076/077",
-                "divCash": 7.5,
-                "total": 7.5,
-                "bkClsDt": "2020-08-16"
-              },
-              {
-                "fy": "075/076",
-                "divCash": 11,
-                "total": 11,
-                "bkClsDt": "2019-08-18"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 891,
@@ -92427,39 +92887,7 @@
             "marketPrice": "9.62",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -9.330819981149862,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 13,
-                "total": 13,
-                "bkClsDt": "2025-09-07"
-              },
-              {
-                "fy": "079/080",
-                "divCash": 9.6,
-                "total": 9.6,
-                "bkClsDt": "2023-10-13"
-              },
-              {
-                "fy": "078/079",
-                "divCash": 7,
-                "total": 7,
-                "bkClsDt": "2022-11-04"
-              },
-              {
-                "fy": "077/078",
-                "divCash": 35,
-                "total": 35,
-                "bkClsDt": "2021-09-08"
-              },
-              {
-                "fy": "076/077",
-                "divCash": 9,
-                "total": 9,
-                "bkClsDt": "2020-09-10"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 890,
@@ -92477,38 +92905,7 @@
             "marketPrice": "9.71",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -6.634615384615379,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 8.5,
-                "total": 8.5,
-                "bkClsDt": "2025-08-29"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 6.5,
-                "bkClsDt": "2024-10-09"
-              },
-              {
-                "fy": "079/080",
-                "divCash": 8,
-                "total": 8,
-                "bkClsDt": "2023-09-05"
-              },
-              {
-                "fy": "077/078",
-                "divCash": 40,
-                "total": 40,
-                "bkClsDt": "2021-09-09"
-              },
-              {
-                "fy": "076/077",
-                "divCash": 10,
-                "total": 10,
-                "bkClsDt": "2020-09-15"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 901,
@@ -92526,51 +92923,7 @@
             "marketPrice": "10.53",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -0.3784295175023739,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 15,
-                "total": 15,
-                "bkClsDt": "2025-08-29"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 15,
-                "total": 15,
-                "bkClsDt": "2024-09-27"
-              },
-              {
-                "fy": "079/080",
-                "divCash": 15,
-                "total": 15,
-                "bkClsDt": "2023-09-29"
-              },
-              {
-                "fy": "078/079",
-                "divCash": 21.05,
-                "total": 21.05,
-                "bkClsDt": "2022-08-16"
-              },
-              {
-                "fy": "077/078",
-                "divCash": 30,
-                "total": 30,
-                "bkClsDt": "2021-09-03"
-              },
-              {
-                "fy": "076/077",
-                "divCash": 5,
-                "total": 5,
-                "bkClsDt": "2020-10-02"
-              },
-              {
-                "fy": "075/076",
-                "divCash": 10,
-                "total": 10,
-                "bkClsDt": "2019-09-12"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 889,
@@ -92588,39 +92941,7 @@
             "marketPrice": "10.03",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -5.821596244131465,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 20,
-                "total": 20,
-                "bkClsDt": "2025-08-22"
-              },
-              {
-                "fy": "079/080",
-                "divCash": 6.5,
-                "total": 6.5,
-                "bkClsDt": "2023-08-30"
-              },
-              {
-                "fy": "078/079",
-                "divCash": 10,
-                "total": 10,
-                "bkClsDt": "2022-08-23"
-              },
-              {
-                "fy": "077/078",
-                "divCash": 30,
-                "total": 30,
-                "bkClsDt": "2021-08-16"
-              },
-              {
-                "fy": "076/077",
-                "divCash": 5,
-                "total": 5,
-                "bkClsDt": "2020-08-16"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 888,
@@ -92638,45 +92959,7 @@
             "marketPrice": "9.84",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -1.3039117352056246,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 9.9,
-                "total": 9.9,
-                "bkClsDt": "2025-08-14"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 9.25,
-                "total": 9.25,
-                "bkClsDt": "2024-09-13"
-              },
-              {
-                "fy": "079/080",
-                "divCash": 10,
-                "total": 10,
-                "bkClsDt": "2023-11-08"
-              },
-              {
-                "fy": "078/079",
-                "divCash": 13,
-                "total": 13,
-                "bkClsDt": "2022-11-01"
-              },
-              {
-                "fy": "077/078",
-                "divCash": 30,
-                "total": 30,
-                "bkClsDt": "2021-09-12"
-              },
-              {
-                "fy": "076/077",
-                "divCash": 8,
-                "total": 8,
-                "bkClsDt": "2020-09-10"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 962,
@@ -92694,45 +92977,7 @@
             "marketPrice": "10.19",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -3.044719314938157,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 14,
-                "total": 14,
-                "bkClsDt": "2025-08-19"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 12.5,
-                "total": 12.5,
-                "bkClsDt": "2024-08-22"
-              },
-              {
-                "fy": "079/080",
-                "divCash": 16,
-                "total": 16,
-                "bkClsDt": "2023-10-01"
-              },
-              {
-                "fy": "078/079",
-                "divCash": 12,
-                "total": 12,
-                "bkClsDt": "2022-09-14"
-              },
-              {
-                "fy": "077/078",
-                "divCash": 50,
-                "total": 50,
-                "bkClsDt": "2021-09-01"
-              },
-              {
-                "fy": "076/077",
-                "divCash": 7,
-                "total": 7,
-                "bkClsDt": "2020-09-27"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 949,
@@ -92750,39 +92995,7 @@
             "marketPrice": "9.89",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -3.512195121951214,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 20,
-                "total": 20,
-                "bkClsDt": "2025-08-19"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 7.5,
-                "total": 7.5,
-                "bkClsDt": "2024-08-15"
-              },
-              {
-                "fy": "079/080",
-                "divCash": 9.5,
-                "total": 9.5,
-                "bkClsDt": "2023-08-17"
-              },
-              {
-                "fy": "078/079",
-                "divCash": 5,
-                "total": 5,
-                "bkClsDt": "2022-08-23"
-              },
-              {
-                "fy": "077/078",
-                "divCash": 25,
-                "total": 25,
-                "bkClsDt": "2021-07-28"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1005,
@@ -92800,21 +93013,7 @@
             "marketPrice": "9.79",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -3.2608695652173925,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 21.05,
-                "total": 21.05,
-                "bkClsDt": "2025-08-22"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 10,
-                "total": 10,
-                "bkClsDt": "2024-09-11"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1059,
@@ -92832,33 +93031,7 @@
             "marketPrice": "9.70",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -5.642023346303502,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 11.5,
-                "total": 11.5,
-                "bkClsDt": "2025-08-25"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 9.5,
-                "total": 9.5,
-                "bkClsDt": "2024-09-04"
-              },
-              {
-                "fy": "079/080",
-                "divCash": 10,
-                "total": 10,
-                "bkClsDt": "2023-09-04"
-              },
-              {
-                "fy": "077/078",
-                "divCash": 5,
-                "total": 5,
-                "bkClsDt": "2021-08-09"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1074,
@@ -92876,15 +93049,7 @@
             "marketPrice": "9.51",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -5.467196819085494,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 19,
-                "total": 19,
-                "bkClsDt": "2025-08-11"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1076,
@@ -92902,27 +93067,7 @@
             "marketPrice": "11.26",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -8.82591093117409,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 12,
-                "total": 12,
-                "bkClsDt": "2025-08-29"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 10,
-                "total": 10,
-                "bkClsDt": "2024-09-30"
-              },
-              {
-                "fy": "079/080",
-                "divCash": 9.5,
-                "total": 9.5,
-                "bkClsDt": "2023-09-29"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1073,
@@ -92958,21 +93103,7 @@
             "marketPrice": "9.46",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -3.370786516853915,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 8.65,
-                "total": 8.65,
-                "bkClsDt": "2025-08-14"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 14,
-                "total": 14,
-                "bkClsDt": "2024-09-13"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1089,
@@ -92990,21 +93121,7 @@
             "marketPrice": "9.97",
             "publishedDate": "2026-01-28",
             "premiumDiscount": 0.8088978766430746,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 20,
-                "total": 20,
-                "bkClsDt": "2025-08-25"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 3.81,
-                "total": 3.81,
-                "bkClsDt": "2024-09-16"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1117,
@@ -93022,15 +93139,7 @@
             "marketPrice": "9.54",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -8.620689655172416,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 13,
-                "total": 13,
-                "bkClsDt": "2025-09-07"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1100,
@@ -93066,21 +93175,7 @@
             "marketPrice": "10.15",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -9.212880143112697,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 10.5,
-                "total": 10.5,
-                "bkClsDt": "2025-08-25"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 9.5,
-                "total": 9.5,
-                "bkClsDt": "2024-09-04"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1115,
@@ -93098,21 +93193,7 @@
             "marketPrice": "9.13",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -8.882235528942104,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 10.1,
-                "total": 10.01,
-                "bkClsDt": "2025-08-14"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 10.5,
-                "total": 10.5,
-                "bkClsDt": "2024-09-13"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 686,
@@ -93130,21 +93211,7 @@
             "marketPrice": "10.70",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -8.468776732249788,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 12,
-                "total": 12,
-                "bkClsDt": "2025-09-12"
-              },
-              {
-                "fy": "079/080",
-                "divCash": 5,
-                "total": 5,
-                "bkClsDt": "2023-10-12"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1113,
@@ -93162,21 +93229,7 @@
             "marketPrice": "10.77",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -9.949832775919742,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 15,
-                "total": 15,
-                "bkClsDt": "2025-08-29"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 10,
-                "total": 10,
-                "bkClsDt": "2024-09-27"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1112,
@@ -93194,21 +93247,7 @@
             "marketPrice": "10.29",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -1.8129770992366532,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 15.79,
-                "total": 15.79,
-                "bkClsDt": "2025-08-22"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 10,
-                "total": 10,
-                "bkClsDt": "2024-09-11"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1121,
@@ -93226,15 +93265,7 @@
             "marketPrice": "9.25",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -3.946002076843206,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "080/081",
-                "divCash": 6.35,
-                "total": 6.35,
-                "bkClsDt": "2024-10-02"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1122,
@@ -93252,21 +93283,7 @@
             "marketPrice": "9.78",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -9.27643784786642,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 13.5,
-                "total": 13.5,
-                "bkClsDt": "2025-08-19"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 4.5,
-                "total": 4.5,
-                "bkClsDt": "2024-08-23"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1118,
@@ -93284,21 +93301,7 @@
             "marketPrice": "11.50",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -8.87480190174326,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 10,
-                "total": 10,
-                "bkClsDt": "2025-08-29"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 8.5,
-                "total": 8.5,
-                "bkClsDt": "2024-09-30"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1123,
@@ -93316,20 +93319,7 @@
             "marketPrice": "9.73",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -9.065420560747652,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 12.75,
-                "total": 12.75,
-                "bkClsDt": "2025-08-29"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 10,
-                "bkClsDt": "2024-10-09"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1111,
@@ -93347,21 +93337,7 @@
             "marketPrice": "10.05",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -8.55323020928116,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 17,
-                "total": 17,
-                "bkClsDt": "2025-08-22"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 7,
-                "total": 7,
-                "bkClsDt": "2024-08-29"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1223,
@@ -93379,21 +93355,7 @@
             "marketPrice": "9.60",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -8.918406072106258,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 13,
-                "total": 13,
-                "bkClsDt": "2025-08-25"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 8.74,
-                "total": 8.74,
-                "bkClsDt": "2024-09-16"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1174,
@@ -93411,21 +93373,7 @@
             "marketPrice": "9.50",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -9.351145038167942,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 15,
-                "total": 15,
-                "bkClsDt": "2025-08-11"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 4.5,
-                "total": 4.5,
-                "bkClsDt": "2024-08-15"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1306,
@@ -93443,21 +93391,7 @@
             "marketPrice": "11.41",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -3.956228956228961,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 16.16,
-                "total": 16.16,
-                "bkClsDt": "2025-09-12"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 6,
-                "total": 6,
-                "bkClsDt": "2024-10-25"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1127,
@@ -93511,15 +93445,7 @@
             "marketPrice": "9.46",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -10.161443494776815,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 9,
-                "total": 9,
-                "bkClsDt": "2025-08-25"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1365,
@@ -93537,15 +93463,7 @@
             "marketPrice": "9.67",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -5.474095796676447,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 3.8,
-                "total": 3.8,
-                "bkClsDt": "2025-08-15"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1460,
@@ -93563,15 +93481,7 @@
             "marketPrice": "9.41",
             "publishedDate": "2026-01-28",
             "premiumDiscount": -6.831683168316827,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 5.1,
-                "total": 5.1,
-                "bkClsDt": "2025-08-12"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1178,
@@ -93702,15 +93612,7 @@
             "marketPrice": null,
             "publishedDate": null,
             "premiumDiscount": null,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 7,
-                "total": 7,
-                "bkClsDt": "2025-07-21"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1037,
@@ -93728,21 +93630,7 @@
             "marketPrice": null,
             "publishedDate": null,
             "premiumDiscount": null,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 5.55,
-                "total": 5.55,
-                "bkClsDt": "2025-08-03"
-              },
-              {
-                "fy": "080/081",
-                "divCash": 10,
-                "total": 10,
-                "bkClsDt": "2024-09-13"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1061,
@@ -93778,15 +93666,7 @@
             "marketPrice": null,
             "publishedDate": null,
             "premiumDiscount": null,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 4.27,
-                "total": 4.27,
-                "bkClsDt": "2025-08-01"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1205,
@@ -93804,15 +93684,7 @@
             "marketPrice": null,
             "publishedDate": null,
             "premiumDiscount": null,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 16,
-                "total": 16,
-                "bkClsDt": "2025-07-29"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1114,
@@ -93830,15 +93702,7 @@
             "marketPrice": null,
             "publishedDate": null,
             "premiumDiscount": null,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 9,
-                "total": 9,
-                "bkClsDt": "2025-08-08"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1124,
@@ -93856,15 +93720,7 @@
             "marketPrice": null,
             "publishedDate": null,
             "premiumDiscount": null,
-            "redemptionNav": null,
-            "div": [
-              {
-                "fy": "081/082",
-                "divCash": 8.88,
-                "total": 8.88,
-                "bkClsDt": "2025-07-30"
-              }
-            ]
+            "redemptionNav": null
           },
           {
             "id": 1305,
