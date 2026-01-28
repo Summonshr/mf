@@ -43,6 +43,7 @@ const API_BASE = `${BASE_URL}/api`;
 const WASM_URL = `${BASE_URL}/assets/prod/css.wasm`;
 const DEFAULT_OUT = "public/nepse-market.json";
 const MF_BASE_URL = "https://www.sharesansar.com/mutual-fund-navs";
+const CHUKUL_BONUS_URL = "https://chukul.com/api/bonus";
 const MF_PAGE_LENGTH = 50;
 const CONCURRENCY = Math.max(1, Number(process.env.SCRAPE_CONCURRENCY ?? "5"));
 const MAX_RETRIES = 3;
@@ -149,6 +150,34 @@ if (companiesData?.d?.length) {
 		}
 	});
 	console.log(`Completed fetching reports for all companies`);
+}
+
+// Fetch dividend data for mutual funds from chukul.com
+const allMfFunds = [
+	...(mutualFundNavs?.funds?.closed?.data ?? []),
+	...(mutualFundNavs?.funds?.opened?.data ?? []),
+].filter((f) => f.symbol);
+console.log(`Fetching dividends for ${allMfFunds.length} mutual funds...`);
+if (allMfFunds.length) {
+	await mapWithConcurrency(allMfFunds, CONCURRENCY, async (fund) => {
+		try {
+			const res = await fetchJsonWithRetry(`${CHUKUL_BONUS_URL}/?symbol=${fund.symbol}`);
+			const items = res?.data;
+			if (Array.isArray(items) && items.length) {
+				fund.div = items.map((d) => ({
+					fy: d.year,
+					divCash: roundToTwoDecimals(d.cash),
+					total: roundToTwoDecimals(d.total),
+					bkClsDt: dateOnly(d.book_close_date),
+					addDt: dateOnly(d.announcement_date),
+				})).filter((d) => Object.values(d).some((v) => v !== undefined));
+			}
+			console.log(`Fetched dividends for ${fund.symbol}`);
+		} catch (error) {
+			console.log(`Error fetching dividends for ${fund.symbol}: ${formatError(error)}`);
+		}
+	});
+	console.log(`Completed fetching mutual fund dividends`);
 }
 
 const output = {
