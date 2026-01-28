@@ -10,8 +10,9 @@ export default function middleware(request) {
 
   const origin = request.headers.get('Origin');
 
-  // Block all requests that don't have the correct Origin header
-  if (origin !== ALLOWED_ORIGIN) {
+  // Block all requests without Origin header (direct browser access)
+  // or with incorrect Origin header
+  if (!origin || origin !== ALLOWED_ORIGIN) {
     return new Response('Forbidden', {
       status: 403,
       headers: {
