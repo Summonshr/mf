@@ -168,9 +168,10 @@ if (mfCompanies.length) {
 				company.div = items.map((d) => ({
 					fy: d.year,
 					divCash: roundToTwoDecimals(d.cash),
-					total: roundToTwoDecimals(d.total),
+					bonus: 0,
+					rtShare: 0,
 					bkClsDt: dateOnly(d.book_close_date),
-					addDt: dateOnly(d.announcement_date),
+					addDt: dateOnly(d.annoucement_date),
 				})).filter((d) => Object.values(d).some((v) => v !== undefined));
 			}
 			console.log(`Fetched dividends for ${company.sym}`);

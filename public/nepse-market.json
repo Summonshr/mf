@@ -1,5 +1,5 @@
 {
-  "updAt": "2026-01-28T14:07:26.737Z",
+  "updAt": "2026-01-28T14:13:08.528Z",
   "npsIdx": {
     "sts": 200,
     "d": [
@@ -43412,37 +43412,43 @@
           {
             "fy": "081/082",
             "divCash": 20,
-            "total": 20,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-22"
           },
           {
             "fy": "079/080",
             "divCash": 5,
-            "total": 5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2023-08-30"
           },
           {
             "fy": "078/079",
             "divCash": 9,
-            "total": 9,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2022-08-23"
           },
           {
             "fy": "077/078",
             "divCash": 30,
-            "total": 30,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2021-08-16"
           },
           {
             "fy": "076/077",
             "divCash": 7.5,
-            "total": 7.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2020-08-16"
           },
           {
             "fy": "075/076",
             "divCash": 11,
-            "total": 11,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2019-08-18"
           }
         ]
@@ -52614,31 +52620,37 @@
           {
             "fy": "081/082",
             "divCash": 13,
-            "total": 13,
-            "bkClsDt": "2025-09-07"
+            "bonus": 0,
+            "rtShare": 0,
+            "bkClsDt": "2025-09-07",
+            "addDt": "2025-08-29"
           },
           {
             "fy": "079/080",
             "divCash": 9.6,
-            "total": 9.6,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2023-10-13"
           },
           {
             "fy": "078/079",
             "divCash": 7,
-            "total": 7,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2022-11-04"
           },
           {
             "fy": "077/078",
             "divCash": 35,
-            "total": 35,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2021-09-08"
           },
           {
             "fy": "076/077",
             "divCash": 9,
-            "total": 9,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2020-09-10"
           }
         ]
@@ -53329,31 +53341,36 @@
           {
             "fy": "081/082",
             "divCash": 20,
-            "total": 20,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-22"
           },
           {
             "fy": "079/080",
             "divCash": 6.5,
-            "total": 6.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2023-08-30"
           },
           {
             "fy": "078/079",
             "divCash": 10,
-            "total": 10,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2022-08-23"
           },
           {
             "fy": "077/078",
             "divCash": 30,
-            "total": 30,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2021-08-16"
           },
           {
             "fy": "076/077",
             "divCash": 5,
-            "total": 5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2020-08-16"
           }
         ]
@@ -53681,30 +53698,36 @@
           {
             "fy": "081/082",
             "divCash": 8.5,
-            "total": 8.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-29"
           },
           {
             "fy": "080/081",
             "divCash": 6.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-10-09"
           },
           {
             "fy": "079/080",
             "divCash": 8,
-            "total": 8,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2023-09-05"
           },
           {
             "fy": "077/078",
             "divCash": 40,
-            "total": 40,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2021-09-09"
           },
           {
             "fy": "076/077",
             "divCash": 10,
-            "total": 10,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2020-09-15"
           }
         ]
@@ -53723,37 +53746,43 @@
           {
             "fy": "081/082",
             "divCash": 9.9,
-            "total": 9.9,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-14"
           },
           {
             "fy": "080/081",
             "divCash": 9.25,
-            "total": 9.25,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-13"
           },
           {
             "fy": "079/080",
             "divCash": 10,
-            "total": 10,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2023-11-08"
           },
           {
             "fy": "078/079",
             "divCash": 13,
-            "total": 13,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2022-11-01"
           },
           {
             "fy": "077/078",
             "divCash": 30,
-            "total": 30,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2021-09-12"
           },
           {
             "fy": "076/077",
             "divCash": 8,
-            "total": 8,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2020-09-10"
           }
         ]
@@ -53794,43 +53823,51 @@
           {
             "fy": "081/082",
             "divCash": 15,
-            "total": 15,
-            "bkClsDt": "2025-08-29"
+            "bonus": 0,
+            "rtShare": 0,
+            "bkClsDt": "2025-08-29",
+            "addDt": "2025-08-19"
           },
           {
             "fy": "080/081",
             "divCash": 15,
-            "total": 15,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-27"
           },
           {
             "fy": "079/080",
             "divCash": 15,
-            "total": 15,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2023-09-29"
           },
           {
             "fy": "078/079",
             "divCash": 21.05,
-            "total": 21.05,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2022-08-16"
           },
           {
             "fy": "077/078",
             "divCash": 30,
-            "total": 30,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2021-09-03"
           },
           {
             "fy": "076/077",
             "divCash": 5,
-            "total": 5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2020-10-02"
           },
           {
             "fy": "075/076",
             "divCash": 10,
-            "total": 10,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2019-09-12"
           }
         ]
@@ -53881,37 +53918,43 @@
           {
             "fy": "081/082",
             "divCash": 14,
-            "total": 14,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-19"
           },
           {
             "fy": "080/081",
             "divCash": 12.5,
-            "total": 12.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-08-22"
           },
           {
             "fy": "079/080",
             "divCash": 16,
-            "total": 16,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2023-10-01"
           },
           {
             "fy": "078/079",
             "divCash": 12,
-            "total": 12,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2022-09-14"
           },
           {
             "fy": "077/078",
             "divCash": 50,
-            "total": 50,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2021-09-01"
           },
           {
             "fy": "076/077",
             "divCash": 7,
-            "total": 7,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2020-09-27"
           }
         ]
@@ -55700,31 +55743,36 @@
           {
             "fy": "081/082",
             "divCash": 20,
-            "total": 20,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-19"
           },
           {
             "fy": "080/081",
             "divCash": 7.5,
-            "total": 7.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-08-15"
           },
           {
             "fy": "079/080",
             "divCash": 9.5,
-            "total": 9.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2023-08-17"
           },
           {
             "fy": "078/079",
             "divCash": 5,
-            "total": 5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2022-08-23"
           },
           {
             "fy": "077/078",
             "divCash": 25,
-            "total": 25,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2021-07-28"
           }
         ]
@@ -58470,13 +58518,15 @@
           {
             "fy": "081/082",
             "divCash": 21.05,
-            "total": 21.05,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-22"
           },
           {
             "fy": "080/081",
             "divCash": 10,
-            "total": 10,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-11"
           }
         ]
@@ -59229,25 +59279,29 @@
           {
             "fy": "081/082",
             "divCash": 11.5,
-            "total": 11.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-25"
           },
           {
             "fy": "080/081",
             "divCash": 9.5,
-            "total": 9.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-04"
           },
           {
             "fy": "079/080",
             "divCash": 10,
-            "total": 10,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2023-09-04"
           },
           {
             "fy": "077/078",
             "divCash": 5,
-            "total": 5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2021-08-09"
           }
         ]
@@ -59952,7 +60006,8 @@
           {
             "fy": "081/082",
             "divCash": 19,
-            "total": 19,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-11"
           }
         ]
@@ -60267,19 +60322,22 @@
           {
             "fy": "081/082",
             "divCash": 12,
-            "total": 12,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-29"
           },
           {
             "fy": "080/081",
             "divCash": 10,
-            "total": 10,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-30"
           },
           {
             "fy": "079/080",
             "divCash": 9.5,
-            "total": 9.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2023-09-29"
           }
         ]
@@ -60860,13 +60918,15 @@
           {
             "fy": "081/082",
             "divCash": 8.65,
-            "total": 8.65,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-14"
           },
           {
             "fy": "080/081",
             "divCash": 14,
-            "total": 14,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-13"
           }
         ]
@@ -60885,13 +60945,15 @@
           {
             "fy": "081/082",
             "divCash": 20,
-            "total": 20,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-25"
           },
           {
             "fy": "080/081",
             "divCash": 3.81,
-            "total": 3.81,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-16"
           }
         ]
@@ -62665,8 +62727,10 @@
           {
             "fy": "081/082",
             "divCash": 13,
-            "total": 13,
-            "bkClsDt": "2025-09-07"
+            "bonus": 0,
+            "rtShare": 0,
+            "bkClsDt": "2025-09-07",
+            "addDt": "2025-08-29"
           }
         ]
       },
@@ -66543,13 +66607,15 @@
           {
             "fy": "081/082",
             "divCash": 10.1,
-            "total": 10.01,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-14"
           },
           {
             "fy": "080/081",
             "divCash": 10.5,
-            "total": 10.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-13"
           }
         ]
@@ -66568,13 +66634,15 @@
           {
             "fy": "081/082",
             "divCash": 10.5,
-            "total": 10.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-25"
           },
           {
             "fy": "080/081",
             "divCash": 9.5,
-            "total": 9.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-04"
           }
         ]
@@ -68473,13 +68541,16 @@
           {
             "fy": "081/082",
             "divCash": 12,
-            "total": 12,
-            "bkClsDt": "2025-09-12"
+            "bonus": 0,
+            "rtShare": 0,
+            "bkClsDt": "2025-09-12",
+            "addDt": "2025-08-26"
           },
           {
             "fy": "079/080",
             "divCash": 5,
-            "total": 5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2023-10-12"
           }
         ]
@@ -69983,13 +70054,16 @@
           {
             "fy": "081/082",
             "divCash": 15,
-            "total": 15,
-            "bkClsDt": "2025-08-29"
+            "bonus": 0,
+            "rtShare": 0,
+            "bkClsDt": "2025-08-29",
+            "addDt": "2025-08-19"
           },
           {
             "fy": "080/081",
             "divCash": 10,
-            "total": 10,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-27"
           }
         ]
@@ -71469,7 +71543,8 @@
           {
             "fy": "080/081",
             "divCash": 6.35,
-            "total": 6.35,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-10-02"
           }
         ]
@@ -71488,13 +71563,15 @@
           {
             "fy": "081/082",
             "divCash": 15.79,
-            "total": 15.79,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-22"
           },
           {
             "fy": "080/081",
             "divCash": 10,
-            "total": 10,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-11"
           }
         ]
@@ -73261,13 +73338,15 @@
           {
             "fy": "081/082",
             "divCash": 13.5,
-            "total": 13.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-19"
           },
           {
             "fy": "080/081",
             "divCash": 4.5,
-            "total": 4.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-08-23"
           }
         ]
@@ -75350,13 +75429,15 @@
           {
             "fy": "081/082",
             "divCash": 10,
-            "total": 10,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-29"
           },
           {
             "fy": "080/081",
             "divCash": 8.5,
-            "total": 8.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-30"
           }
         ]
@@ -75867,13 +75948,15 @@
           {
             "fy": "081/082",
             "divCash": 13,
-            "total": 13,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-25"
           },
           {
             "fy": "080/081",
             "divCash": 8.74,
-            "total": 8.74,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-09-16"
           }
         ]
@@ -76369,13 +76452,15 @@
           {
             "fy": "081/082",
             "divCash": 17,
-            "total": 17,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-22"
           },
           {
             "fy": "080/081",
             "divCash": 7,
-            "total": 7,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-08-29"
           }
         ]
@@ -76894,12 +76979,15 @@
           {
             "fy": "081/082",
             "divCash": 12.75,
-            "total": 12.75,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-29"
           },
           {
             "fy": "080/081",
             "divCash": 10,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-10-09"
           }
         ]
@@ -77957,13 +78045,15 @@
           {
             "fy": "081/082",
             "divCash": 15,
-            "total": 15,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-11"
           },
           {
             "fy": "080/081",
             "divCash": 4.5,
-            "total": 4.5,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-08-15"
           }
         ]
@@ -80691,13 +80781,16 @@
           {
             "fy": "081/082",
             "divCash": 16.16,
-            "total": 16.16,
-            "bkClsDt": "2025-09-12"
+            "bonus": 0,
+            "rtShare": 0,
+            "bkClsDt": "2025-09-12",
+            "addDt": "2025-08-31"
           },
           {
             "fy": "080/081",
             "divCash": 6,
-            "total": 6,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2024-10-25"
           }
         ]
@@ -81721,7 +81814,8 @@
           {
             "fy": "081/082",
             "divCash": 9,
-            "total": 9,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-25"
           }
         ]
@@ -81948,7 +82042,8 @@
           {
             "fy": "081/082",
             "divCash": 3.8,
-            "total": 3.8,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-15"
           }
         ]
@@ -82058,7 +82153,8 @@
           {
             "fy": "081/082",
             "divCash": 5.1,
-            "total": 5.1,
+            "bonus": 0,
+            "rtShare": 0,
             "bkClsDt": "2025-08-12"
           }
         ]
@@ -92848,7 +92944,7 @@
     ]
   },
   "mfNavs": {
-    "updatedAt": "2026-01-28T14:07:22.267Z",
+    "updatedAt": "2026-01-28T14:13:04.334Z",
     "funds": {
       "closed": {
         "total": 41,
