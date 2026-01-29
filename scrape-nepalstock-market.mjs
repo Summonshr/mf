@@ -36,6 +36,12 @@ const keyMap = {
 	topTurnover: "turnover", topVolume: "volume", totalTrades: "totTrd",
 	tradingStartDate: "trdStartDt", turnover: "to", updatedAt: "updAt", value: "val",
 	venue: "venue", versionId: "ver", website: "web", fiscalReport: "fiscal",
+	closed: "cls", opened: "opn", funds: "fnds", fundSize: "fndSz",
+	maturityDate: "matDt", maturityPeriod: "matPrd", dailyNav: "dNav",
+	dailyNavDate: "dNavDt", weeklyNav: "wNav", weeklyNavDate: "wNavDt",
+	monthlyNav: "mNav", monthlyNavDate: "mNavDt", marketPrice: "mktPrc",
+	publishedDate: "pubDt", premiumDiscount: "premDisc", redemptionNav: "redNav",
+	total: "tot",
 };
 
 const BASE_URL = "https://nepalstock.com";
@@ -48,6 +54,7 @@ const MF_PAGE_LENGTH = 50;
 const CONCURRENCY = Math.max(1, Number(process.env.SCRAPE_CONCURRENCY ?? "5"));
 const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 500;
+const MAX_DECIMALS = 2;
 
 const args = process.argv.slice(2);
 let outPath = DEFAULT_OUT;
@@ -130,7 +137,9 @@ if (companiesData?.d?.length) {
 			// Extract report items
 			let reportItems = reportData?.d;
 			if (reportItems?.map) {
-				reportItems = reportItems.map((item) => item.fiscal).filter(Boolean);
+				reportItems = reportItems
+					.map((item) => flattenReportItem(item?.fiscal))
+					.filter(Boolean);
 			}
 
 			// Extract dividend items
@@ -190,12 +199,12 @@ const output = {
 	mktSum: cleanData(results.marketSummary),
 	comp: companiesData,
 	mktSts: cleanData(results.marketStatus),
-	gainers: limitToTen(cleanData(results.topGainers)),
-	losers: limitToTen(cleanData(results.topLosers)),
-	turnover: limitToTen(cleanData(results.topTurnover)),
-	volume: limitToTen(cleanData(results.topVolume)),
-	txns: cleanData(results.topTransactions),
-	mfNavs: mutualFundNavs,
+	gainers: stripTopMoverFields(limitToTen(cleanData(results.topGainers))),
+	losers: stripTopMoverFields(limitToTen(cleanData(results.topLosers))),
+	turnover: stripTopMoverFields(limitToTen(cleanData(results.topTurnover))),
+	volume: stripTopMoverFields(limitToTen(cleanData(results.topVolume))),
+	txns: stripTopMoverFields(cleanData(results.topTransactions)),
+	mfNavs: cleanData(mutualFundNavs),
 };
 
 const resolvedOut = resolve(outPath);
@@ -220,17 +229,22 @@ function cleanData(data) {
 		return undefined;
 	}
 
+	if (typeof data === "number") {
+		return roundNumeric(data);
+	}
+
 	if (typeof data !== "object") {
 		return data;
 	}
 
 	if (Array.isArray(data)) {
-		return data.map((item) => cleanData(item)).filter((item) => item !== undefined);
+		const cleaned = data.map((item) => cleanData(item)).filter((item) => item !== undefined);
+		return cleaned.length ? cleaned : undefined;
 	}
 
 	const ignoreKeys = [
 		"modifiedBy", "modifiedDate", "activeStatus", "reportTypeMaster",
-		"versionId", "isDefault",
+		"versionId", "isDefault", "companyEmail", "email", "regulatoryBody", "regBody",
 	];
 	const cleaned = {};
 	for (const [key, value] of Object.entries(data)) {
@@ -242,7 +256,7 @@ function cleanData(data) {
 			cleaned[keyMap[key] || key] = cleanedValue;
 		}
 	}
-	return cleaned;
+	return Object.keys(cleaned).length ? cleaned : undefined;
 }
 
 function limitToTen(data) {
@@ -259,6 +273,30 @@ function limitToTen(data) {
 	// }
 
 	return data;
+}
+
+function stripTopMoverFields(data) {
+	if (!data || typeof data !== "object") {
+		return data;
+	}
+	const keysToRemove = new Set(["secNm", "secId"]);
+	const prune = (item) => {
+		if (!item || typeof item !== "object") {
+			return item;
+		}
+		const cloned = { ...item };
+		for (const key of keysToRemove) {
+			delete cloned[key];
+		}
+		return cloned;
+	};
+	if (Array.isArray(data)) {
+		return data.map(prune);
+	}
+	if (Array.isArray(data.d)) {
+		return { ...data, d: data.d.map(prune) };
+	}
+	return prune(data);
 }
 
 function fetchBuffer(url) {
@@ -459,6 +497,13 @@ function transformMfKeys(data) {
 	return transform(data);
 }
 
+function roundNumeric(value) {
+	if (!Number.isFinite(value) || Number.isInteger(value)) {
+		return value;
+	}
+	return Number(value.toFixed(MAX_DECIMALS));
+}
+
 function cleanToken(token, salts, exports) {
 	const { salt1, salt2, salt3, salt4, salt5 } = salts;
 	const cdx = exports.cdx(salt1, salt2, salt3, salt4, salt5);
@@ -533,7 +578,6 @@ function extractDividendItems(dividendData) {
 				bonus: roundToTwoDecimals(notice?.bonus),
 				rtShare: roundToTwoDecimals(notice?.rtShare),
 				bkClsDt: notice?.bkClsDt ?? notice?.bkClsNtc,
-				expDt: news?.expDt ?? item?.expDt,
 				addDt: dateOnly(news?.addDt ?? item?.addDt),
 				announcementDate: dateOnly(
 					news?.modDt ?? item?.modDt ?? news?.modifiedDate ?? item?.modifiedDate,
@@ -607,6 +651,42 @@ function normalizeFinancialYear(value) {
 		return [from, to].filter(Boolean).join("/");
 	}
 	return undefined;
+}
+
+function flattenReportItem(item) {
+	if (!item || typeof item !== "object") {
+		return item;
+	}
+	const result = { ...item };
+	if ("fy" in result) {
+		const fyNmNp = extractFyNmNp(result.fy);
+		if (fyNmNp !== undefined) {
+			result.fyNmNp = fyNmNp;
+		}
+		delete result.fy;
+	}
+	if ("qtr" in result) {
+		const qtrNm = extractQtrNm(result.qtr);
+		if (qtrNm !== undefined) {
+			result.qtrNm = qtrNm;
+		}
+		delete result.qtr;
+	}
+	return result;
+}
+
+function extractFyNmNp(value) {
+	if (!value || typeof value !== "object") {
+		return value;
+	}
+	return value.fyNmNp ?? value.fyNm ?? value.nm;
+}
+
+function extractQtrNm(value) {
+	if (!value || typeof value !== "object") {
+		return value;
+	}
+	return value.qtrNm ?? value.nm;
 }
 
 function formatError(error) {
