@@ -200,7 +200,7 @@ const output = {
 
 const resolvedOut = resolve(outPath);
 await mkdir(dirname(resolvedOut), { recursive: true });
-await writeFile(resolvedOut, JSON.stringify(output, null, 2) + "\n", "utf8");
+await writeFile(resolvedOut, `${JSON.stringify(output)}\n`, "utf8");
 console.log(`Saved ${resolvedOut}`);
 
 function printUsageAndExit(code) {
